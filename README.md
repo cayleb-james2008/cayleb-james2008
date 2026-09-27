@@ -4,6 +4,8 @@ I build applied AI and developer tools with traceable sources, clear limits, and
 
 I’m seeking remote-only software engineering and applied AI roles. [View my portfolio](https://cayleb-james2008.github.io/agentic-resume/) or [download the project résumé](https://cayleb-james2008.github.io/agentic-resume/Cayleb-James-resume.pdf).
 
+**Recruiter contact:** [caylebalvarezjames@gmail.com](mailto:caylebalvarezjames@gmail.com).
+
 ### Explore the work
 
 - **[Industry AI Suite — interactive lab](https://cayleb-james2008.github.io/agentic-resume/lab/):** ten recorded journeys, each showing an input, a bounded result, a source trail, and the human next step. Five include cited local model samples with [independently witnessed exchanges](https://github.com/cayleb-james2008/industry-ai-suite/tree/main/evidence/ai-witness-20260926).
