@@ -1,0 +1,60 @@
+# Regenerates the profile graphics (stats, streak, repo cards, 3D contribution graph) and the
+# figures written out as text in README.md (between the numbers markers), and commits them back.
+# Everything here is first-party: our own stdlib-only Python in scripts/ plus two GitHub-maintained actions. No third-party actions, no extra installs.
+name: profile-graphics
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, off the top of the hour
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/**"
+      - "data/profile.json"
+
+permissions:
+  contents: write # only needed to commit the regenerated SVGs, data/snapshot.json and README.md numbers
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - uses: actions/setup-python@v5.6.0
+        with:
+          python-version: "3.12"
+
+      - name: Static assets (header, divider, stack, work cards)
+        run: python3 scripts/static_assets.py
+
+      # The default GITHUB_TOKEN is enough here: the public contribution calendar and the
+      # public repositories are readable with it, so no personal access token is needed.
+      # The scripts read the token from the environment and never print it; this
+      # workflow never echoes secrets.
+      - name: Live assets (fetch snapshot, stats, streak, repo cards)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/live_assets.py
+
+      - name: 3D contribution graph
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/contrib3d.py
+
+      - name: Commit changed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets data/snapshot.json README.md
+          if git diff --cached --quiet; then
+            echo "No asset changes."
+          else
+            git commit -m "chore: regenerate profile graphics"
+            git push
+          fi
