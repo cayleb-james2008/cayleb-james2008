@@ -1,0 +1,402 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 300" width="830" height="300" role="img" aria-labelledby="t d"><title id="t">Contribution graph, last 12 months</title><desc id="d">Isometric 3D bar chart of 1,108 GitHub contributions over the last 12 months, one tower per day, height on a square-root scale; busiest day 398 on 2026-06-24.</desc>
+<defs><style>
+.a0{fill:#dad8d4;stroke:#8a8987;stroke-width:.6;stroke-linejoin:round}.b0{fill:#d8d6d2}.c0{fill:#9b9a98}.a1{fill:#b4b3b0;stroke:#c5c4c1;stroke-width:.6;stroke-linejoin:round}.b1{fill:#aeadaa}.c1{fill:#7c7b7a}.a2{fill:#949494;stroke:#afaead;stroke-width:.6;stroke-linejoin:round}.b2{fill:#8b8b8a}.c2{fill:#616162}.a3{fill:#7f7f7f;stroke:#a09f9e;stroke-width:.6;stroke-linejoin:round}.b3{fill:#737373}.c3{fill:#505051}.a4{fill:#696968;stroke:#8f8f8e;stroke-width:.6;stroke-linejoin:round}.b4{fill:#5a5a5a}.c4{fill:#3d3d3e}.a5{fill:#6a5f51;stroke:#90887d;stroke-width:.6;stroke-linejoin:round}.b5{fill:#5b4f40}.c5{fill:#3d352a}
+.sl{fill:#e4e2de;stroke:#8a8987;stroke-width:1;stroke-linejoin:round}.sf{fill:#e8e7e3}.ss{fill:#ebe9e6}.gl{stroke:#8a8987;stroke-width:.5;opacity:.55}.zq{opacity:.45}.r{transform-origin:0 0;animation:g 0.75s cubic-bezier(.2,.8,.2,1) var(--d) backwards}.T{animation:l 0.75s cubic-bezier(.2,.8,.2,1) var(--d) backwards}.tag{animation:f .6s ease-out 1.1s backwards}@keyframes g{from{transform:scaleY(0)}}@keyframes l{from{transform:translateY(var(--h))}}@keyframes f{from{opacity:0}}text{font-family:ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;fill:#4f4f4f}.m{font-size:12.5px;letter-spacing:.02em}.hd{font-size:13.5px;font-weight:700;fill:#121316}.pk{font-size:13.5px;font-weight:700;fill:#121316}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<path id="tp" d="M0 0L10.98 1.37L16.46 -9.61L5.48 -10.98Z"/>
+<g id="zt"><path class="b0" d="M0 0L10.98 1.37v-1.6L0 -1.6Z"/><path class="c0" d="M10.98 1.37L16.46 -9.61v-1.6L10.98 -0.23Z"/><path class="a0" d="M0 -1.6L10.98 -0.23L16.46 -11.21L5.48 -12.58Z"/></g>
+</defs>
+<rect x=".5" y=".5" width="829" height="299" rx="14" fill="#f0efec" stroke="#8a8987"/>
+<path class="sf" d="M18 172.76L757.92 265L757.92 270L18 177.76Z"/>
+<path class="ss" d="M757.92 265L812 156.55L812 161.55L757.92 270Z"/>
+<path class="sl" d="M72.08 64.31L812 156.55L757.92 265L18 172.76Z"/>
+<path class="gl" fill="none" d="M146.89 73.64L92.82 182.09M201.81 80.48L147.73 188.93M256.72 87.33L202.64 195.78M311.63 94.17L257.55 202.62M380.26 102.73L326.19 211.18M435.18 109.57L381.1 218.02M503.81 118.13L449.74 226.58M558.72 124.98L504.65 233.43M613.64 131.82L559.56 240.27M682.27 140.38L628.19 248.83M737.18 147.22L683.11 255.67M792.09 154.07L738.02 262.52"/>
+<use class="zq" href="#zt" x="70.39" y="83.78"/>
+<use class="zq" href="#zt" x="63.54" y="97.51"/>
+<use class="zq" href="#zt" x="56.7" y="111.24"/>
+<use class="zq" href="#zt" x="49.85" y="124.97"/>
+<use class="zq" href="#zt" x="43.01" y="138.69"/>
+<use class="zq" href="#zt" x="36.16" y="152.42"/>
+<use class="zq" href="#zt" x="29.32" y="166.15"/>
+<use class="zq" href="#zt" x="84.12" y="85.49"/>
+<use class="zq" href="#zt" x="77.27" y="99.22"/>
+<use class="zq" href="#zt" x="70.42" y="112.95"/>
+<use class="zq" href="#zt" x="63.58" y="126.68"/>
+<use class="zq" href="#zt" x="56.73" y="140.41"/>
+<use class="zq" href="#zt" x="49.89" y="154.13"/>
+<use class="zq" href="#zt" x="43.04" y="167.86"/>
+<use class="zq" href="#zt" x="97.84" y="87.21"/>
+<use class="zq" href="#zt" x="91" y="100.93"/>
+<use class="zq" href="#zt" x="84.15" y="114.66"/>
+<use class="zq" href="#zt" x="77.31" y="128.39"/>
+<use class="zq" href="#zt" x="70.46" y="142.12"/>
+<use class="zq" href="#zt" x="63.62" y="155.84"/>
+<use class="zq" href="#zt" x="56.77" y="169.57"/>
+<use class="zq" href="#zt" x="111.57" y="88.92"/>
+<use class="zq" href="#zt" x="104.73" y="102.65"/>
+<use class="zq" href="#zt" x="97.88" y="116.37"/>
+<use class="zq" href="#zt" x="91.03" y="130.1"/>
+<use class="zq" href="#zt" x="84.19" y="143.83"/>
+<use class="zq" href="#zt" x="77.34" y="157.56"/>
+<use class="zq" href="#zt" x="70.5" y="171.28"/>
+<use class="zq" href="#zt" x="125.3" y="90.63"/>
+<use class="zq" href="#zt" x="118.45" y="104.36"/>
+<use class="zq" href="#zt" x="111.61" y="118.08"/>
+<use class="zq" href="#zt" x="104.76" y="131.81"/>
+<use class="zq" href="#zt" x="97.92" y="145.54"/>
+<use class="zq" href="#zt" x="91.07" y="159.27"/>
+<use class="zq" href="#zt" x="84.23" y="172.99"/>
+<use class="zq" href="#zt" x="139.03" y="92.34"/>
+<use class="zq" href="#zt" x="132.18" y="106.07"/>
+<use class="zq" href="#zt" x="125.34" y="119.8"/>
+<use class="zq" href="#zt" x="118.49" y="133.52"/>
+<use class="zq" href="#zt" x="111.64" y="147.25"/>
+<use class="zq" href="#zt" x="104.8" y="160.98"/>
+<use class="zq" href="#zt" x="97.95" y="174.71"/>
+<use class="zq" href="#zt" x="152.75" y="94.05"/>
+<use class="zq" href="#zt" x="145.91" y="107.78"/>
+<use class="zq" href="#zt" x="139.06" y="121.51"/>
+<use class="zq" href="#zt" x="132.22" y="135.23"/>
+<use class="zq" href="#zt" x="125.37" y="148.96"/>
+<use class="zq" href="#zt" x="118.53" y="162.69"/>
+<use class="zq" href="#zt" x="111.68" y="176.42"/>
+<use class="zq" href="#zt" x="166.48" y="95.76"/>
+<use class="zq" href="#zt" x="159.64" y="109.49"/>
+<use class="zq" href="#zt" x="152.79" y="123.22"/>
+<use class="zq" href="#zt" x="145.95" y="136.95"/>
+<use class="zq" href="#zt" x="139.1" y="150.67"/>
+<use class="zq" href="#zt" x="132.25" y="164.4"/>
+<use class="zq" href="#zt" x="125.41" y="178.13"/>
+<use class="zq" href="#zt" x="180.21" y="97.47"/>
+<use class="zq" href="#zt" x="173.36" y="111.2"/>
+<use class="zq" href="#zt" x="166.52" y="124.93"/>
+<use class="zq" href="#zt" x="159.67" y="138.66"/>
+<use class="zq" href="#zt" x="152.83" y="152.38"/>
+<use class="zq" href="#zt" x="145.98" y="166.11"/>
+<use class="zq" href="#zt" x="139.14" y="179.84"/>
+<use class="zq" href="#zt" x="193.94" y="99.19"/>
+<use class="zq" href="#zt" x="187.09" y="112.91"/>
+<use class="zq" href="#zt" x="180.25" y="126.64"/>
+<use class="zq" href="#zt" x="173.4" y="140.37"/>
+<use class="zq" href="#zt" x="166.55" y="154.1"/>
+<use class="zq" href="#zt" x="159.71" y="167.82"/>
+<use class="zq" href="#zt" x="152.86" y="181.55"/>
+<use class="zq" href="#zt" x="207.66" y="100.9"/>
+<use class="zq" href="#zt" x="200.82" y="114.62"/>
+<use class="zq" href="#zt" x="193.97" y="128.35"/>
+<use class="zq" href="#zt" x="187.13" y="142.08"/>
+<use class="zq" href="#zt" x="180.28" y="155.81"/>
+<use class="zq" href="#zt" x="173.44" y="169.54"/>
+<use class="zq" href="#zt" x="166.59" y="183.26"/>
+<use class="zq" href="#zt" x="221.39" y="102.61"/>
+<use class="zq" href="#zt" x="214.55" y="116.34"/>
+<use class="zq" href="#zt" x="207.7" y="130.06"/>
+<use class="zq" href="#zt" x="200.86" y="143.79"/>
+<use class="zq" href="#zt" x="194.01" y="157.52"/>
+<use class="zq" href="#zt" x="187.16" y="171.25"/>
+<use class="zq" href="#zt" x="180.32" y="184.97"/>
+<use class="zq" href="#zt" x="235.12" y="104.32"/>
+<use class="zq" href="#zt" x="228.27" y="118.05"/>
+<use class="zq" href="#zt" x="221.43" y="131.77"/>
+<use class="zq" href="#zt" x="214.58" y="145.5"/>
+<use class="zq" href="#zt" x="207.74" y="159.23"/>
+<use class="zq" href="#zt" x="200.89" y="172.96"/>
+<use class="zq" href="#zt" x="194.05" y="186.69"/>
+<use class="zq" href="#zt" x="248.85" y="106.03"/>
+<use class="zq" href="#zt" x="242" y="119.76"/>
+<use class="zq" href="#zt" x="235.16" y="133.49"/>
+<use class="zq" href="#zt" x="228.31" y="147.21"/>
+<use class="zq" href="#zt" x="221.47" y="160.94"/>
+<use class="zq" href="#zt" x="214.62" y="174.67"/>
+<use class="zq" href="#zt" x="207.77" y="188.4"/>
+<use class="zq" href="#zt" x="262.57" y="107.74"/>
+<use class="zq" href="#zt" x="255.73" y="121.47"/>
+<use class="zq" href="#zt" x="248.88" y="135.2"/>
+<use class="zq" href="#zt" x="242.04" y="148.93"/>
+<use class="zq" href="#zt" x="235.19" y="162.65"/>
+<use class="zq" href="#zt" x="228.35" y="176.38"/>
+<use class="zq" href="#zt" x="221.5" y="190.11"/>
+<use class="zq" href="#zt" x="276.3" y="109.45"/>
+<use class="zq" href="#zt" x="269.46" y="123.18"/>
+<use class="zq" href="#zt" x="262.61" y="136.91"/>
+<use class="zq" href="#zt" x="255.77" y="150.64"/>
+<use class="zq" href="#zt" x="248.92" y="164.36"/>
+<use class="zq" href="#zt" x="242.08" y="178.09"/>
+<use class="zq" href="#zt" x="235.23" y="191.82"/>
+<use class="zq" href="#zt" x="290.03" y="111.16"/>
+<use class="zq" href="#zt" x="283.18" y="124.89"/>
+<use class="zq" href="#zt" x="276.34" y="138.62"/>
+<use class="zq" href="#zt" x="269.49" y="152.35"/>
+<use class="zq" href="#zt" x="262.65" y="166.08"/>
+<use class="zq" href="#zt" x="255.8" y="179.8"/>
+<use class="zq" href="#zt" x="248.96" y="193.53"/>
+<use class="zq" href="#zt" x="303.76" y="112.88"/>
+<use class="zq" href="#zt" x="296.91" y="126.6"/>
+<use class="zq" href="#zt" x="290.07" y="140.33"/>
+<use class="zq" href="#zt" x="283.22" y="154.06"/>
+<use class="zq" href="#zt" x="276.38" y="167.79"/>
+<use class="zq" href="#zt" x="269.53" y="181.51"/>
+<use class="zq" href="#zt" x="262.69" y="195.24"/>
+<use class="zq" href="#zt" x="317.49" y="114.59"/>
+<use class="zq" href="#zt" x="310.64" y="128.32"/>
+<use class="zq" href="#zt" x="303.79" y="142.04"/>
+<use class="zq" href="#zt" x="296.95" y="155.77"/>
+<use class="zq" href="#zt" x="290.1" y="169.5"/>
+<use class="zq" href="#zt" x="283.26" y="183.23"/>
+<use class="zq" href="#zt" x="276.41" y="196.95"/>
+<use class="zq" href="#zt" x="331.21" y="116.3"/>
+<use class="zq" href="#zt" x="324.37" y="130.03"/>
+<use class="zq" href="#zt" x="317.52" y="143.75"/>
+<use class="zq" href="#zt" x="310.68" y="157.48"/>
+<use class="zq" href="#zt" x="303.83" y="171.21"/>
+<use class="zq" href="#zt" x="296.99" y="184.94"/>
+<use class="zq" href="#zt" x="290.14" y="198.67"/>
+<use class="zq" href="#zt" x="344.94" y="118.01"/>
+<use class="zq" href="#zt" x="338.1" y="131.74"/>
+<use class="zq" href="#zt" x="331.25" y="145.47"/>
+<use class="zq" href="#zt" x="324.4" y="159.19"/>
+<use class="zq" href="#zt" x="317.56" y="172.92"/>
+<use class="zq" href="#zt" x="310.71" y="186.65"/>
+<use class="zq" href="#zt" x="303.87" y="200.38"/>
+<use class="zq" href="#zt" x="358.67" y="119.72"/>
+<use class="zq" href="#zt" x="351.82" y="133.45"/>
+<use class="zq" href="#zt" x="344.98" y="147.18"/>
+<use class="zq" href="#zt" x="338.13" y="160.9"/>
+<use class="zq" href="#zt" x="331.29" y="174.63"/>
+<use class="zq" href="#zt" x="324.44" y="188.36"/>
+<use class="zq" href="#zt" x="317.6" y="202.09"/>
+<use class="zq" href="#zt" x="372.4" y="121.43"/>
+<use class="zq" href="#zt" x="365.55" y="135.16"/>
+<use class="zq" href="#zt" x="358.71" y="148.89"/>
+<use class="zq" href="#zt" x="351.86" y="162.62"/>
+<use class="zq" href="#zt" x="345.01" y="176.34"/>
+<use class="zq" href="#zt" x="338.17" y="190.07"/>
+<use class="zq" href="#zt" x="331.32" y="203.8"/>
+<use class="zq" href="#zt" x="386.12" y="123.14"/>
+<use class="zq" href="#zt" x="379.28" y="136.87"/>
+<use class="zq" href="#zt" x="372.43" y="150.6"/>
+<use class="zq" href="#zt" x="365.59" y="164.33"/>
+<use class="zq" href="#zt" x="358.74" y="178.06"/>
+<use class="zq" href="#zt" x="351.9" y="191.78"/>
+<use class="zq" href="#zt" x="345.05" y="205.51"/>
+<use class="zq" href="#zt" x="399.85" y="124.86"/>
+<use class="zq" href="#zt" x="393.01" y="138.58"/>
+<use class="zq" href="#zt" x="386.16" y="152.31"/>
+<use class="zq" href="#zt" x="379.32" y="166.04"/>
+<use class="zq" href="#zt" x="372.47" y="179.77"/>
+<use class="zq" href="#zt" x="365.62" y="193.49"/>
+<use class="zq" href="#zt" x="358.78" y="207.22"/>
+<use class="zq" href="#zt" x="413.58" y="126.57"/>
+<use class="zq" href="#zt" x="406.73" y="140.29"/>
+<use class="zq" href="#zt" x="399.89" y="154.02"/>
+<use class="zq" href="#zt" x="393.04" y="167.75"/>
+<use class="zq" href="#zt" x="386.2" y="181.48"/>
+<use class="zq" href="#zt" x="379.35" y="195.21"/>
+<use class="zq" href="#zt" x="372.51" y="208.93"/>
+<use class="zq" href="#zt" x="427.31" y="128.28"/>
+<use class="zq" href="#zt" x="420.46" y="142.01"/>
+<use class="zq" href="#zt" x="413.62" y="155.73"/>
+<use class="zq" href="#zt" x="406.77" y="169.46"/>
+<use class="zq" href="#zt" x="399.93" y="183.19"/>
+<use class="zq" href="#zt" x="393.08" y="196.92"/>
+<use class="zq" href="#zt" x="386.23" y="210.64"/>
+<use class="zq" href="#zt" x="441.03" y="129.99"/>
+<use class="zq" href="#zt" x="434.19" y="143.72"/>
+<use class="zq" href="#zt" x="427.34" y="157.45"/>
+<use class="zq" href="#zt" x="420.5" y="171.17"/>
+<use class="zq" href="#zt" x="413.65" y="184.9"/>
+<use class="zq" href="#zt" x="406.81" y="198.63"/>
+<use class="zq" href="#zt" x="399.96" y="212.36"/>
+<use class="zq" href="#zt" x="454.76" y="131.7"/>
+<use class="zq" href="#zt" x="447.92" y="145.43"/>
+<use class="zq" href="#zt" x="441.07" y="159.16"/>
+<use class="zq" href="#zt" x="434.23" y="172.88"/>
+<use class="zq" href="#zt" x="427.38" y="186.61"/>
+<use class="zq" href="#zt" x="420.54" y="200.34"/>
+<use class="zq" href="#zt" x="413.69" y="214.07"/>
+<use class="zq" href="#zt" x="468.49" y="133.41"/>
+<use class="zq" href="#zt" x="461.64" y="147.14"/>
+<use class="zq" href="#zt" x="454.8" y="160.87"/>
+<use class="zq" href="#zt" x="447.95" y="174.6"/>
+<use class="zq" href="#zt" x="441.11" y="188.32"/>
+<use class="zq" href="#zt" x="434.26" y="202.05"/>
+<use class="zq" href="#zt" x="427.42" y="215.78"/>
+<use class="zq" href="#zt" x="482.22" y="135.12"/>
+<use class="zq" href="#zt" x="475.37" y="148.85"/>
+<use class="zq" href="#zt" x="468.53" y="162.58"/>
+<use class="zq" href="#zt" x="461.68" y="176.31"/>
+<use class="zq" href="#zt" x="454.84" y="190.03"/>
+<use class="zq" href="#zt" x="447.99" y="203.76"/>
+<use class="zq" href="#zt" x="441.15" y="217.49"/>
+<use class="zq" href="#zt" x="495.95" y="136.84"/>
+<use class="zq" href="#zt" x="489.1" y="150.56"/>
+<use class="zq" href="#zt" x="482.25" y="164.29"/>
+<use class="zq" href="#zt" x="475.41" y="178.02"/>
+<use class="zq" href="#zt" x="468.56" y="191.75"/>
+<use class="zq" href="#zt" x="461.72" y="205.47"/>
+<use class="zq" href="#zt" x="454.87" y="219.2"/>
+<use href="#zt" x="509.67" y="138.55"/>
+<use href="#zt" x="502.83" y="152.27"/>
+<use href="#zt" x="495.98" y="166"/>
+<use href="#zt" x="489.14" y="179.73"/>
+<g transform="translate(482.29 193.46)" style="--h:18.36px;--d:0.1s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-18.36" width="1" height="18.36"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-18.36" width="1" height="18.36"/></g><use class="T a2" href="#tp" y="-18.36"/></g>
+<g transform="translate(475.45 207.18)" style="--h:29.22px;--d:0.12s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-29.22" width="1" height="29.22"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-29.22" width="1" height="29.22"/></g><use class="T a3" href="#tp" y="-29.22"/></g>
+<g transform="translate(468.6 220.91)" style="--h:20.61px;--d:0.15s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-20.61" width="1" height="20.61"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-20.61" width="1" height="20.61"/></g><use class="T a2" href="#tp" y="-20.61"/></g>
+<g transform="translate(523.4 140.26)" style="--h:34.52px;--d:0.1s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-34.52" width="1" height="34.52"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-34.52" width="1" height="34.52"/></g><use class="T a3" href="#tp" y="-34.52"/></g>
+<g transform="translate(516.56 153.99)" style="--h:43.15px;--d:0.12s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b4" y="-43.15" width="1" height="43.15"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c4" y="-43.15" width="1" height="43.15"/></g><use class="T a4" href="#tp" y="-43.15"/></g>
+<g transform="translate(509.71 167.71)" style="--h:17.12px;--d:0.15s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-17.12" width="1" height="17.12"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-17.12" width="1" height="17.12"/></g><use class="T a2" href="#tp" y="-17.12"/></g>
+<g transform="translate(502.86 181.44)" style="--h:128px;--d:0.18s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b5" y="-128" width="1" height="128"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c5" y="-128" width="1" height="128"/></g><use class="T a5" href="#tp" y="-128"/></g>
+<g transform="translate(496.02 195.17)" style="--h:35.13px;--d:0.2s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-35.13" width="1" height="35.13"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-35.13" width="1" height="35.13"/></g><use class="T a3" href="#tp" y="-35.13"/></g>
+<g transform="translate(489.17 208.9)" style="--h:17.12px;--d:0.23s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-17.12" width="1" height="17.12"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-17.12" width="1" height="17.12"/></g><use class="T a2" href="#tp" y="-17.12"/></g>
+<g transform="translate(482.33 222.62)" style="--h:18.36px;--d:0.25s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-18.36" width="1" height="18.36"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-18.36" width="1" height="18.36"/></g><use class="T a2" href="#tp" y="-18.36"/></g>
+<g transform="translate(537.13 141.97)" style="--h:30.63px;--d:0.2s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-30.63" width="1" height="30.63"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-30.63" width="1" height="30.63"/></g><use class="T a3" href="#tp" y="-30.63"/></g>
+<g transform="translate(530.28 155.7)" style="--h:7.94px;--d:0.23s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-7.94" width="1" height="7.94"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-7.94" width="1" height="7.94"/></g><use class="T a1" href="#tp" y="-7.94"/></g>
+<g transform="translate(523.44 169.42)" style="--h:51.08px;--d:0.25s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b4" y="-51.08" width="1" height="51.08"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c4" y="-51.08" width="1" height="51.08"/></g><use class="T a4" href="#tp" y="-51.08"/></g>
+<g transform="translate(516.59 183.15)" style="--h:68.35px;--d:0.28s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b4" y="-68.35" width="1" height="68.35"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c4" y="-68.35" width="1" height="68.35"/></g><use class="T a4" href="#tp" y="-68.35"/></g>
+<g transform="translate(509.75 196.88)" style="--h:27.72px;--d:0.3s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-27.72" width="1" height="27.72"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-27.72" width="1" height="27.72"/></g><use class="T a3" href="#tp" y="-27.72"/></g>
+<g transform="translate(502.9 210.61)" style="--h:17.12px;--d:0.33s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-17.12" width="1" height="17.12"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-17.12" width="1" height="17.12"/></g><use class="T a2" href="#tp" y="-17.12"/></g>
+<g transform="translate(496.06 224.34)" style="--h:12.57px;--d:0.35s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-12.57" width="1" height="12.57"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-12.57" width="1" height="12.57"/></g><use class="T a2" href="#tp" y="-12.57"/></g>
+<use href="#zt" x="550.86" y="143.68"/>
+<g transform="translate(544.01 157.41)" style="--h:14.27px;--d:0.33s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-14.27" width="1" height="14.27"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-14.27" width="1" height="14.27"/></g><use class="T a2" href="#tp" y="-14.27"/></g>
+<g transform="translate(537.17 171.14)" style="--h:7.94px;--d:0.35s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-7.94" width="1" height="7.94"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-7.94" width="1" height="7.94"/></g><use class="T a1" href="#tp" y="-7.94"/></g>
+<use href="#zt" x="530.32" y="184.86"/>
+<g transform="translate(523.47 198.59)" style="--h:14.27px;--d:0.4s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-14.27" width="1" height="14.27"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-14.27" width="1" height="14.27"/></g><use class="T a2" href="#tp" y="-14.27"/></g>
+<use href="#zt" x="516.63" y="212.32"/>
+<use href="#zt" x="509.78" y="226.05"/>
+<g transform="translate(564.58 145.39)" style="--h:20.61px;--d:0.4s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-20.61" width="1" height="20.61"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-20.61" width="1" height="20.61"/></g><use class="T a2" href="#tp" y="-20.61"/></g>
+<g transform="translate(557.74 159.12)" style="--h:22.61px;--d:0.43s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-22.61" width="1" height="22.61"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-22.61" width="1" height="22.61"/></g><use class="T a3" href="#tp" y="-22.61"/></g>
+<g transform="translate(550.89 172.85)" style="--h:14.27px;--d:0.45s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-14.27" width="1" height="14.27"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-14.27" width="1" height="14.27"/></g><use class="T a2" href="#tp" y="-14.27"/></g>
+<g transform="translate(544.05 186.57)" style="--h:7.94px;--d:0.48s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-7.94" width="1" height="7.94"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-7.94" width="1" height="7.94"/></g><use class="T a1" href="#tp" y="-7.94"/></g>
+<g transform="translate(537.2 200.3)" style="--h:15.77px;--d:0.5s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-15.77" width="1" height="15.77"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-15.77" width="1" height="15.77"/></g><use class="T a2" href="#tp" y="-15.77"/></g>
+<g transform="translate(530.36 214.03)" style="--h:12.57px;--d:0.53s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-12.57" width="1" height="12.57"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-12.57" width="1" height="12.57"/></g><use class="T a2" href="#tp" y="-12.57"/></g>
+<g transform="translate(523.51 227.76)" style="--h:12.57px;--d:0.55s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-12.57" width="1" height="12.57"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-12.57" width="1" height="12.57"/></g><use class="T a2" href="#tp" y="-12.57"/></g>
+<g transform="translate(578.31 147.1)" style="--h:7.94px;--d:0.5s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-7.94" width="1" height="7.94"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-7.94" width="1" height="7.94"/></g><use class="T a1" href="#tp" y="-7.94"/></g>
+<g transform="translate(571.47 160.83)" style="--h:12.57px;--d:0.53s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-12.57" width="1" height="12.57"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-12.57" width="1" height="12.57"/></g><use class="T a2" href="#tp" y="-12.57"/></g>
+<use href="#zt" x="564.62" y="174.56"/>
+<use href="#zt" x="557.78" y="188.29"/>
+<use href="#zt" x="550.93" y="202.01"/>
+<use href="#zt" x="544.08" y="215.74"/>
+<use href="#zt" x="537.24" y="229.47"/>
+<use href="#zt" x="592.04" y="148.81"/>
+<use href="#zt" x="585.19" y="162.54"/>
+<use href="#zt" x="578.35" y="176.27"/>
+<use href="#zt" x="571.5" y="190"/>
+<use href="#zt" x="564.66" y="203.73"/>
+<use href="#zt" x="557.81" y="217.45"/>
+<use href="#zt" x="550.97" y="231.18"/>
+<use href="#zt" x="605.77" y="150.53"/>
+<use href="#zt" x="598.92" y="164.25"/>
+<use href="#zt" x="592.08" y="177.98"/>
+<use href="#zt" x="585.23" y="191.71"/>
+<use href="#zt" x="578.39" y="205.44"/>
+<g transform="translate(571.54 219.16)" style="--h:10.56px;--d:0.82s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-10.56" width="1" height="10.56"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-10.56" width="1" height="10.56"/></g><use class="T a1" href="#tp" y="-10.56"/></g>
+<g transform="translate(564.69 232.89)" style="--h:26.14px;--d:0.85s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-26.14" width="1" height="26.14"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-26.14" width="1" height="26.14"/></g><use class="T a3" href="#tp" y="-26.14"/></g>
+<g transform="translate(619.49 152.24)" style="--h:50.27px;--d:0.8s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b4" y="-50.27" width="1" height="50.27"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c4" y="-50.27" width="1" height="50.27"/></g><use class="T a4" href="#tp" y="-50.27"/></g>
+<g transform="translate(612.65 165.96)" style="--h:15.77px;--d:0.83s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-15.77" width="1" height="15.77"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-15.77" width="1" height="15.77"/></g><use class="T a2" href="#tp" y="-15.77"/></g>
+<g transform="translate(605.8 179.69)" style="--h:26.14px;--d:0.85s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-26.14" width="1" height="26.14"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-26.14" width="1" height="26.14"/></g><use class="T a3" href="#tp" y="-26.14"/></g>
+<g transform="translate(598.96 193.42)" style="--h:20.61px;--d:0.88s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-20.61" width="1" height="20.61"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-20.61" width="1" height="20.61"/></g><use class="T a2" href="#tp" y="-20.61"/></g>
+<g transform="translate(592.11 207.15)" style="--h:23.55px;--d:0.9s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-23.55" width="1" height="23.55"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-23.55" width="1" height="23.55"/></g><use class="T a3" href="#tp" y="-23.55"/></g>
+<g transform="translate(585.27 220.88)" style="--h:26.14px;--d:0.93s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-26.14" width="1" height="26.14"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-26.14" width="1" height="26.14"/></g><use class="T a3" href="#tp" y="-26.14"/></g>
+<g transform="translate(578.42 234.6)" style="--h:33.91px;--d:0.95s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-33.91" width="1" height="33.91"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-33.91" width="1" height="33.91"/></g><use class="T a3" href="#tp" y="-33.91"/></g>
+<g transform="translate(633.22 153.95)" style="--h:15.77px;--d:0.9s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-15.77" width="1" height="15.77"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-15.77" width="1" height="15.77"/></g><use class="T a2" href="#tp" y="-15.77"/></g>
+<g transform="translate(626.38 167.68)" style="--h:32.64px;--d:0.93s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-32.64" width="1" height="32.64"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-32.64" width="1" height="32.64"/></g><use class="T a3" href="#tp" y="-32.64"/></g>
+<g transform="translate(619.53 181.4)" style="--h:10.56px;--d:0.95s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-10.56" width="1" height="10.56"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-10.56" width="1" height="10.56"/></g><use class="T a1" href="#tp" y="-10.56"/></g>
+<use href="#zt" x="612.69" y="195.13"/>
+<use href="#zt" x="605.84" y="208.86"/>
+<use href="#zt" x="599" y="222.59"/>
+<use href="#zt" x="592.15" y="236.31"/>
+<use href="#zt" x="646.95" y="155.66"/>
+<use href="#zt" x="640.1" y="169.39"/>
+<use href="#zt" x="633.26" y="183.12"/>
+<use href="#zt" x="626.41" y="196.84"/>
+<use href="#zt" x="619.57" y="210.57"/>
+<g transform="translate(612.72 224.3)" style="--h:15.77px;--d:1.12s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-15.77" width="1" height="15.77"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-15.77" width="1" height="15.77"/></g><use class="T a2" href="#tp" y="-15.77"/></g>
+<use href="#zt" x="605.88" y="238.03"/>
+<use href="#zt" x="660.68" y="157.37"/>
+<use href="#zt" x="653.83" y="171.1"/>
+<use href="#zt" x="646.99" y="184.83"/>
+<use href="#zt" x="640.14" y="198.55"/>
+<use href="#zt" x="633.3" y="212.28"/>
+<use href="#zt" x="626.45" y="226.01"/>
+<use href="#zt" x="619.61" y="239.74"/>
+<use href="#zt" x="674.41" y="159.08"/>
+<use href="#zt" x="667.56" y="172.81"/>
+<use href="#zt" x="660.71" y="186.54"/>
+<use href="#zt" x="653.87" y="200.27"/>
+<use href="#zt" x="647.02" y="213.99"/>
+<use href="#zt" x="640.18" y="227.72"/>
+<use href="#zt" x="633.33" y="241.45"/>
+<use href="#zt" x="688.13" y="160.79"/>
+<use href="#zt" x="681.29" y="174.52"/>
+<use href="#zt" x="674.44" y="188.25"/>
+<use href="#zt" x="667.6" y="201.98"/>
+<use href="#zt" x="660.75" y="215.7"/>
+<g transform="translate(653.91 229.43)" style="--h:27.72px;--d:1.43s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-27.72" width="1" height="27.72"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-27.72" width="1" height="27.72"/></g><use class="T a3" href="#tp" y="-27.72"/></g>
+<use href="#zt" x="647.06" y="243.16"/>
+<use href="#zt" x="701.86" y="162.51"/>
+<g transform="translate(695.01 176.23)" style="--h:26.14px;--d:1.42s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-26.14" width="1" height="26.14"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-26.14" width="1" height="26.14"/></g><use class="T a3" href="#tp" y="-26.14"/></g>
+<use href="#zt" x="688.17" y="189.96"/>
+<g transform="translate(681.32 203.69)" style="--h:7.94px;--d:1.47s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-7.94" width="1" height="7.94"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-7.94" width="1" height="7.94"/></g><use class="T a1" href="#tp" y="-7.94"/></g>
+<use href="#zt" x="674.48" y="217.42"/>
+<use href="#zt" x="667.63" y="231.14"/>
+<use href="#zt" x="660.79" y="244.87"/>
+<use href="#zt" x="715.59" y="164.22"/>
+<use href="#zt" x="708.74" y="177.94"/>
+<use href="#zt" x="701.9" y="191.67"/>
+<use href="#zt" x="695.05" y="205.4"/>
+<use href="#zt" x="688.21" y="219.13"/>
+<use href="#zt" x="681.36" y="232.86"/>
+<use href="#zt" x="674.52" y="246.58"/>
+<g transform="translate(729.32 165.93)" style="--h:19.52px;--d:1.6s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-19.52" width="1" height="19.52"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-19.52" width="1" height="19.52"/></g><use class="T a2" href="#tp" y="-19.52"/></g>
+<g transform="translate(722.47 179.66)" style="--h:12.57px;--d:1.62s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-12.57" width="1" height="12.57"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-12.57" width="1" height="12.57"/></g><use class="T a2" href="#tp" y="-12.57"/></g>
+<g transform="translate(715.62 193.38)" style="--h:10.56px;--d:1.65s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-10.56" width="1" height="10.56"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-10.56" width="1" height="10.56"/></g><use class="T a1" href="#tp" y="-10.56"/></g>
+<g transform="translate(708.78 207.11)" style="--h:20.61px;--d:1.68s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-20.61" width="1" height="20.61"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-20.61" width="1" height="20.61"/></g><use class="T a2" href="#tp" y="-20.61"/></g>
+<g transform="translate(701.93 220.84)" style="--h:26.14px;--d:1.7s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b3" y="-26.14" width="1" height="26.14"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c3" y="-26.14" width="1" height="26.14"/></g><use class="T a3" href="#tp" y="-26.14"/></g>
+<use href="#zt" x="695.09" y="234.57"/>
+<g transform="translate(688.24 248.29)" style="--h:15.77px;--d:1.75s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-15.77" width="1" height="15.77"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-15.77" width="1" height="15.77"/></g><use class="T a2" href="#tp" y="-15.77"/></g>
+<use href="#zt" x="743.04" y="167.64"/>
+<g transform="translate(736.2 181.37)" style="--h:10.56px;--d:1.72s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b1" y="-10.56" width="1" height="10.56"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c1" y="-10.56" width="1" height="10.56"/></g><use class="T a1" href="#tp" y="-10.56"/></g>
+<g transform="translate(729.35 195.09)" style="--h:20.61px;--d:1.75s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-20.61" width="1" height="20.61"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-20.61" width="1" height="20.61"/></g><use class="T a2" href="#tp" y="-20.61"/></g>
+<use href="#zt" x="722.51" y="208.82"/>
+<use href="#zt" x="715.66" y="222.55"/>
+<use href="#zt" x="708.82" y="236.28"/>
+<use href="#zt" x="701.97" y="250.01"/>
+<use href="#zt" x="756.77" y="169.35"/>
+<use href="#zt" x="749.93" y="183.08"/>
+<use href="#zt" x="743.08" y="196.81"/>
+<use href="#zt" x="736.23" y="210.53"/>
+<use href="#zt" x="729.39" y="224.26"/>
+<use href="#zt" x="722.54" y="237.99"/>
+<use href="#zt" x="715.7" y="251.72"/>
+<use href="#zt" x="770.5" y="171.06"/>
+<use href="#zt" x="763.65" y="184.79"/>
+<use href="#zt" x="756.81" y="198.52"/>
+<use href="#zt" x="749.96" y="212.25"/>
+<use href="#zt" x="743.12" y="225.97"/>
+<use href="#zt" x="736.27" y="239.7"/>
+<use href="#zt" x="729.43" y="253.43"/>
+<use href="#zt" x="784.23" y="172.77"/>
+<g transform="translate(777.38 186.5)" style="--h:20.61px;--d:2.02s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-20.61" width="1" height="20.61"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-20.61" width="1" height="20.61"/></g><use class="T a2" href="#tp" y="-20.61"/></g>
+<text class="m" transform="translate(24.35 192.6) rotate(7.11)">Nov ’25</text>
+<text class="m" transform="translate(92.99 201.16) rotate(7.11)">Dec</text>
+<text class="m" transform="translate(147.9 208) rotate(7.11)">Jan ’26</text>
+<text class="m" transform="translate(202.81 214.85) rotate(7.11)">Feb</text>
+<text class="m" transform="translate(257.72 221.69) rotate(7.11)">Mar</text>
+<text class="m" transform="translate(326.36 230.25) rotate(7.11)">Apr</text>
+<text class="m" transform="translate(381.27 237.1) rotate(7.11)">May</text>
+<text class="m" transform="translate(449.91 245.65) rotate(7.11)">Jun</text>
+<text class="m" transform="translate(504.82 252.5) rotate(7.11)">Jul</text>
+<text class="m" transform="translate(559.73 259.34) rotate(7.11)">Aug</text>
+<text class="m" transform="translate(628.37 267.9) rotate(7.11)">Sep</text>
+<text class="m" transform="translate(683.28 274.75) rotate(7.11)">Oct</text>
+<text class="hd" x="20" y="263">1,108 contributions, last 12 months</text>
+<text class="m" x="20" y="283">Less</text>
+<g transform="translate(54 284)"><path class="b0" d="M0 0L7 2.2v-3L0 -3Z"/><path class="c0" d="M7 2.2L12.6 -.6v-3L7 -0.8Z"/><path class="a0" d="M0 -3L7 -0.8L12.6 -3.6L5.6 -5.8Z"/></g>
+<g transform="translate(74 284)"><path class="b1" d="M0 0L7 2.2v-5.4L0 -5.4Z"/><path class="c1" d="M7 2.2L12.6 -.6v-5.4L7 -3.2Z"/><path class="a1" d="M0 -5.4L7 -3.2L12.6 -6L5.6 -8.2Z"/></g>
+<g transform="translate(94 284)"><path class="b2" d="M0 0L7 2.2v-7.8L0 -7.8Z"/><path class="c2" d="M7 2.2L12.6 -.6v-7.8L7 -5.6Z"/><path class="a2" d="M0 -7.8L7 -5.6L12.6 -8.4L5.6 -10.6Z"/></g>
+<g transform="translate(114 284)"><path class="b3" d="M0 0L7 2.2v-10.2L0 -10.2Z"/><path class="c3" d="M7 2.2L12.6 -.6v-10.2L7 -8Z"/><path class="a3" d="M0 -10.2L7 -8L12.6 -10.8L5.6 -13Z"/></g>
+<g transform="translate(134 284)"><path class="b4" d="M0 0L7 2.2v-12.6L0 -12.6Z"/><path class="c4" d="M7 2.2L12.6 -.6v-12.6L7 -10.4Z"/><path class="a4" d="M0 -12.6L7 -10.4L12.6 -13.2L5.6 -15.4Z"/></g>
+<text class="m" x="158" y="283">More</text>
+<g class="tag"><path d="M511.09 43.63V28.63" stroke="#6a573f" stroke-width="1" fill="none"/><circle cx="511.09" cy="43.63" r="1.8" fill="#6a573f"/><text class="pk" x="511.09" y="22.63" text-anchor="middle">398 on Jun 24</text></g>
+</svg>
