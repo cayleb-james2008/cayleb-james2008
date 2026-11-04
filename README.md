@@ -1,6 +1,6 @@
 <p align="center"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-m-dark.svg"><source media="(max-width: 600px)" srcset="assets/header-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header-light.svg" alt="Cayleb Alvarez-James. Building AI agent systems. A flat banner of manga focus lines radiating from one point, one of them warm, with a band of screentone dots."></picture></p>
 
-<p align="center">I build applied AI and developer tools, around one idea: the AI does the work and a person signs off.</p>
+<p align="center">I build applied AI and developer tools, around one idea: the AI does the work and I sign off.</p>
 
 <p align="center"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/now-m-dark.svg"><source media="(max-width: 600px)" srcset="assets/now-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg"><img src="assets/now-light.svg" alt="Now: Ergon, moving onto the DeepSeek Harness plugin direction; OpenBell, futures execution inside rails I set; open-ro, just started: an open-source Roblox AI studio."></picture></p>
 
@@ -22,7 +22,7 @@
 
 <p align="center"><sub>One tower per day; heights are on a square-root scale so a few very busy days do not hide the rest. Drawn by scripts in this repo and regenerated daily by a GitHub Action.</sub></p>
 
-<div align="center"><details><summary>Figures in text</summary><sub><!--numbers:start-->1,110 contributions in the last 12 months (2025-11-02 to 2026-11-03): 854 commits, 250 pull requests, 55 active days. Busiest day 398, on 2026-06-24. Current streak 2 days; longest streak 17 days (2026-06-18 to 2026-07-04).<!--numbers:end--></sub></details></div>
+<div align="center"><details><summary>Figures in text</summary><sub><!--numbers:start-->1,108 contributions in the last 12 months (2025-11-02 to 2026-11-02): 853 commits, 250 pull requests, 54 active days. Busiest day 398, on 2026-06-24. Current streak 1 day; longest streak 17 days (2026-06-18 to 2026-07-04).<!--numbers:end--></sub></details></div>
 
 <h3><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-4-m-dark.svg"><source media="(max-width: 600px)" srcset="assets/section-4-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg"><img src="assets/section-4-light.svg" alt="Stack"></picture></h3>
 
