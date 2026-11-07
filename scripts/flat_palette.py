@@ -12,14 +12,14 @@ The one warm tone is the same hue family in both themes. No new hues: only neutr
 FLAT COLOUR ONLY: no gradients, glows, blurs, filters or opacity.
 Outside judges: tests/lint_flat.py (flat + palette) and tests/test_scripts.py (contrast floors)."""
 DARK = dict(
-    ground="#121316", mass="#3e4143", blade="#838383", hair="#a9a8a5", tone="#4f4f4f",
-    name="#d6d4d0", sub="#a9a8a5", edge="#3e4143",
-    lamp="#8f7552",
+    ground="#100C0D", mass="#2E322C", blade="#5F6355", hair="#9AA08E", tone="#505954",
+    name="#EDE6D6", sub="#B9BCAE", edge="#505954",
+    lamp="#DAB696",
 )
 LIGHT = dict(
-    ground="#d6d4d0", mass="#838383", blade="#4f4f4f", hair="#2b2c30", tone="#4f4f4f",
-    name="#121316", sub="#4f4f4f", edge="#a9a8a5",
-    lamp="#6d5a42",
+    ground="#EDE6D3", mass="#C9C2AC", blade="#606456", hair="#100C0D", tone="#5F6355",
+    name="#100C0D", sub="#505954", edge="#606456",
+    lamp="#DBB797",
 )
 PALETTES = {"dark": DARK, "light": LIGHT}
 ALLOWED = {v.lower() for p in PALETTES.values() for v in p.values()}
