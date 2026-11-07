@@ -86,7 +86,7 @@ def layout(mobile):
     else:
         g["sub_lines"] = [SUB]
         g["sub_base"] = [g["bs"]]
-        g["sub_sz"] = 12.5
+        g["sub_sz"] = 11
     fx, fy = g["F"]
     angs = []
     for s, bold, sz, base, tr in g["lines"]:
