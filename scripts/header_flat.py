@@ -33,7 +33,7 @@ from flat_palette import PALETTES  # noqa: E402
 
 NAME = "Cayleb Alvarez-James"
 LINE1, LINE2 = "Cayleb", "Alvarez-James"
-SUB = "Building AI agent systems"
+SUB = "AI Agent Systems Engineer — Claude Code & Coding-Agent Tooling"
 # hand-set kerning in font units (negative = closer), for pairs the plain advance widths leave loose
 SEEDS = {False: 42, True: 23}  # re-picked by eye on the contact sheet
 KERN = {"Ca": -8, "Al": -10, "lv": -6, "va": -6, "ar": -4, "z-": -14, "-J": -14, "Ja": -6}
@@ -76,13 +76,25 @@ def layout(mobile):
         g = dict(W=S.MW, H=230, uid="hm", x=22, nsz=34, track=-0.3, ssz=15, bs=198, b2=166, b1=135,
                  F=(250, 50), R=420, k=0.62, nthick=16, nblade=28, nhair=44, heavy=(3.5, 5.5), thick=(0.8, 2.0),
                  lamp_dir=345, hcap=0.42, band=dict(c=(262, 90), ang=-15, L=190, rows=3, p=8, q=7.2), dot=1.8)
-    g["lines"] = [(LINE1, True, g["nsz"], g["b1"], g["track"]), (LINE2, True, g["nsz"], g["b2"], g["track"]),
-                  (SUB, False, g["ssz"], g["bs"], 0.15)]
+    g["lines"] = [(LINE1, True, g["nsz"], g["b1"], g["track"]), (LINE2, True, g["nsz"], g["b2"], g["track"])]
+    # The sub-line is set as live text (its glyphs are not in the outlined wordmark), in one line on desktop
+    # and two on mobile; its rectangle joins the lettering sector below so the field never crosses it.
+    if mobile:
+        g["sub_lines"] = ["AI Agent Systems Engineer", "Claude Code & Coding-Agent Tooling"]
+        g["sub_base"] = [g["bs"] - 6, g["bs"] + 16]
+    else:
+        g["sub_lines"] = [SUB]
+        g["sub_base"] = [g["bs"]]
     fx, fy = g["F"]
     angs = []
     for s, bold, sz, base, tr in g["lines"]:
         nums = [float(v) for v in re.findall(r"-?[\d.]+", lettering(s, bold, sz, g["x"] + (0 if bold else 1), base, tr)[0])]
         angs += [math.degrees(math.atan2(y - fy, x - fx)) % 360 for x, y in zip(nums[::2], nums[1::2])]
+    for line, base in zip(g["sub_lines"], g["sub_base"]):
+        w = len(line) * 0.52 * g["ssz"]
+        angs += [math.degrees(math.atan2(y - fy, x - fx)) % 360
+                 for x, y in ((g["x"], base - g["ssz"]), (g["x"] + w, base - g["ssz"]),
+                              (g["x"], base + 4), (g["x"] + w, base + 4))]
     d = [(a - angs[0] + 180) % 360 - 180 for a in angs]
     g["text_span"] = (angs[0] + min(d), angs[0] + max(d))
     g["excl"] = (g["text_span"][0] - MARGIN - SWAY, g["text_span"][1] + MARGIN + SWAY)
@@ -191,17 +203,21 @@ def header(tn, mobile=False):
     body = [
         f'<rect width="{W}" height="{H}" fill="{col["ground"]}"/>',
         f'<g transform="translate({fx} {fy})"><g class="fan"><path d="{mass}" fill="{col["mass"]}"/>'
-        f'<path d="{lamp}" fill="{col["lamp"]}"/><path d="{blade}" fill="{col["blade"]}"/>'
+        f'<path d="{lamp}" fill="{col["lamp"]}"><animate attributeName="opacity" values="1;.55;1" dur="6s" repeatCount="indefinite"/></path>'
+        f'<path d="{blade}" fill="{col["blade"]}"/>'
         f'<g stroke="{col["hair"]}" fill="none">'
         + "".join(f'<path d="{d}" stroke-width="{wd}"/>' for wd, d in hair.items()) + "</g></g></g>",
         tone,
     ]
-    # -- lettering, two lines of name and one plain line, outlined
+    # -- lettering: two lines of name, outlined; the sub-line is live text under it
     d = []
     for s, bold, sz, base, tr in g["lines"]:
         xx = x + (0 if bold else 1)
         d.append((lettering(s, bold, sz, xx, base, tr)[0], col["name"] if bold else col["sub"]))
-    body.append(f'<path d="{d[0][0]}{d[1][0]}" fill="{col["name"]}"/><path d="{d[2][0]}" fill="{col["sub"]}"/>')
+    body.append(f'<path d="{d[0][0]}{d[1][0]}" fill="{col["name"]}"/>')
+    for line, base in zip(g["sub_lines"], g["sub_base"]):
+        body.append(f'<text x="{x + 1}" y="{base}" font-family="{S.SANS}" font-size="{g["ssz"]}" '
+                    f'letter-spacing=".15" fill="{col["sub"]}">{S.esc(line)}</text>')
     full = (f'<defs>{defs}</defs><g clip-path="url(#{uid}r)">{"".join(body)}</g>'
             f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="15.5" fill="none" stroke="{col["edge"]}"/>')
     look = ("a manga page: charcoal ink on bone" if tn == "light" else "the night of the profile picture: charcoal and graphite on black")

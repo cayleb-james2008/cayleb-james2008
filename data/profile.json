@@ -1,120 +1,99 @@
 {
   "name": "Cayleb Alvarez-James",
   "handle": "cayleb-james2008",
-  "open_to": "Open to remote-only roles",
+  "open_to": "AI Agent Systems Engineer — Claude Code & Coding-Agent Tooling",
   "stack": [
-    "Rust",
-    "TypeScript",
+    "Claude Code",
     "Python",
+    "TypeScript",
     "JavaScript",
-    "C#",
-    "Luau",
+    "Rust",
+    "React",
     "Tauri",
-    "Node.js"
+    "SQLite",
+    "Git/GitHub",
+    "Linux"
   ],
   "work": [
     {
       "key": "ergon",
       "title": "Ergon",
-      "kicker": "AI platform for companies",
-      "summary": "A personal AI assistant for every employee, set up around the apps their team already uses, with a support desk behind it.",
+      "kicker": "Personal AI agents for companies",
+      "summary": "One personal AI agent per employee, built around each company's own tools. Approval gates and undo; piloted at RHL. 622 tests pass.",
       "tags": [
-        "Windows",
         "Node.js",
-        "Agents"
+        "C#",
+        "SQLite"
       ],
-      "status": "In development · private"
+      "status": "Piloted at RHL · daily use"
     },
     {
       "key": "dsh-fleet",
       "title": "DSH Fleet",
-      "kicker": "DeepSeek Harness plugin",
-      "summary": "An independent plugin being built to run a small fleet of AI work agents, with holds designed in on anything that spends, posts or deploys.",
+      "kicker": "Multi-agent harness",
+      "summary": "A ticket-driven harness where each goal spins up a dynamic swarm of agents, shaped to the task, that dissolves when the work lands.",
       "tags": [
-        "JavaScript",
-        "Node.js",
-        "DeepSeek Harness"
+        "Python",
+        "TypeScript",
+        "Agents"
       ],
-      "status": "In development · private"
+      "status": "In active development"
     },
     {
       "key": "openbell",
       "title": "OpenBell",
-      "kicker": "Trading desks",
-      "summary": "Futures execution runs automated inside rails I set.",
+      "kicker": "Live trading house",
+      "summary": "Kalshi, futures and meme desks on one architecture: parallel strategy slots and hand-authored weight-space models. Books reconciled.",
       "tags": [
         "Python",
-        "Node.js"
+        "Rust",
+        "Slots"
       ],
-      "status": "Private"
-    },
-    {
-      "key": "roblox",
-      "title": "Roblox games",
-      "kicker": "Games and tools",
-      "summary": "A card auto-battler and a night-driving game, both private and not launched, plus open-ro, a just-started open-source AI studio for Roblox projects.",
-      "tags": [
-        "Luau",
-        "Rojo",
-        "Roblox Studio"
-      ],
-      "status": "Prototypes · nothing launched"
+      "status": "Live · small real capital"
     }
   ],
   "repos": {
-    "dotz": {
-      "blurb": "A coding dashboard for directing work to a team of AI coding agents. Rust core, Tauri shell.",
-      "stack": "Rust · Tauri",
-      "license": "MIT"
-    },
     "sophos": {
-      "blurb": "A Windows desktop app around Prime Intellect's open-source Prime Agent. The shell and UI are mine; the runtime is theirs.",
-      "stack": "TypeScript · Tauri",
+      "blurb": "Coding-agent desktop app; sessions survive restarts. 1,224 interface tests, 82 Node tests, 56/56 Windows checks; merged after full hosted CI.",
+      "stack": "React · TypeScript · Tauri",
       "license": "MIT"
     },
-    "megavibe": {
-      "blurb": "A native Linux workspace for coding agents: terminals, notes, plans and on-device voice planning on one board.",
-      "stack": "TypeScript · Tauri",
-      "license": null
+    "dotz": {
+      "blurb": "Runs and supervises AI coding agents from a desktop app. 828+ core tests on each of Windows, macOS, Linux; all 6 hosted jobs pass; merged.",
+      "stack": "Rust · Tauri · SQLite",
+      "license": "MIT"
     },
     "industry-ai-suite": {
-      "blurb": "Ten local, read-only review tools sharing one evidence layer with source citations. No send, post or trade actions.",
+      "blurb": "Ten local review tools; every finding shows its source and a person decides. 382 Python tests pass.",
       "stack": "Python",
       "license": null
-    },
-    "open-ro": {
-      "blurb": "Open-source, local-first AI development studio for Roblox projects. Just started.",
-      "stack": null,
-      "license": "MIT"
     }
   },
   "repo_order": [
-    "dotz",
     "sophos",
-    "megavibe",
-    "industry-ai-suite",
-    "open-ro"
+    "dotz",
+    "industry-ai-suite"
   ],
   "now": [
     [
       "Ergon",
-      "Moving onto the DeepSeek Harness plugin direction"
+      "Pilot at RHL; warehouse board in daily on-site use"
+    ],
+    [
+      "DSH Fleet",
+      "In active development"
     ],
     [
       "OpenBell",
-      "Futures execution inside rails I set"
-    ],
-    [
-      "open-ro",
-      "Just started: an open-source Roblox AI studio"
+      "Live desks: Kalshi, futures, meme coins"
     ]
   ],
-  "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Megavibe is a Linux implementation based on Hypervibe's public product information. dotz bundles vendored Open Design content (Apache-2.0). DeepSeek Harness is an open-source project by the deepseek-ai organization (deepseek-ai/deepseek-harness, MIT); DSH Fleet is an independent, unofficial plugin for it and is not affiliated with DeepSeek.",
+  "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). dotz bundles vendored Open Design content (Apache-2.0). DSH Fleet is a ticket-driven multi-agent harness whose dynamic swarms are guided by harness-engineering research, in active development; DeepSeek Harness is an open-source project by the deepseek-ai organization (deepseek-ai/deepseek-harness, MIT), and DSH Fleet is not affiliated with DeepSeek.",
   "links": {
     "youtube": "https://www.youtube.com/@cayleb-james",
     "instagram": "https://www.instagram.com/cayleb.james/"
   },
-  "intro": "I build applied AI and developer tools, around one idea: the AI does the work and a person signs off.",
+  "intro": "Technical founder. I build with Claude Code every day and run fleets of agents under rules I designed: work only counts as done when an independent check passes on the real thing. I have put AI agents to work inside a real company — and built all of this while working as a furniture installer.",
   "repos_note": "Most of my work is private for now, so these are the parts you can read.",
   "sections": [
     "What I'm building",
@@ -124,23 +103,29 @@
   ],
   "stack_groups": [
     {
-      "label": "Languages",
+      "label": "Agents",
       "items": [
-        "Rust",
-        "TypeScript",
-        "Python",
-        "JavaScript",
-        "C#",
-        "Luau"
+        "Claude Code"
       ]
     },
     {
-      "label": "Runtime and frameworks",
+      "label": "Languages",
       "items": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "Rust"
+      ]
+    },
+    {
+      "label": "Apps & data",
+      "items": [
+        "React",
         "Tauri",
-        "Node.js"
+        "SQLite",
+        "Git/GitHub",
+        "Linux"
       ]
     }
-  ],
-  "wide_repo": "open-ro"
+  ]
 }
