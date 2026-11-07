@@ -47,7 +47,7 @@
 
 <p align="center"><sub>One tower per day; heights are on a square-root scale so a few very busy days do not hide the rest. Drawn by scripts in this repo and regenerated daily by a GitHub Action.</sub></p>
 
-<div align="center"><details><summary>Figures in text</summary><sub><!--numbers:start-->1,307 contributions in the last 12 months (2025-11-02 to 2026-11-07): 1,034 commits, 266 pull requests, 63 active days. Busiest day 398, on 2026-06-24. Current streak 1 day; longest streak 17 days (2026-06-18 to 2026-07-04).<!--numbers:end--></sub></details></div>
+<div align="center"><details><summary>Figures in text</summary><sub><!--numbers:start-->1,308 contributions in the last 12 months (2025-11-02 to 2026-11-07): 1,035 commits, 266 pull requests, 63 active days. Busiest day 398, on 2026-06-24. Current streak 1 day; longest streak 17 days (2026-06-18 to 2026-07-04).<!--numbers:end--></sub></details></div>
 
 <h3><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-4-m-dark.svg"><source media="(max-width: 600px)" srcset="assets/section-4-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg"><img src="assets/section-4-light.svg" alt="Stack"></picture></h3>
 
