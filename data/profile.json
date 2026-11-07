@@ -19,7 +19,7 @@
       "key": "ergon",
       "title": "Ergon",
       "kicker": "Personal AI agents for companies",
-      "summary": "One personal AI agent per employee, built around each company's own tools. Approval gates and undo; piloted at RHL. 622 tests pass.",
+      "summary": "A self-configuring agent that learns each employee's role on its own: it observes the work, asks, and builds its own capabilities.",
       "tags": [
         "Node.js",
         "C#",
@@ -31,7 +31,7 @@
       "key": "dsh-fleet",
       "title": "DSH Fleet",
       "kicker": "Multi-agent harness",
-      "summary": "A ticket-driven harness where each goal spins up a dynamic swarm of agents, shaped to the task, that dissolves when the work lands.",
+      "summary": "Distributed, recursively self-improving agent infrastructure: dynamic swarms that revise the fleet's own workflows from measured outcomes.",
       "tags": [
         "Python",
         "TypeScript",
@@ -43,7 +43,7 @@
       "key": "openbell",
       "title": "OpenBell",
       "kicker": "Live trading house",
-      "summary": "Kalshi, futures and meme desks on one architecture: parallel strategy slots and hand-authored weight-space models. Books reconciled.",
+      "summary": "A trading house built on weight-space training: hand-authored tiny specialist models, judged under strict evidence rules. Live desks.",
       "tags": [
         "Python",
         "Rust",
