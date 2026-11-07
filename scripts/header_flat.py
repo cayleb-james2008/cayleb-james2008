@@ -33,7 +33,7 @@ from flat_palette import PALETTES  # noqa: E402
 
 NAME = "Cayleb Alvarez-James"
 LINE1, LINE2 = "Cayleb", "Alvarez-James"
-SUB = "AI Agent Systems Engineer — Claude Code, Autonomous Agents & Agent Infrastructure"
+SUB = "AI Agent Systems Engineer — Autonomous Agents, Agent Harnesses & Self-Improving Infrastructure"
 # hand-set kerning in font units (negative = closer), for pairs the plain advance widths leave loose
 SEEDS = {False: 42, True: 23}  # re-picked by eye on the contact sheet
 KERN = {"Ca": -8, "Al": -10, "lv": -6, "va": -6, "ar": -4, "z-": -14, "-J": -14, "Ja": -6}
@@ -80,13 +80,13 @@ def layout(mobile):
     # The sub-line is set as live text (its glyphs are not in the outlined wordmark), in one line on desktop
     # and two on mobile; its rectangle joins the lettering sector below so the field never crosses it.
     if mobile:
-        g["sub_lines"] = ["AI Agent Systems Engineer — Claude Code,", "Autonomous Agents & Agent Infrastructure"]
-        g["sub_base"] = [g["bs"] - 6, g["bs"] + 14]
+        g["sub_lines"] = ["AI Agent Systems Engineer —", "Autonomous Agents, Agent Harnesses &", "Self-Improving Infrastructure"]
+        g["sub_base"] = [g["bs"] - 12, g["bs"] + 6, g["bs"] + 24]
         g["sub_sz"] = 13.5
     else:
         g["sub_lines"] = [SUB]
         g["sub_base"] = [g["bs"]]
-        g["sub_sz"] = 17
+        g["sub_sz"] = 15
     fx, fy = g["F"]
     angs = []
     for s, bold, sz, base, tr in g["lines"]:
