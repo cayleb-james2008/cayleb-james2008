@@ -33,7 +33,7 @@ from flat_palette import PALETTES  # noqa: E402
 
 NAME = "Cayleb Alvarez-James"
 LINE1, LINE2 = "Cayleb", "Alvarez-James"
-SUB = "AI Agent Systems Engineer — Claude Code & Coding-Agent Tooling"
+SUB = "AI Agent Systems Engineer — Claude Code, Autonomous Agents & Agent Infrastructure"
 # hand-set kerning in font units (negative = closer), for pairs the plain advance widths leave loose
 SEEDS = {False: 42, True: 23}  # re-picked by eye on the contact sheet
 KERN = {"Ca": -8, "Al": -10, "lv": -6, "va": -6, "ar": -4, "z-": -14, "-J": -14, "Ja": -6}
@@ -80,18 +80,20 @@ def layout(mobile):
     # The sub-line is set as live text (its glyphs are not in the outlined wordmark), in one line on desktop
     # and two on mobile; its rectangle joins the lettering sector below so the field never crosses it.
     if mobile:
-        g["sub_lines"] = ["AI Agent Systems Engineer", "Claude Code & Coding-Agent Tooling"]
-        g["sub_base"] = [g["bs"] - 6, g["bs"] + 16]
+        g["sub_lines"] = ["AI Agent Systems Engineer — Claude Code,", "Autonomous Agents & Agent Infrastructure"]
+        g["sub_base"] = [g["bs"] - 6, g["bs"] + 14]
+        g["sub_sz"] = 13.5
     else:
         g["sub_lines"] = [SUB]
         g["sub_base"] = [g["bs"]]
+        g["sub_sz"] = 17
     fx, fy = g["F"]
     angs = []
     for s, bold, sz, base, tr in g["lines"]:
         nums = [float(v) for v in re.findall(r"-?[\d.]+", lettering(s, bold, sz, g["x"] + (0 if bold else 1), base, tr)[0])]
         angs += [math.degrees(math.atan2(y - fy, x - fx)) % 360 for x, y in zip(nums[::2], nums[1::2])]
     for line, base in zip(g["sub_lines"], g["sub_base"]):
-        w = len(line) * 0.52 * g["ssz"]
+        w = len(line) * 0.52 * g["sub_sz"]
         angs += [math.degrees(math.atan2(y - fy, x - fx)) % 360
                  for x, y in ((g["x"], base - g["ssz"]), (g["x"] + w, base - g["ssz"]),
                               (g["x"], base + 4), (g["x"] + w, base + 4))]
@@ -216,7 +218,7 @@ def header(tn, mobile=False):
         d.append((lettering(s, bold, sz, xx, base, tr)[0], col["name"] if bold else col["sub"]))
     body.append(f'<path d="{d[0][0]}{d[1][0]}" fill="{col["name"]}"/>')
     for line, base in zip(g["sub_lines"], g["sub_base"]):
-        body.append(f'<text x="{x + 1}" y="{base}" font-family="{S.SANS}" font-size="{g["ssz"]}" '
+        body.append(f'<text x="{x + 1}" y="{base}" font-family="{S.SANS}" font-size="{g["sub_sz"]}" '
                     f'letter-spacing=".15" fill="{col["sub"]}">{S.esc(line)}</text>')
     full = (f'<defs>{defs}</defs><g clip-path="url(#{uid}r)">{"".join(body)}</g>'
             f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="15.5" fill="none" stroke="{col["edge"]}"/>')
