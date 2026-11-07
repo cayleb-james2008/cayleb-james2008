@@ -1,16 +1,25 @@
 {
   "name": "Cayleb Alvarez-James",
   "handle": "cayleb-james2008",
-  "open_to": "AI Agent Systems Engineer — Claude Code & Coding-Agent Tooling",
+  "open_to": "AI Agent Systems Engineer — Claude Code, Autonomous Agents & Agent Infrastructure",
   "stack": [
     "Claude Code",
+    "Role learning",
+    "Dynamic swarms",
+    "Omni Loop",
     "Python",
     "TypeScript",
     "JavaScript",
     "Rust",
+    "HTML/CSS",
+    "Weight-space",
+    "LDA specialists",
+    "Backtesting",
+    "Experiment design",
     "React",
     "Tauri",
     "SQLite",
+    "Web APIs",
     "Git/GitHub",
     "Linux"
   ],
@@ -19,19 +28,19 @@
       "key": "ergon",
       "title": "Ergon",
       "kicker": "Personal AI agents for companies",
-      "summary": "A self-configuring agent that learns each employee's role on its own: it observes the work, asks, and builds its own capabilities.",
+      "summary": "Self-configuring: it observes recurring work, asks targeted questions, builds a role model, and earns capabilities through review.",
       "tags": [
         "Node.js",
         "C#",
         "SQLite"
       ],
-      "status": "Piloted at RHL · daily use"
+      "status": "In development"
     },
     {
       "key": "dsh-fleet",
       "title": "DSH Fleet",
       "kicker": "Multi-agent harness",
-      "summary": "Distributed, recursively self-improving agent infrastructure: dynamic swarms that revise the fleet's own workflows from measured outcomes.",
+      "summary": "Distributed, recursively self-improving agent infrastructure: dynamic swarms, the Omni Loop, no standing bench.",
       "tags": [
         "Python",
         "TypeScript",
@@ -43,7 +52,7 @@
       "key": "openbell",
       "title": "OpenBell",
       "kicker": "Live trading house",
-      "summary": "A trading house built on weight-space training: hand-authored tiny specialist models, judged under strict evidence rules. Live desks.",
+      "summary": "Weight-space training: directly authored tiny specialist models, frozen before scoring — live desks are the proving ground.",
       "tags": [
         "Python",
         "Rust",
@@ -77,7 +86,7 @@
   "now": [
     [
       "Ergon",
-      "Pilot at RHL; warehouse board in daily on-site use"
+      "Self-configuring agents; RHL a proposed first deployment"
     ],
     [
       "DSH Fleet",
@@ -93,7 +102,7 @@
     "youtube": "https://www.youtube.com/@cayleb-james",
     "instagram": "https://www.instagram.com/cayleb.james/"
   },
-  "intro": "Technical founder. I build with Claude Code every day and run fleets of agents under rules I designed: work only counts as done when an independent check passes on the real thing. I have put AI agents to work inside a real company — and built all of this while working as a furniture installer.",
+  "intro": "AI agent systems engineer and technical founder building advanced agent infrastructure with Claude Code. Three systems: Ergon, whose employee agents configure themselves by learning a role; the DSH Fleet, a distributed, recursively self-improving orchestration layer for dynamic agent swarms; and OpenBell, built around directly constructing and rigorously evaluating tiny models in weight space. Across all three: autonomy with evidence — persistent memory, earned permissions, frozen hypotheses, measured promotion gates, and human approval only where an action warrants it.",
   "repos_note": "Most of my work is private for now, so these are the parts you can read.",
   "sections": [
     "What I'm building",
@@ -103,9 +112,12 @@
   ],
   "stack_groups": [
     {
-      "label": "Agents",
+      "label": "AI & agents",
       "items": [
-        "Claude Code"
+        "Claude Code",
+        "Role learning",
+        "Dynamic swarms",
+        "Omni Loop"
       ]
     },
     {
@@ -114,7 +126,17 @@
         "Python",
         "TypeScript",
         "JavaScript",
-        "Rust"
+        "Rust",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "label": "Models & data",
+      "items": [
+        "Weight-space",
+        "LDA specialists",
+        "Backtesting",
+        "Experiment design"
       ]
     },
     {
@@ -123,6 +145,7 @@
         "React",
         "Tauri",
         "SQLite",
+        "Web APIs",
         "Git/GitHub",
         "Linux"
       ]
