@@ -1,7 +1,7 @@
 {
   "name": "Cayleb Alvarez-James",
   "handle": "cayleb-james2008",
-  "open_to": "AI Agent Systems Engineer — Claude Code, Autonomous Agents & Agent Infrastructure",
+  "open_to": "AI Agent Systems Engineer — Autonomous Agents, Agent Harnesses & Self-Improving Infrastructure",
   "stack": [
     "Claude Code",
     "Role learning",
@@ -102,7 +102,7 @@
     "youtube": "https://www.youtube.com/@cayleb-james",
     "instagram": "https://www.instagram.com/cayleb.james/"
   },
-  "intro": "AI agent systems engineer and technical founder building advanced agent infrastructure with Claude Code. Three systems: Ergon, whose employee agents configure themselves by learning a role; the DSH Fleet, a distributed, recursively self-improving orchestration layer for dynamic agent swarms; and OpenBell, built around directly constructing and rigorously evaluating tiny models in weight space. Across all three: autonomy with evidence — persistent memory, earned permissions, frozen hypotheses, measured promotion gates, and human approval only where an action warrants it.",
+  "intro": "AI agent systems engineer and technical founder with a year in agentic systems and harness engineering, beginning while finishing high school. I work across harnesses rather than inside one vendor stack — OpenCode/DeepSeek Harness, Claude Desktop and Duet, Gemini Antigravity, Freebuff, ChatGPT Codex and Claude Code — routing work by available usage and fit; the current centre is Nox, Claude Duet and the DSH Fleet I am finishing. Three systems define the work: Ergon, whose employee agents configure themselves; the DSH Fleet, a distributed, recursively self-improving orchestration layer for dynamic swarms; and OpenBell, built around directly constructing and rigorously evaluating tiny models in weight space. Common thread: autonomy with evidence — persistent memory, earned permissions, frozen hypotheses, measured promotion gates.",
   "repos_note": "Most of my work is private for now, so these are the parts you can read.",
   "sections": [
     "What I'm building",
@@ -114,7 +114,7 @@
     {
       "label": "AI & agents",
       "items": [
-        "Claude Code",
+        "Multi-harness ops",
         "Role learning",
         "Dynamic swarms",
         "Omni Loop"
