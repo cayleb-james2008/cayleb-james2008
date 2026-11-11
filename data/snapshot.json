@@ -3,7 +3,7 @@
  "name": "Cayleb Alvarez-James",
  "created_at": "2022-05-30T23:58:10Z",
  "calendar": {
-  "total": 1335,
+  "total": 1353,
   "weeks": [
    {
     "first": "2025-11-09",
@@ -2466,16 +2466,22 @@
      },
      {
       "date": "2026-11-10",
-      "count": 3,
-      "level": "FIRST_QUARTILE",
+      "count": 21,
+      "level": "SECOND_QUARTILE",
       "weekday": 2
+     },
+     {
+      "date": "2026-11-11",
+      "count": 0,
+      "level": "NONE",
+      "weekday": 3
      }
     ]
    }
   ]
  },
  "totals": {
-  "commits": 1053,
+  "commits": 1070,
   "pull_requests": 266,
   "issues": 0,
   "reviews": 0
@@ -2486,7 +2492,7 @@
    "description": "Cayleb Alvarez-James's project portfolio, ten-journey lab, and source-linked project r\u00e9sum\u00e9",
    "language": "HTML",
    "topics": [],
-   "pushed_at": "2026-11-10T00:03:47Z",
+   "pushed_at": "2026-11-11T00:41:20Z",
    "created_at": "2026-09-22T11:05:39Z",
    "license": "MIT",
    "url": "https://github.com/cayleb-james2008/agentic-resume",
@@ -2498,7 +2504,7 @@
    "description": "The one r\u00e9sum\u00e9 link: the interactive edition of Cayleb Alvarez-James's r\u00e9sum\u00e9, with working demos.",
    "language": "HTML",
    "topics": [],
-   "pushed_at": "2026-11-10T01:51:20Z",
+   "pushed_at": "2026-11-11T02:09:07Z",
    "created_at": "2026-11-09T21:53:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/cayleb-james2008.github.io",
@@ -2537,7 +2543,7 @@
    "description": "The harness core of a six-seat agent fleet: admission control, a checker gate, and provider rotation.",
    "language": "JavaScript",
    "topics": [],
-   "pushed_at": "2026-11-09T17:56:56Z",
+   "pushed_at": "2026-11-10T17:32:12Z",
    "created_at": "2026-11-09T17:46:10Z",
    "license": "MIT",
    "url": "https://github.com/cayleb-james2008/dsh-fleet-core",
@@ -2585,7 +2591,7 @@
    "description": "Ergon showcase (widened) \u2014 Ticket 108 \u2014 DEMO DATA ONLY \u2014 the build is published at the site root when it lands",
    "language": "HTML",
    "topics": [],
-   "pushed_at": "2026-11-10T10:30:38Z",
+   "pushed_at": "2026-11-10T11:23:49Z",
    "created_at": "2026-11-10T04:33:25Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon-showcase-108",
@@ -2661,7 +2667,7 @@
     "roblox-studio",
     "typescript"
    ],
-   "pushed_at": "2026-11-06T05:08:10Z",
+   "pushed_at": "2026-11-10T17:32:30Z",
    "created_at": "2026-11-02T15:55:39Z",
    "license": "MIT",
    "url": "https://github.com/cayleb-james2008/open-ro",
@@ -2677,6 +2683,18 @@
    "created_at": "2026-11-10T04:19:17Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/pages-route-probe-108",
+   "archived": false,
+   "fork": false
+  },
+  {
+   "name": "project-pages-walkthrough-092",
+   "description": "Ticket 092 evidence: phone-VM walkthrough of the refreshed project pages (one continuous take)",
+   "language": "HTML",
+   "topics": [],
+   "pushed_at": "2026-11-11T00:53:31Z",
+   "created_at": "2026-11-10T22:25:16Z",
+   "license": null,
+   "url": "https://github.com/cayleb-james2008/project-pages-walkthrough-092",
    "archived": false,
    "fork": false
   },
