@@ -25,6 +25,18 @@
   ],
   "work": [
     {
+      "key": "openbell",
+      "title": "OpenBell",
+      "kicker": "Live trading house",
+      "summary": "Weight-space training: directly authored tiny specialist models, frozen before scoring — live desks are the proving ground.",
+      "tags": [
+        "Python",
+        "Rust",
+        "Slots"
+      ],
+      "status": "Live · small real capital"
+    },
+    {
       "key": "ergon",
       "title": "Ergon",
       "kicker": "Personal AI agents for companies",
@@ -47,18 +59,6 @@
         "Agents"
       ],
       "status": "In active development"
-    },
-    {
-      "key": "openbell",
-      "title": "OpenBell",
-      "kicker": "Live trading house",
-      "summary": "Weight-space training: directly authored tiny specialist models, frozen before scoring — live desks are the proving ground.",
-      "tags": [
-        "Python",
-        "Rust",
-        "Slots"
-      ],
-      "status": "Live · small real capital"
     }
   ],
   "repos": {
@@ -85,16 +85,16 @@
   ],
   "now": [
     [
+      "OpenBell",
+      "Live desks: Kalshi, futures, meme coins"
+    ],
+    [
       "Ergon",
       "Self-configuring agents; RHL a proposed first deployment"
     ],
     [
       "DSH Fleet",
       "In active development"
-    ],
-    [
-      "OpenBell",
-      "Live desks: Kalshi, futures, meme coins"
     ]
   ],
   "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). dotz bundles vendored Open Design content (Apache-2.0). DSH Fleet is a ticket-driven multi-agent harness whose dynamic swarms are guided by harness-engineering research, in active development; DeepSeek Harness is an open-source project by the deepseek-ai organization (deepseek-ai/deepseek-harness, MIT), and DSH Fleet is not affiliated with DeepSeek.",
