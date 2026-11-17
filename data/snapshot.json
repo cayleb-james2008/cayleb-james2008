@@ -2705,18 +2705,6 @@
    "fork": false
   },
   {
-   "name": "rhl-warehouse-worker-demo-099",
-   "description": "RHL warehouse-worker Ergon demo run-through (Ticket 099) \u2014 demo data only",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-09T23:25:04Z",
-   "created_at": "2026-11-09T23:10:14Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/rhl-warehouse-worker-demo-099",
-   "archived": false,
-   "fork": false
-  },
-  {
    "name": "sophos",
    "description": "Sophos \u2014 a Windows-native port of Prime Intellect's Prime Agent. Credits: PrimeIntellect-ai/prime-agent (upstream).",
    "language": "TypeScript",
