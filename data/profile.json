@@ -27,14 +27,14 @@
     {
       "key": "openbell",
       "title": "OpenBell",
-      "kicker": "Live trading house",
+      "kicker": "Kalshi trading desk",
       "summary": "Weight-space training: directly authored tiny specialist models, frozen before scoring — live desks are the proving ground.",
       "tags": [
         "Python",
         "Rust",
         "Slots"
       ],
-      "status": "Live · small real capital"
+      "status": "Paused · being rebuilt"
     },
     {
       "key": "ergon",
@@ -63,7 +63,7 @@
   ],
   "repos": {
     "sophos": {
-      "blurb": "Coding-agent desktop app; sessions survive restarts. 1,224 interface tests, 82 Node tests, 56/56 Windows checks; merged after full hosted CI.",
+      "blurb": "Coding-agent desktop app; sessions survive restarts. 1,224 interface tests, 82 Node tests; merged after full hosted CI.",
       "stack": "React · TypeScript · Tauri",
       "license": "MIT"
     },
@@ -86,7 +86,7 @@
   "now": [
     [
       "OpenBell",
-      "Live desks: Kalshi, futures, meme coins"
+      "Kalshi desk — paused while it is rebuilt"
     ],
     [
       "Ergon",
