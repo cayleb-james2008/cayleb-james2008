@@ -1,154 +1,170 @@
 {
-  "name": "Cayleb Alvarez-James",
-  "handle": "cayleb-james2008",
-  "open_to": "AI Agent Systems Engineer — Autonomous Agents, Agent Harnesses & Self-Improving Infrastructure",
-  "stack": [
-    "Claude Code",
-    "Role learning",
-    "Dynamic swarms",
-    "Omni Loop",
-    "Python",
-    "TypeScript",
-    "JavaScript",
-    "Rust",
-    "HTML/CSS",
-    "Weight-space",
-    "LDA specialists",
-    "Backtesting",
-    "Experiment design",
-    "React",
-    "Tauri",
-    "SQLite",
-    "Web APIs",
-    "Git/GitHub",
-    "Linux"
-  ],
-  "work": [
-    {
-      "key": "openbell",
-      "title": "OpenBell",
-      "kicker": "Kalshi trading desk",
-      "summary": "Slot-system desk, one slot per 15-minute market; the research behind it is weight-space training — tiny models, frozen before scoring.",
-      "tags": [
-        "Python",
-        "Rust",
-        "Slots"
-      ],
-      "status": "Paused · being rebuilt"
-    },
-    {
-      "key": "ergon",
-      "title": "Ergon",
-      "kicker": "Personal AI agents for companies",
-      "summary": "Self-configuring by design: built to observe recurring work, ask targeted questions, build a role model, and earn capabilities through review.",
-      "tags": [
-        "Node.js",
-        "C#",
-        "SQLite"
-      ],
-      "status": "In development"
-    },
-    {
-      "key": "dsh-fleet",
-      "title": "DSH Fleet",
-      "kicker": "Multi-agent harness",
-      "summary": "Distributed agent infrastructure: dynamic swarms, the Omni Loop, no standing bench; governed improvement rounds.",
-      "tags": [
-        "Python",
-        "TypeScript",
-        "Agents"
-      ],
-      "status": "In active development"
-    }
-  ],
-  "repos": {
-    "sophos": {
-      "blurb": "Coding-agent desktop app; sessions survive restarts. 1,224 interface tests, 82 Node tests; merged after full hosted CI.",
-      "stack": "React · TypeScript · Tauri",
-      "license": "MIT"
-    },
-    "dotz": {
-      "blurb": "Runs and supervises AI coding agents from a desktop app. 828+ core tests on each of Windows, macOS, Linux; all 6 hosted jobs pass; merged.",
-      "stack": "Rust · Tauri · SQLite",
-      "license": "MIT"
-    },
-    "industry-ai-suite": {
-      "blurb": "Ten local review tools; every finding shows its source and a person decides. 382 Python tests pass.",
-      "stack": "Python",
-      "license": null
-    }
-  },
-  "repo_order": [
-    "sophos",
-    "dotz",
-    "industry-ai-suite"
-  ],
-  "now": [
-    [
-      "OpenBell",
-      "Kalshi desk — paused while it is rebuilt"
-    ],
-    [
-      "Ergon",
-      "Self-configuring agents; in active development"
-    ],
-    [
-      "DSH Fleet",
-      "In active development"
-    ]
-  ],
-  "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). dotz bundles vendored Open Design content (Apache-2.0). DSH Fleet is a ticket-driven multi-agent harness whose dynamic swarms are guided by harness-engineering research, in active development; DeepSeek Harness is an open-source project by the deepseek-ai organization (deepseek-ai/deepseek-harness, MIT), and DSH Fleet is not affiliated with DeepSeek.",
-  "links": {
-    "youtube": "https://www.youtube.com/@cayleb-james",
-    "instagram": "https://www.instagram.com/cayleb.james/"
-  },
-  "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Duet, Gemini Antigravity, Freebuff, ChatGPT Codex and Claude Code. I pick whichever has usage left and fits the job. Right now most of the work runs through Muse, Claude Duet and the DSH Fleet I am finishing. Three systems make up most of it. Ergon's employee agents are built to set themselves up — to watch how someone works, ask targeted questions, learn the role and keep a memory of the person, adding skills and tools as it goes. That loop is built and verified against simulated companies; the live model connection is the remaining piece before a first install. The DSH Fleet is a distributed orchestration layer: it runs dynamic swarms across desktop, virtual machine and browser surfaces, takes its tickets through Slack, and improves its own workflows, skills and plugin behaviour through a governed, checker-gated improvement programme run in rounds. OpenBell is my trading system: the desk runs a slot system — one slot per 15-minute market, every order placed by hand — and the research programme behind it is weight-space: I set the weights of tiny models directly, freeze their predictions before scoring, and score them in time order with costs counted. 1,200+ GitHub contributions in the last year. 4,000+ automated tests across five shipped systems.",
-  "repos_note": "Most of my work is private for now, so these are the parts you can read.",
-  "sections": [
-    "What I'm building",
-    "Public repositories",
-    "In numbers",
-    "Stack"
-  ],
-  "stack_groups": [
-    {
-      "label": "AI & agents",
-      "items": [
-        "Multi-harness ops",
+    "name": "Cayleb Alvarez-James",
+    "handle": "cayleb-james2008",
+    "open_to": "AI Agent Systems Engineer — Autonomous Agents, Agent Harnesses & Self-Improving Infrastructure",
+    "stack": [
+        "Claude Code",
         "Role learning",
         "Dynamic swarms",
-        "Omni Loop"
-      ]
-    },
-    {
-      "label": "Languages",
-      "items": [
+        "Omni Loop",
         "Python",
         "TypeScript",
         "JavaScript",
         "Rust",
-        "HTML/CSS"
-      ]
-    },
-    {
-      "label": "Models & data",
-      "items": [
+        "HTML/CSS",
         "Weight-space",
         "LDA specialists",
         "Backtesting",
-        "Experiment design"
-      ]
-    },
-    {
-      "label": "Apps & data",
-      "items": [
+        "Experiment design",
         "React",
         "Tauri",
         "SQLite",
         "Web APIs",
         "Git/GitHub",
         "Linux"
-      ]
-    }
-  ]
+    ],
+    "work": [
+        {
+            "key": "openbell",
+            "title": "OpenBell",
+            "kicker": "Kalshi compounding desk",
+            "summary": "Rebuilt in Rust: collects Kalshi's public 15-minute data around the clock; scores Rune strategies on paper, in compounding slots.",
+            "tags": [
+                "Rust",
+                "Rune",
+                "Kalshi"
+            ],
+            "status": "Rebuilt · collector running"
+        },
+        {
+            "key": "ergon",
+            "title": "Ergon",
+            "kicker": "An AI agent for every employee",
+            "summary": "Personal to each person: learns how they work and finishes their digital work autonomously, end to end. Skills are Rune scripts.",
+            "tags": [
+                "Rust",
+                "Rune",
+                "Agents"
+            ],
+            "status": "In active development"
+        },
+        {
+            "key": "dsh-fleet",
+            "title": "Fleet",
+            "kicker": "Your agents, under one screen",
+            "summary": "Hand out work to coding agents — opencode, Claude Code, Codex — each in its own worktree. Done only when Fleet's own check passes.",
+            "tags": [
+                "Rust",
+                "Rune",
+                "Agents"
+            ],
+            "status": "In active development"
+        },
+        {
+            "key": "roblox",
+            "title": "OpenRO",
+            "kicker": "You describe the game, it builds it",
+            "summary": "A creative agent in a plain chat window, full access by default: writes the Luau, playtests, fixes what breaks. Changes reversible.",
+            "tags": [
+                "Rust",
+                "Rune",
+                "Roblox"
+            ],
+            "status": "In active development"
+        }
+    ],
+    "repos": {
+        "sophos": {
+            "blurb": "Coding-agent desktop app; sessions survive restarts. 1,224 interface tests, 82 Node tests; merged after full hosted CI.",
+            "stack": "React · TypeScript · Tauri",
+            "license": "MIT"
+        },
+        "dotz": {
+            "blurb": "Runs and supervises AI coding agents from a desktop app. 828+ core tests on each of Windows, macOS, Linux; all 6 hosted jobs pass; merged.",
+            "stack": "Rust · Tauri · SQLite",
+            "license": "MIT"
+        },
+        "industry-ai-suite": {
+            "blurb": "Ten local review tools; every finding shows its source and a person decides. 382 Python tests pass.",
+            "stack": "Python",
+            "license": null
+        }
+    },
+    "repo_order": [
+        "sophos",
+        "dotz",
+        "industry-ai-suite"
+    ],
+    "now": [
+        [
+            "OpenBell",
+            "Kalshi desk — collector running 24/7"
+        ],
+        [
+            "Ergon",
+            "An AI agent for every employee"
+        ],
+        [
+            "Fleet",
+            "Your agents, under one screen"
+        ],
+        [
+            "OpenRO",
+            "You describe the game, it builds it"
+        ]
+    ],
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). dotz bundles vendored Open Design content (Apache-2.0). DSH Fleet is a ticket-driven multi-agent harness whose dynamic swarms are guided by harness-engineering research, in active development; DeepSeek Harness is an open-source project by the deepseek-ai organization (deepseek-ai/deepseek-harness, MIT), and DSH Fleet is not affiliated with DeepSeek.",
+    "links": {
+        "youtube": "https://www.youtube.com/@cayleb-james",
+        "instagram": "https://www.instagram.com/cayleb.james/"
+    },
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Duet, Gemini Antigravity, Freebuff, ChatGPT Codex and Claude Code. I pick whichever has usage left and fits the job. Right now most of the work runs through Muse, Claude Duet and the DSH Fleet I am finishing. Three systems make up most of it. Ergon's employee agents are built to set themselves up — to watch how someone works, ask targeted questions, learn the role and keep a memory of the person, adding skills and tools as it goes. That loop is built and verified against simulated companies; the live model connection is the remaining piece before a first install. The DSH Fleet is a distributed orchestration layer: it runs dynamic swarms across desktop, virtual machine and browser surfaces, takes its tickets through Slack, and improves its own workflows, skills and plugin behaviour through a governed, checker-gated improvement programme run in rounds. OpenBell is my trading system: the desk runs a slot system — one slot per 15-minute market, every order placed by hand — and the research programme behind it is weight-space: I set the weights of tiny models directly, freeze their predictions before scoring, and score them in time order with costs counted. 1,200+ GitHub contributions in the last year. 4,000+ automated tests across five shipped systems.",
+    "repos_note": "Most of my work is private for now, so these are the parts you can read.",
+    "sections": [
+        "What I'm building",
+        "Public repositories",
+        "In numbers",
+        "Stack"
+    ],
+    "stack_groups": [
+        {
+            "label": "AI & agents",
+            "items": [
+                "Multi-harness ops",
+                "Role learning",
+                "Dynamic swarms",
+                "Omni Loop"
+            ]
+        },
+        {
+            "label": "Languages",
+            "items": [
+                "Python",
+                "TypeScript",
+                "JavaScript",
+                "Rust",
+                "HTML/CSS"
+            ]
+        },
+        {
+            "label": "Models & data",
+            "items": [
+                "Weight-space",
+                "LDA specialists",
+                "Backtesting",
+                "Experiment design"
+            ]
+        },
+        {
+            "label": "Apps & data",
+            "items": [
+                "React",
+                "Tauri",
+                "SQLite",
+                "Web APIs",
+                "Git/GitHub",
+                "Linux"
+            ]
+        }
+    ]
 }
