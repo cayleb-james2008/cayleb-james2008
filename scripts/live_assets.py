@@ -282,8 +282,8 @@ def card_css(T, extra=""):
 .r{{animation:rise .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d,0s)}}
 .g{{animation:grow .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d,0s);transform-box:fill-box;transform-origin:50% 100%}}
 @keyframes draw{{from{{stroke-dashoffset:var(--len)}}to{{stroke-dashoffset:0}}}}
-@keyframes rise{{from{{opacity:0;transform:translateY(6px)}}to{{opacity:1;transform:none}}}}
-@keyframes grow{{from{{transform:scaleY(0);opacity:0}}to{{transform:scaleY(1);opacity:1}}}}
+@keyframes rise{{from{{transform:translateY(4px)}}to{{transform:none}}}}
+@keyframes grow{{from{{transform:scaleY(.35)}}to{{transform:scaleY(1)}}}}
 {extra}{theme.REDUCED_MOTION}</style>"""
 
 
@@ -519,6 +519,8 @@ def render_repo(repo, over, T, side=0, wide=False, snap=None, mob=False):
     p.append(f'<path d="M24 {rule_y}H{w - 24}" stroke="{T["hair"]}" stroke-width="1" stroke-opacity=".7"/>')
     foot = []
     if stack:
+        if pushed:
+            assert 37 + tw(stack, FS_MIN) + 8 <= w - 22 - tw(f"pushed {pushed}", FS_MIN, mono=True), f"stack too wide on {name} (mob={mob}): {stack!r}"
         foot.append(f'<circle cx="27.5" cy="{foot_y - 4}" r="3.2" class="mu"/>'
                     f'<text x="37" y="{foot_y}" class="s mu" font-size="{FS_MIN}">{esc(stack)}</text>')
     if pushed:

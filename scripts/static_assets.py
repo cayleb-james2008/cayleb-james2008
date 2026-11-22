@@ -256,7 +256,7 @@ def stack(tn, mobile=False):
             rows, x0 = _split_rows(widths, gap, W - 2 * pad), pad
         else:
             x0 = pad + 8 + lab_w + 26
-            rows = [list(range(len(widths)))]
+            rows = _split_rows(widths, gap, W - x0 - pad)
             label_svg += (f'<text x="{pad + 8}" y="{n(y + ch / 2 + lab * 0.36)}" font-size="{lab}" font-weight="700" '
                           f'letter-spacing=".4" fill="{c["muted"]}">{esc(g["label"])}</text>')
         for row in rows:
@@ -495,7 +495,7 @@ def work_height(mobile):
     return int(math.ceil(max(work_layout(i, mobile)["bottom"] for i in PROFILE["work"])))
 
 
-def work_card(item, tn, mobile=False):
+def work_card(item, tn, mobile=False, side=None):
     c = THEMES[tn]
     L = work_layout(item, mobile)
     W, px = L["W"], L["px"]
@@ -533,7 +533,7 @@ def work_card(item, tn, mobile=False):
         + summ + tags
     )
     img_w = MW if mobile else IMG_W
-    off = 0 if mobile else SIDE_OFFSET[key]
+    off = 0 if mobile else ((IMG_W - CARD_W if side == 1 else 0) if side is not None else SIDE_OFFSET[key])
     body = f'<g transform="translate({off} 0)">{body}</g>'
     desc = f"{item['title']} ({item['kicker']}). Status: {item['status']}. {item['summary']} Tags: {', '.join(item['tags'])}."
     return finish(img_w, H + BOT, f"{item['title']} - {item['kicker']}", desc, css, body)
@@ -556,8 +556,8 @@ def main():
         out.append(write("footer-m", tn, footer(tn, mobile=True)))
         out.append(write("link-youtube", tn, link_pill(tn, "YouTube")))
         out.append(write("link-instagram", tn, link_pill(tn, "Instagram")))
-        for item in PROFILE["work"]:
-            out.append(write(f"work-{item['key']}", tn, work_card(item, tn)))
+        for idx, item in enumerate(PROFILE["work"]):
+            out.append(write(f"work-{item['key']}", tn, work_card(item, tn, side=idx % 2)))
             out.append(write(f"work-{item['key']}-m", tn, work_card(item, tn, mobile=True)))
     for p in out:
         print(p.relative_to(ROOT))

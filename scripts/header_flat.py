@@ -84,9 +84,9 @@ def layout(mobile):
         g["sub_base"] = [g["bs"] - 12, g["bs"] + 6, g["bs"] + 24]
         g["sub_sz"] = 13.5
     else:
-        g["sub_lines"] = [SUB]
-        g["sub_base"] = [g["bs"]]
-        g["sub_sz"] = 11
+        g["sub_lines"] = ["AI Agent Systems Engineer — Autonomous Agents,", "Agent Harnesses & Self-Improving Infrastructure"]
+        g["sub_base"] = [g["bs"] - 10, g["bs"] + 9]
+        g["sub_sz"] = 13
     fx, fy = g["F"]
     angs = []
     for s, bold, sz, base, tr in g["lines"]:

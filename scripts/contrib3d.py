@@ -158,10 +158,10 @@ def render(theme_name, snap, weeks, variant="desktop"):
         f".zq{{opacity:.45}}"
         f".r{{transform-origin:0 0;animation:g {RISE}s cubic-bezier(.2,.8,.2,1) var(--d) backwards}}"
         f".T{{animation:l {RISE}s cubic-bezier(.2,.8,.2,1) var(--d) backwards}}"
-        f".tag{{animation:f .6s ease-out 1.1s backwards}}"
-        "@keyframes g{from{transform:scaleY(0)}}"
-        "@keyframes l{from{transform:translateY(var(--h))}}"
-        "@keyframes f{from{opacity:0}}"
+        f".tag{{animation:f .6s ease-out .2s backwards}}"
+        "@keyframes g{from{transform:scaleY(.25)}}"
+        "@keyframes l{from{transform:translateY(calc(var(--h) * .75))}}"
+        "@keyframes f{from{transform:translateY(3px)}to{transform:none}}"
         f"text{{font-family:{theme.SANS};fill:{t['muted']}}}"
         f".m{{font-size:{LAB}px;letter-spacing:.02em}}.hd{{font-size:{LAB + 1}px;font-weight:700;fill:{t['text']}}}"
         f".pk{{font-size:{LAB + 1}px;font-weight:700;fill:{t['text']}}}")
@@ -224,7 +224,7 @@ def render(theme_name, snap, weeks, variant="desktop"):
     # a month that spans fewer than 3 week columns has no room for its name (it would run into its neighbour):
     # its gridline stays, its label is dropped. The year goes only on the first label and on January.
     spans = [(labels[k + 1][0] if k + 1 < len(labels) else nw) - labels[k][0] for k in range(len(labels))]
-    shown = [(k, i, dt) for k, (i, dt) in enumerate(labels) if spans[k] >= 3]
+    shown = [(k, i, dt) for k, (i, dt) in enumerate(labels) if spans[k] >= (4 if (k == 0 or dt.month == 1) else 3)]
     for pos, (k, i, dt) in enumerate(shown):
         if cfg["label_every"] > 1 and pos % cfg["label_every"]:
             continue

@@ -3,55 +3,8 @@
  "name": "Cayleb Alvarez-James",
  "created_at": "2022-05-30T23:58:10Z",
  "calendar": {
-  "total": 1363,
+  "total": 1554,
   "weeks": [
-   {
-    "first": "2025-11-09",
-    "days": [
-     {
-      "date": "2025-11-09",
-      "count": 0,
-      "level": "NONE",
-      "weekday": 0
-     },
-     {
-      "date": "2025-11-10",
-      "count": 0,
-      "level": "NONE",
-      "weekday": 1
-     },
-     {
-      "date": "2025-11-11",
-      "count": 0,
-      "level": "NONE",
-      "weekday": 2
-     },
-     {
-      "date": "2025-11-12",
-      "count": 0,
-      "level": "NONE",
-      "weekday": 3
-     },
-     {
-      "date": "2025-11-13",
-      "count": 0,
-      "level": "NONE",
-      "weekday": 4
-     },
-     {
-      "date": "2025-11-14",
-      "count": 0,
-      "level": "NONE",
-      "weekday": 5
-     },
-     {
-      "date": "2025-11-15",
-      "count": 0,
-      "level": "NONE",
-      "weekday": 6
-     }
-    ]
-   },
    {
     "first": "2025-11-16",
     "days": [
@@ -2137,8 +2090,8 @@
      },
      {
       "date": "2026-09-22",
-      "count": 12,
-      "level": "FIRST_QUARTILE",
+      "count": 0,
+      "level": "NONE",
       "weekday": 2
      },
      {
@@ -2219,13 +2172,13 @@
     "days": [
      {
       "date": "2026-10-04",
-      "count": 10,
+      "count": 8,
       "level": "FIRST_QUARTILE",
       "weekday": 0
      },
      {
       "date": "2026-10-05",
-      "count": 5,
+      "count": 3,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
@@ -2272,32 +2225,32 @@
      },
      {
       "date": "2026-10-12",
-      "count": 6,
+      "count": 2,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-10-13",
-      "count": 15,
+      "count": 9,
       "level": "FIRST_QUARTILE",
       "weekday": 2
      },
      {
       "date": "2026-10-14",
-      "count": 1,
-      "level": "FIRST_QUARTILE",
+      "count": 0,
+      "level": "NONE",
       "weekday": 3
      },
      {
       "date": "2026-10-15",
-      "count": 6,
-      "level": "FIRST_QUARTILE",
+      "count": 0,
+      "level": "NONE",
       "weekday": 4
      },
      {
       "date": "2026-10-16",
-      "count": 1,
-      "level": "FIRST_QUARTILE",
+      "count": 0,
+      "level": "NONE",
       "weekday": 5
      },
      {
@@ -2384,8 +2337,8 @@
      },
      {
       "date": "2026-10-29",
-      "count": 1,
-      "level": "FIRST_QUARTILE",
+      "count": 0,
+      "level": "NONE",
       "weekday": 4
      },
      {
@@ -2413,26 +2366,26 @@
      },
      {
       "date": "2026-11-02",
-      "count": 10,
+      "count": 2,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-11-03",
-      "count": 136,
-      "level": "FOURTH_QUARTILE",
+      "count": 1,
+      "level": "FIRST_QUARTILE",
       "weekday": 2
      },
      {
       "date": "2026-11-04",
-      "count": 12,
-      "level": "FIRST_QUARTILE",
+      "count": 0,
+      "level": "NONE",
       "weekday": 3
      },
      {
       "date": "2026-11-05",
-      "count": 11,
-      "level": "FIRST_QUARTILE",
+      "count": 0,
+      "level": "NONE",
       "weekday": 4
      },
      {
@@ -2443,8 +2396,8 @@
      },
      {
       "date": "2026-11-07",
-      "count": 18,
-      "level": "SECOND_QUARTILE",
+      "count": 10,
+      "level": "FIRST_QUARTILE",
       "weekday": 6
      }
     ]
@@ -2460,19 +2413,19 @@
      },
      {
       "date": "2026-11-09",
-      "count": 11,
+      "count": 1,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-11-10",
-      "count": 21,
-      "level": "SECOND_QUARTILE",
+      "count": 8,
+      "level": "FIRST_QUARTILE",
       "weekday": 2
      },
      {
       "date": "2026-11-11",
-      "count": 10,
+      "count": 8,
       "level": "FIRST_QUARTILE",
       "weekday": 3
      },
@@ -2481,36 +2434,89 @@
       "count": 0,
       "level": "NONE",
       "weekday": 4
+     },
+     {
+      "date": "2026-11-13",
+      "count": 0,
+      "level": "NONE",
+      "weekday": 5
+     },
+     {
+      "date": "2026-11-14",
+      "count": 0,
+      "level": "NONE",
+      "weekday": 6
+     }
+    ]
+   },
+   {
+    "first": "2026-11-15",
+    "days": [
+     {
+      "date": "2026-11-15",
+      "count": 0,
+      "level": "NONE",
+      "weekday": 0
+     },
+     {
+      "date": "2026-11-16",
+      "count": 9,
+      "level": "FIRST_QUARTILE",
+      "weekday": 1
+     },
+     {
+      "date": "2026-11-17",
+      "count": 57,
+      "level": "FOURTH_QUARTILE",
+      "weekday": 2
+     },
+     {
+      "date": "2026-11-18",
+      "count": 239,
+      "level": "FOURTH_QUARTILE",
+      "weekday": 3
+     },
+     {
+      "date": "2026-11-19",
+      "count": 46,
+      "level": "FOURTH_QUARTILE",
+      "weekday": 4
+     },
+     {
+      "date": "2026-11-20",
+      "count": 36,
+      "level": "THIRD_QUARTILE",
+      "weekday": 5
+     },
+     {
+      "date": "2026-11-21",
+      "count": 38,
+      "level": "THIRD_QUARTILE",
+      "weekday": 6
      }
     ]
    }
   ]
  },
  "totals": {
-  "commits": 1075,
-  "pull_requests": 271,
+  "commits": 1274,
+  "pull_requests": 269,
   "issues": 0,
   "reviews": 0
  },
  "repos": [
   {
-   "name": "agentic-resume",
-   "description": "Cayleb Alvarez-James's project portfolio, ten-journey lab, and source-linked project r\u00e9sum\u00e9",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-11T00:41:20Z",
-   "created_at": "2026-09-22T11:05:39Z",
-   "license": "MIT",
-   "url": "https://github.com/cayleb-james2008/agentic-resume",
-   "archived": false,
-   "fork": false
-  },
-  {
    "name": "cayleb-james2008.github.io",
    "description": "The one r\u00e9sum\u00e9 link: the interactive edition of Cayleb Alvarez-James's r\u00e9sum\u00e9, with working demos.",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-11T22:04:35Z",
+   "language": "TypeScript",
+   "topics": [
+    "house-frontend",
+    "portfolio",
+    "react",
+    "resume",
+    "typescript"
+   ],
+   "pushed_at": "2026-11-18T17:19:13Z",
    "created_at": "2026-11-09T21:53:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/cayleb-james2008.github.io",
@@ -2518,189 +2524,99 @@
    "fork": false
   },
   {
-   "name": "dotz",
-   "description": "One prompt becomes a team of AI coding agents \u2014 a native-Rust (axum + Tauri) coding dashboard with a live workflow graph, sandboxed web previews, on-device memory, and a native Open Design workspace.",
+   "name": "dsh-fleet",
+   "description": "Your agents working in parallel under one screen \u2014 hand out the work, it comes back verified done, nothing babysat. A small Rust server; each session runs in its own git worktree and is only done when your check command passes.",
    "language": "HTML",
-   "topics": [
-    "agent-orchestration",
-    "ai",
-    "ai-agents",
-    "autonomous-agents",
-    "axum",
-    "code-generation",
-    "coding-agent",
-    "desktop-app",
-    "developer-tools",
-    "llm",
-    "multi-agent",
-    "rust",
-    "tauri",
-    "workflow"
-   ],
-   "pushed_at": "2026-10-28T13:39:48Z",
-   "created_at": "2026-06-19T16:02:29Z",
-   "license": "NOASSERTION",
-   "url": "https://github.com/cayleb-james2008/dotz",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "dsh-fleet-core",
-   "description": "The harness core of a six-seat agent fleet: admission control, a checker gate, and provider rotation.",
-   "language": "JavaScript",
-   "topics": [],
-   "pushed_at": "2026-11-11T20:01:01Z",
-   "created_at": "2026-11-09T17:46:10Z",
-   "license": "MIT",
-   "url": "https://github.com/cayleb-james2008/dsh-fleet-core",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "ergon-astryx-trial",
-   "description": "Ergon employee app built with Meta's Astryx design system \u2014 scoped trial (Ticket 107)",
-   "language": null,
-   "topics": [],
-   "pushed_at": "2026-11-10T01:22:34Z",
-   "created_at": "2026-11-10T01:22:32Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/ergon-astryx-trial",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "ergon-front-set-068",
-   "description": "Ergon front end \u2014 Ticket 068 staging build (staging data only)",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-10T06:38:30Z",
-   "created_at": "2026-11-09T18:53:35Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/ergon-front-set-068",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "ergon-showcase-098",
-   "description": "Ergon showcase \u2014 cut from recorded e2e testing on demo companies (ticket 098)",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-10T00:18:58Z",
-   "created_at": "2026-11-09T23:52:20Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/ergon-showcase-098",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "ergon-showcase-108",
-   "description": "Ergon showcase (widened) \u2014 Ticket 108 \u2014 DEMO DATA ONLY \u2014 the build is published at the site root when it lands",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-10T11:23:49Z",
-   "created_at": "2026-11-10T04:33:25Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/ergon-showcase-108",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "ergon-showcase-route-test",
-   "description": "Ergon showcase \u2014 cut from recorded e2e testing on demo companies (ticket 098)",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-09T19:28:42Z",
-   "created_at": "2026-11-09T19:20:41Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/ergon-showcase-route-test",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "industry-ai-suite",
-   "description": "Ten inspectable workflow journeys, a local workbench, and source-cited model samples with independent call proof",
-   "language": "Python",
-   "topics": [
-    "ai-agents",
-    "open-data",
-    "python",
-    "read-only",
-    "security"
-   ],
-   "pushed_at": "2026-10-13T20:29:31Z",
-   "created_at": "2026-09-23T20:08:27Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/industry-ai-suite",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "megavibe",
-   "description": "Native, local-first Linux workspace for coding agents, project boards, and on-device voice planning.",
-   "language": "TypeScript",
    "topics": [
     "coding-agents",
-    "desktop-app",
-    "developer-tools",
-    "linux",
-    "local-first",
-    "tauri",
-    "voice-assistant"
+    "git-worktree",
+    "multi-agent",
+    "orchestration",
+    "rune",
+    "rust"
    ],
-   "pushed_at": "2026-10-13T02:08:55Z",
-   "created_at": "2026-10-12T14:24:30Z",
+   "pushed_at": "2026-11-20T21:59:06Z",
+   "created_at": "2026-11-18T06:58:06Z",
    "license": null,
-   "url": "https://github.com/cayleb-james2008/megavibe",
+   "url": "https://github.com/cayleb-james2008/dsh-fleet",
+   "archived": false,
+   "fork": false
+  },
+  {
+   "name": "ergon",
+   "description": "An AI agent for every employee \u2014 personal to each person, learns how they work, and finishes their digital work autonomously, end to end. One Rust binary: web shell, agent loop, tools, per-person memory, Rune skills.",
+   "language": "Rust",
+   "topics": [
+    "ai-agents",
+    "autonomous-agents",
+    "personal-agent",
+    "rune",
+    "rust",
+    "single-binary"
+   ],
+   "pushed_at": "2026-11-21T23:48:52Z",
+   "created_at": "2026-11-18T06:58:22Z",
+   "license": null,
+   "url": "https://github.com/cayleb-james2008/ergon",
+   "archived": false,
+   "fork": false
+  },
+  {
+   "name": "open-kal",
+   "description": "Four-lane Kalshi 15-minute crypto microstructure engine with a 24/7 evidence gate, live canary, replay-verified execution and React dashboard.",
+   "language": "Python",
+   "topics": [
+    "algorithmic-trading",
+    "kalshi",
+    "market-microstructure",
+    "prediction-markets",
+    "python",
+    "quantitative-finance",
+    "react"
+   ],
+   "pushed_at": "2026-11-21T19:25:46Z",
+   "created_at": "2026-11-17T20:12:25Z",
+   "license": null,
+   "url": "https://github.com/cayleb-james2008/open-kal",
    "archived": false,
    "fork": false
   },
   {
    "name": "open-ro",
-   "description": "Free, open-source, local-first AI development studio for Roblox - desktop agent, bring your own model, optional tools. An open alternative to Ropilot.",
-   "language": "TypeScript",
+   "description": "You describe the game, it builds it \u2014 a proactive creative agent in a plain chat window, full access by default, that can one-shot a game. Rust + Rune restart, built fresh apart from the original app.",
+   "language": "HTML",
    "topics": [
     "ai-agent",
-    "desktop-app",
-    "electron",
-    "llm",
-    "local-first",
+    "game-development",
     "luau",
     "mcp",
-    "ollama",
-    "open-source",
-    "react",
     "roblox",
-    "roblox-studio",
-    "typescript"
+    "rune",
+    "rust"
    ],
-   "pushed_at": "2026-11-10T17:32:30Z",
-   "created_at": "2026-11-02T15:55:39Z",
-   "license": "MIT",
+   "pushed_at": "2026-11-21T19:21:37Z",
+   "created_at": "2026-11-18T06:58:50Z",
+   "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",
    "archived": false,
    "fork": false
   },
   {
-   "name": "pages-route-probe-108",
-   "description": "publisher route probe (m-0240) \u2014 disposable",
+   "name": "openbell",
+   "description": "A compounding desk for Kalshi's 15-minute markets, rebuilt in Rust \u2014 collects the venue's public data around the clock, scores a library of Rune strategies on paper against that tape, and reports venue truth. It places no orders; no order-placement code path exists.",
    "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-10T05:34:51Z",
-   "created_at": "2026-11-10T04:19:17Z",
+   "topics": [
+    "backtesting",
+    "kalshi",
+    "market-data",
+    "paper-trading",
+    "rune",
+    "rust"
+   ],
+   "pushed_at": "2026-11-21T18:59:26Z",
+   "created_at": "2026-11-18T06:59:16Z",
    "license": null,
-   "url": "https://github.com/cayleb-james2008/pages-route-probe-108",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "project-pages-walkthrough-092",
-   "description": "Ticket 092 evidence: phone-VM walkthrough of the refreshed project pages (one continuous take)",
-   "language": "HTML",
-   "topics": [],
-   "pushed_at": "2026-11-11T00:53:31Z",
-   "created_at": "2026-11-10T22:25:16Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/project-pages-walkthrough-092",
+   "url": "https://github.com/cayleb-james2008/openbell",
    "archived": false,
    "fork": false
   },
@@ -2720,7 +2636,7 @@
     "typescript",
     "windows"
    ],
-   "pushed_at": "2026-10-29T12:52:40Z",
+   "pushed_at": "2026-11-21T23:46:51Z",
    "created_at": "2026-08-08T06:51:45Z",
    "license": "MIT",
    "url": "https://github.com/cayleb-james2008/sophos",

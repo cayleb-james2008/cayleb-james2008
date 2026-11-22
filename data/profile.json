@@ -3,123 +3,141 @@
     "handle": "cayleb-james2008",
     "open_to": "AI Agent Systems Engineer — Autonomous Agents, Agent Harnesses & Self-Improving Infrastructure",
     "stack": [
-        "Claude Code",
+        "Multi-harness ops",
         "Role learning",
         "Dynamic swarms",
         "Omni Loop",
-        "Python",
-        "TypeScript",
-        "JavaScript",
         "Rust",
-        "HTML/CSS",
+        "Rune",
+        "TypeScript",
+        "Python",
+        "Luau",
         "Weight-space",
         "LDA specialists",
         "Backtesting",
         "Experiment design",
+        "House Frontend",
         "React",
         "Tauri",
         "SQLite",
-        "Web APIs",
         "Git/GitHub",
         "Linux"
     ],
     "work": [
         {
-            "key": "openbell",
-            "title": "OpenBell",
-            "kicker": "Kalshi compounding desk",
-            "summary": "Rebuilt in Rust: collects Kalshi's public 15-minute data around the clock; scores Rune strategies on paper, in compounding slots.",
-            "tags": [
-                "Rust",
-                "Rune",
-                "Kalshi"
-            ],
-            "status": "Rebuilt · collector running"
-        },
-        {
             "key": "ergon",
             "title": "Ergon",
             "kicker": "An AI agent for every employee",
-            "summary": "Personal to each person: learns how they work and finishes their digital work autonomously, end to end. Skills are Rune scripts.",
+            "summary": "Personal employee agent desk: learns how each person works and finishes digital work end to end. Single Rust binary + Rune skills.",
             "tags": [
                 "Rust",
                 "Rune",
-                "Agents"
+                "House UI"
             ],
-            "status": "In active development"
+            "status": "v0.3.0 · Public"
         },
         {
             "key": "dsh-fleet",
             "title": "Fleet",
             "kicker": "Your agents, under one screen",
-            "summary": "Hand out work to coding agents — opencode, Claude Code, Codex — each in its own worktree. Done only when Fleet's own check passes.",
+            "summary": "Parallel coding-agent board: opencode, Claude Code, Codex in isolated worktrees. Verified done only when your check passes.",
             "tags": [
                 "Rust",
                 "Rune",
-                "Agents"
+                "House UI"
             ],
-            "status": "In active development"
+            "status": "v0.3.0 · Public"
         },
         {
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "You describe the game, it builds it",
-            "summary": "A creative agent in a plain chat window, full access by default: writes the Luau, playtests, fixes what breaks. Changes reversible.",
+            "summary": "Game builder studio workbench for Roblox: writes Luau via Rune skills, playtests over MCP, self-repairs, one-click undo.",
             "tags": [
                 "Rust",
                 "Rune",
                 "Roblox"
             ],
-            "status": "In active development"
+            "status": "v0.3.0 · Public"
+        },
+        {
+            "key": "openbell",
+            "title": "OpenBell",
+            "kicker": "Kalshi paper-only desk",
+            "summary": "Collects Kalshi's public 15-minute data 24/7 and scores Rune strategies on paper. Places no orders; no order path exists.",
+            "tags": [
+                "Rust",
+                "Rune",
+                "Paper-only"
+            ],
+            "status": "v0.3.0 · Paper-only"
         }
     ],
     "repos": {
+        "ergon": {
+            "blurb": "Personal AI agent desk for every employee — single Rust binary, Rune skill suite, and House Frontend UI (v0.3.0).",
+            "stack": "Rust · Rune · React",
+            "license": null
+        },
+        "dsh-fleet": {
+            "blurb": "Parallel coding-agent mission control — git worktrees, Rune policy scripts, verified-done check receipts (v0.3.0).",
+            "stack": "Rust · Rune · React",
+            "license": null
+        },
+        "open-ro": {
+            "blurb": "AI game builder workbench for Roblox Studio — Rune Luau skills, MCP bridge, self-repair playtest loop (v0.3.0).",
+            "stack": "Rust · Rune · React",
+            "license": null
+        },
+        "openbell": {
+            "blurb": "Paper-only Kalshi 15-minute desk — 24/7 public collector and Rune strategy evaluator; places no orders (v0.3.0).",
+            "stack": "Rust · Rune · React",
+            "license": null
+        },
         "sophos": {
-            "blurb": "Coding-agent desktop app; sessions survive restarts. 1,224 interface tests, 82 Node tests; merged after full hosted CI.",
-            "stack": "React · TypeScript · Tauri",
+            "blurb": "Coding-agent desktop app; sessions survive restarts. 1,224 interface tests, 82 Node tests; merged after hosted CI.",
+            "stack": "TypeScript · Tauri",
             "license": "MIT"
         },
-        "dotz": {
-            "blurb": "Runs and supervises AI coding agents from a desktop app. 828+ core tests on each of Windows, macOS, Linux; all 6 hosted jobs pass; merged.",
-            "stack": "Rust · Tauri · SQLite",
-            "license": "MIT"
-        },
-        "industry-ai-suite": {
-            "blurb": "Ten local review tools; every finding shows its source and a person decides. 382 Python tests pass.",
-            "stack": "Python",
+        "cayleb-james2008.github.io": {
+            "blurb": "Interactive résumé, product case studies, and in-browser House Frontend fixture demos.",
+            "stack": "React · TypeScript",
             "license": null
         }
     },
     "repo_order": [
+        "ergon",
+        "dsh-fleet",
+        "open-ro",
+        "openbell",
         "sophos",
-        "dotz",
-        "industry-ai-suite"
+        "cayleb-james2008.github.io"
     ],
     "now": [
         [
-            "OpenBell",
-            "Kalshi desk — collector running 24/7"
-        ],
-        [
             "Ergon",
-            "An AI agent for every employee"
+            "Employee agent desk · v0.3.0"
         ],
         [
             "Fleet",
-            "Your agents, under one screen"
+            "Parallel coding-agent board · v0.3.0"
         ],
         [
             "OpenRO",
-            "You describe the game, it builds it"
+            "Roblox studio workbench · v0.3.0"
+        ],
+        [
+            "OpenBell",
+            "Kalshi paper-only desk · 24/7 tape"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). dotz bundles vendored Open Design content (Apache-2.0). DSH Fleet is a ticket-driven multi-agent harness whose dynamic swarms are guided by harness-engineering research, in active development; DeepSeek Harness is an open-source project by the deepseek-ai organization (deepseek-ai/deepseek-harness, MIT), and DSH Fleet is not affiliated with DeepSeek.",
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell v0.3.0 ship as single-binary Rust + Rune builds on the shared House Frontend design system.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Duet, Gemini Antigravity, Freebuff, ChatGPT Codex and Claude Code. I pick whichever has usage left and fits the job. Right now most of the work runs through Muse, Claude Duet and the DSH Fleet I am finishing. Three systems make up most of it. Ergon's employee agents are built to set themselves up — to watch how someone works, ask targeted questions, learn the role and keep a memory of the person, adding skills and tools as it goes. That loop is built and verified against simulated companies; the live model connection is the remaining piece before a first install. The DSH Fleet is a distributed orchestration layer: it runs dynamic swarms across desktop, virtual machine and browser surfaces, takes its tickets through Slack, and improves its own workflows, skills and plugin behaviour through a governed, checker-gated improvement programme run in rounds. OpenBell is my trading system: the desk runs a slot system — one slot per 15-minute market, every order placed by hand — and the research programme behind it is weight-space: I set the weights of tiny models directly, freeze their predictions before scoring, and score them in time order with costs counted. 1,200+ GitHub contributions in the last year. 4,000+ automated tests across five shipped systems.",
-    "repos_note": "Most of my work is private for now, so these are the parts you can read.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust + Rune + House Frontend systems make up my current v0.3.0 releases: Ergon (personal employee agent desk), Fleet (parallel coding-agent mission control), OpenRO (Roblox Studio game builder workbench), and OpenBell (paper-only Kalshi 15-minute data collector and Rune strategy evaluator — places no orders; no order-placement code path exists).",
+    "repos_note": "Active public repositories — v0.3.0 Rust + Rune + House Frontend builds, Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",
@@ -139,11 +157,11 @@
         {
             "label": "Languages",
             "items": [
-                "Python",
-                "TypeScript",
-                "JavaScript",
                 "Rust",
-                "HTML/CSS"
+                "Rune",
+                "TypeScript",
+                "Python",
+                "Luau"
             ]
         },
         {
@@ -156,12 +174,12 @@
             ]
         },
         {
-            "label": "Apps & data",
+            "label": "Apps & UI",
             "items": [
+                "House Frontend",
                 "React",
                 "Tauri",
                 "SQLite",
-                "Web APIs",
                 "Git/GitHub",
                 "Linux"
             ]
