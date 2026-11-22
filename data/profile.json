@@ -28,69 +28,69 @@
             "key": "ergon",
             "title": "Ergon",
             "kicker": "An AI agent for every employee",
-            "summary": "Personal employee agent desk: learns how each person works and finishes digital work end to end. Single Rust binary + Rune skills.",
+            "summary": "Personal employee agent desk: live local/BYOK models, real file upload/preview, Today approvals, Work Graph. Rust + Rune.",
             "tags": [
                 "Rust",
                 "Rune",
                 "House UI"
             ],
-            "status": "v0.3.0 · Public"
+            "status": "v0.4.0 · Public"
         },
         {
             "key": "dsh-fleet",
             "title": "Fleet",
             "kicker": "Your agents, under one screen",
-            "summary": "Parallel coding-agent board: opencode, Claude Code, Codex in isolated worktrees. Verified done only when your check passes.",
+            "summary": "Parallel coding-agent board: opencode, Claude Code, Codex in real git worktrees. Verified done only when your check passes.",
             "tags": [
                 "Rust",
                 "Rune",
                 "House UI"
             ],
-            "status": "v0.3.0 · Public"
+            "status": "v0.4.0 · Public"
         },
         {
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "You describe the game, it builds it",
-            "summary": "Game builder studio workbench for Roblox: writes Luau via Rune skills, playtests over MCP, self-repairs, one-click undo.",
+            "summary": "Roblox Studio workbench: live local/BYOK models, Luau generation, MCP bridge, local Place engine + .rbxlx export, Undo.",
             "tags": [
                 "Rust",
                 "Rune",
                 "Roblox"
             ],
-            "status": "v0.3.0 · Public"
+            "status": "v0.4.0 · Public"
         },
         {
             "key": "openbell",
             "title": "OpenBell",
-            "kicker": "Kalshi paper-only desk",
-            "summary": "Collects Kalshi's public 15-minute data 24/7 and scores Rune strategies on paper. Places no orders; no order path exists.",
+            "kicker": "Kalshi paper-only quant desk",
+            "summary": "Live 24/7 Kalshi 15-minute tape collector and Rune 4-slot paper workbench. Places no orders; no order path exists.",
             "tags": [
                 "Rust",
                 "Rune",
                 "Paper-only"
             ],
-            "status": "v0.3.0 · Paper-only"
+            "status": "v0.4.0 · Paper-only"
         }
     ],
     "repos": {
         "ergon": {
-            "blurb": "Personal AI agent desk for every employee — single Rust binary, Rune skill suite, and House Frontend UI (v0.3.0).",
+            "blurb": "Personal AI agent desk — live local/BYOK models, real file CRUD, Today approvals, Rune skills, House Frontend (v0.4.0).",
             "stack": "Rust · Rune · React",
             "license": null
         },
         "dsh-fleet": {
-            "blurb": "Parallel coding-agent mission control — git worktrees, Rune policy scripts, verified-done check receipts (v0.3.0).",
+            "blurb": "Parallel coding-agent mission control — real CLI agents in git worktrees, Rune policy, verified check receipts (v0.4.0).",
             "stack": "Rust · Rune · React",
             "license": null
         },
         "open-ro": {
-            "blurb": "AI game builder workbench for Roblox Studio — Rune Luau skills, MCP bridge, self-repair playtest loop (v0.3.0).",
+            "blurb": "AI game builder workbench for Roblox — live models, Rune Luau skills, MCP bridge, local .rbxlx Place export (v0.4.0).",
             "stack": "Rust · Rune · React",
             "license": null
         },
         "openbell": {
-            "blurb": "Paper-only Kalshi 15-minute desk — 24/7 public collector and Rune strategy evaluator; places no orders (v0.3.0).",
+            "blurb": "Paper-only Kalshi 15-minute quant desk — live public collector, 4-slot Rune strategy workbench; places no orders (v0.4.0).",
             "stack": "Rust · Rune · React",
             "license": null
         },
@@ -100,7 +100,7 @@
             "license": "MIT"
         },
         "cayleb-james2008.github.io": {
-            "blurb": "Interactive résumé, product case studies, and in-browser House Frontend fixture demos.",
+            "blurb": "Interactive résumé, product pages, live 10-tool document review /lab/, and real in-browser v0.4.0 web apps.",
             "stack": "React · TypeScript",
             "license": null
         }
@@ -116,28 +116,28 @@
     "now": [
         [
             "Ergon",
-            "Employee agent desk · v0.3.0"
+            "Employee agent desk · v0.4.0"
         ],
         [
             "Fleet",
-            "Parallel coding-agent board · v0.3.0"
+            "Parallel coding-agent board · v0.4.0"
         ],
         [
             "OpenRO",
-            "Roblox studio workbench · v0.3.0"
+            "Roblox studio workbench · v0.4.0"
         ],
         [
             "OpenBell",
-            "Kalshi paper-only desk · 24/7 tape"
+            "Kalshi paper-only quant desk · v0.4.0"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell v0.3.0 ship as single-binary Rust + Rune builds on the shared House Frontend design system.",
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell v0.4.0 ship as single-binary Rust + Rune builds on the shared House Frontend design system.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust + Rune + House Frontend systems make up my current v0.3.0 releases: Ergon (personal employee agent desk), Fleet (parallel coding-agent mission control), OpenRO (Roblox Studio game builder workbench), and OpenBell (paper-only Kalshi 15-minute data collector and Rune strategy evaluator — places no orders; no order-placement code path exists).",
-    "repos_note": "Active public repositories — v0.3.0 Rust + Rune + House Frontend builds, Sophos, and the interactive résumé site.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust + Rune + House Frontend systems make up my current v0.4.0 releases: Ergon (personal employee agent desk with live model connectivity and real file workspaces), Fleet (parallel coding-agent mission control), OpenRO (Roblox Studio game builder with real .rbxlx export), and OpenBell (paper-only Kalshi 15-minute live tape collector and Rune strategy workbench — places no orders; no order-placement code path exists).",
+    "repos_note": "Active public repositories — v0.4.0 Rust + Rune + House Frontend builds, Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",
