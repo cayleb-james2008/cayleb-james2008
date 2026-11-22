@@ -27,69 +27,69 @@
             "key": "ergon",
             "title": "Ergon",
             "kicker": "An AI agent for every employee",
-            "summary": "Personal employee agent desk: 12 built-in workflows, SSE streaming, 5k-receipt search, SHA-256 receipts, 96/96 3-company live E2E.",
+            "summary": "Employee agent desk: cadence scheduler, .history/ diff restore, SHA-256 audit bundles, 3-company switcher, 12 workflows.",
             "tags": [
                 "Rust",
                 "React",
-                "House UI"
+                "Desktop"
             ],
-            "status": "v0.6.0 · Public"
+            "status": "v0.7.0 · Public"
         },
         {
-            "key": "dsh-fleet",
+            "key": "fleet",
             "title": "Fleet",
             "kicker": "Your agents, under one screen",
-            "summary": "Parallel coding-agent board: autonomous Auto-Heal, Playbooks, Board Telemetry, DAG deps, guardrails, split diffs, 3-repo live E2E.",
+            "summary": "Parallel coding-agent board: multi-wave DAG graph, PR preview, worktree inspector, daily budget caps, Auto-Heal, Windows.",
             "tags": [
                 "Rust",
                 "Git",
-                "House UI"
+                "Desktop"
             ],
-            "status": "v0.6.0 · Public"
+            "status": "v0.8.0 · Public"
         },
         {
             "key": "roblox",
             "title": "OpenRO",
-            "kicker": "You describe the game, it builds it",
-            "summary": "Roblox Studio workbench: realtime 3D Studio Viewport & Replay Build, Live MCP Feed, playable Anime Card Battles Apex, 28 systems.",
+            "kicker": "RoPilot 3-pane Roblox Studio IDE",
+            "summary": "Agent/Plan/Ask unified Luau diffs, embedded Studio + auto-sync, Companion Plugin, 13 MCP tools, Tool Library, Rojo .zip.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v0.7.0 · Public"
+            "status": "v0.10.0 · Public"
         },
         {
             "key": "openbell",
             "title": "OpenBell",
-            "kicker": "Kalshi paper-only quant desk",
-            "summary": "Live 15m Kalshi tape, PAV isotonic recalibration, $500/day paper scaling engine, 5-gate scorecard. Places no orders; no order path exists.",
+            "kicker": "Kalshi v2 live quant & trading desk",
+            "summary": "Kalshi Trade API v2 behind fail-closed hard risk rails (disarmed on boot), kill switch, tournament, $500/day scale engine.",
             "tags": [
                 "Rust",
                 "Quant",
-                "Paper-only"
+                "Kalshi v2"
             ],
-            "status": "v0.6.0 · Paper-only"
+            "status": "v0.8.0 · Live Rails"
         }
     ],
     "repos": {
         "ergon": {
-            "blurb": "Personal AI agent desk — 12 workflows, SSE, 5k-receipt search, SHA-256 receipts, 96/96 3-company E2E (v0.6.0).",
+            "blurb": "Personal AI agent desk — cadence scheduler, .history/ diff restore, SHA-256 audit bundles, 12 workflows (v0.7.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
-        "dsh-fleet": {
-            "blurb": "Parallel coding-agent board — Auto-Heal loop, Playbooks, Board Telemetry, DAG deps, guardrails, split diffs (v0.6.0).",
+        "fleet": {
+            "blurb": "Parallel coding-agent board — multi-wave DAG graph, PR preview, worktree inspector, budget caps, Auto-Heal (v0.8.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
         "open-ro": {
-            "blurb": "Roblox game builder — realtime 3D Studio Viewport, Agent Drone Replay, Live MCP Feed, 28 systems, Anime Card Battles (v0.7.0).",
+            "blurb": "RoPilot 3-pane Roblox Studio AI IDE — Agent/Plan/Ask unified Luau diffs, embedded Studio, Plugin, 13 MCP tools (v0.10.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
         "openbell": {
-            "blurb": "Paper-only Kalshi 15m quant desk — PAV calibration, $500/day paper scaling planner, 5-gate scorecard; places no orders (v0.6.0).",
+            "blurb": "Kalshi Trade API v2 quant & trading desk — fail-closed hard risk rails, kill switch, tournament, scale planner (v0.8.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
@@ -99,14 +99,14 @@
             "license": "MIT"
         },
         "cayleb-james2008.github.io": {
-            "blurb": "Interactive résumé, product pages, multi-file 10-tool /lab/ audit workbench, Cmd+K, and live v0.6/v0.7 web apps.",
+            "blurb": "Interactive résumé, product pages, OpenMotion walkthroughs, 10-tool /lab/ workbench, and live v0.7–v0.10 web apps.",
             "stack": "React · TypeScript",
             "license": null
         }
     },
     "repo_order": [
         "ergon",
-        "dsh-fleet",
+        "fleet",
         "open-ro",
         "openbell",
         "sophos",
@@ -115,28 +115,28 @@
     "now": [
         [
             "Ergon",
-            "Employee agent desk · v0.6.0"
+            "Employee agent desk · v0.7.0"
         ],
         [
             "Fleet",
-            "Parallel coding-agent board · v0.6.0"
+            "Parallel coding-agent board · v0.8.0"
         ],
         [
             "OpenRO",
-            "3D Roblox studio workbench · v0.7.0"
+            "RoPilot Studio IDE · v0.10.0"
         ],
         [
             "OpenBell",
-            "Kalshi paper-only quant desk · v0.6.0"
+            "Kalshi v2 quant & rails · v0.8.0"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell ship as single-binary Rust desktop and web apps on one shared House Frontend design system.",
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell ship as cross-platform single-binary Rust desktop and web apps (Linux, macOS, Windows) on one shared House Frontend design system.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust desktop and web applications make up my current releases: Ergon v0.6.0 (personal employee agent desk hardened across a 96/96 3-company live LLM campaign), Fleet v0.6.0 (parallel coding-agent mission control with autonomous Auto-Heal, Playbooks, Board Telemetry, and DAG scheduling), OpenRO v0.7.0 (Roblox Studio game builder with an embedded realtime 3D Studio Viewport, Agent Builder Drone & Replay Build, Live Studio MCP Feed, 28 game systems, Card Art Studio, and playable Anime Card Battles Apex), and OpenBell v0.6.0 (paper-only Kalshi 15-minute quant desk with PAV isotonic recalibration and a $500/day paper capital scaling planner — places no orders; no order-placement code path exists).",
-    "repos_note": "Active public repositories — single-binary Rust desktop & web apps (v0.6.0–v0.7.0), Sophos, and the interactive résumé site.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four cross-platform single-binary Rust desktop and web applications (Linux, macOS, and Windows .exe with chromeless desktop launch) make up my current releases: Ergon v0.7.0 (personal employee agent desk with background cadence scheduler, .history/ file version diff & restore, tamper-evident Field-Book audit bundles, 3-company switcher, and 12 workflows), Fleet v0.8.0 (parallel coding-agent mission control with interactive multi-wave Board / DAG Graph toggle, confirmation-gated PR Preview, Worktree Inspector, Daily Dispatch Budget guardrails, and Auto-Heal), OpenRO v0.10.0 (RoPilot-grade 3-pane Roblox Studio AI IDE with Agent/Plan/Ask modes and reviewable unified Luau diffs, directly embedded live Roblox Studio + auto-synced Explorer, OpenRoCompanion.lua Studio plugin, all 13 official MCP tools, 8-pack Tool Library, Market Taste Craft Radar, Blender/WAV tools, and Rojo .zip export), and OpenBell v0.8.0 (live-connected Kalshi Trade API v2 trading and quant desk behind fail-closed Hard Risk Rails disarmed on every boot, Emergency Kill Switch, Out-of-Sample Strategy Tournament, PAV Isotonic Calibration, and $500/Day Capital Scaling Engine).",
+    "repos_note": "Active public repositories — cross-platform single-binary Rust desktop & web apps (v0.7.0–v0.10.0), Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",

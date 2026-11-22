@@ -2319,13 +2319,13 @@
      },
      {
       "date": "2026-11-02",
-      "count": 1,
+      "count": 2,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-11-03",
-      "count": 2,
+      "count": 1,
       "level": "FIRST_QUARTILE",
       "weekday": 2
      },
@@ -2480,7 +2480,7 @@
     "resume",
     "typescript"
    ],
-   "pushed_at": "2026-11-22T10:40:12Z",
+   "pushed_at": "2026-11-22T19:12:26Z",
    "created_at": "2026-11-09T21:53:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/cayleb-james2008.github.io",
@@ -2488,38 +2488,40 @@
    "fork": false
   },
   {
-   "name": "dsh-fleet",
-   "description": "Your agents working in parallel under one screen \u2014 hand out the work, it comes back verified done, nothing babysat. A small Rust server; each session runs in its own git worktree and is only done when your check command passes.",
+   "name": "ergon",
+   "description": "Personal employee AI agent desktop app for Linux, macOS, and Windows \u2014 12 built-in workflows, background cadence scheduler, file history and diff, SHA-256 audit bundles, human approval gates, and isolated multi-workspace support.",
+   "language": "HTML",
+   "topics": [
+    "ai-agents",
+    "autonomous-agents",
+    "desktop-app",
+    "personal-agent",
+    "rust",
+    "single-binary"
+   ],
+   "pushed_at": "2026-11-22T19:07:55Z",
+   "created_at": "2026-11-18T06:58:22Z",
+   "license": null,
+   "url": "https://github.com/cayleb-james2008/ergon",
+   "archived": false,
+   "fork": false
+  },
+  {
+   "name": "fleet",
+   "description": "Parallel coding-agent mission control across Linux, macOS, and Windows \u2014 isolated git worktrees, multi-wave DAG graphs, autonomous auto-heal, PR preview, worktree inspector, and daily budget guardrails.",
    "language": "HTML",
    "topics": [
     "coding-agents",
+    "desktop-app",
     "git-worktree",
     "multi-agent",
     "orchestration",
     "rust"
    ],
-   "pushed_at": "2026-11-22T08:57:52Z",
+   "pushed_at": "2026-11-22T15:31:15Z",
    "created_at": "2026-11-18T06:58:06Z",
    "license": null,
-   "url": "https://github.com/cayleb-james2008/dsh-fleet",
-   "archived": false,
-   "fork": false
-  },
-  {
-   "name": "ergon",
-   "description": "An AI agent for every employee \u2014 personal to each person, learns how they work, and finishes digital work autonomously end to end. Single Rust binary with web shell, tools, memory, and 12 built-in workflows.",
-   "language": "HTML",
-   "topics": [
-    "ai-agents",
-    "autonomous-agents",
-    "personal-agent",
-    "rust",
-    "single-binary"
-   ],
-   "pushed_at": "2026-11-22T11:08:47Z",
-   "created_at": "2026-11-18T06:58:22Z",
-   "license": null,
-   "url": "https://github.com/cayleb-james2008/ergon",
+   "url": "https://github.com/cayleb-james2008/fleet",
    "archived": false,
    "fork": false
   },
@@ -2545,17 +2547,18 @@
   },
   {
    "name": "open-ro",
-   "description": "You describe the game, it builds it \u2014 a proactive creative agent with an embedded live 3D Roblox Studio viewport, real-time agent build viewer, 28 game systems, Card Art Studio, playable preview, and .rbxlx import/export.",
-   "language": "HTML",
+   "description": "RoPilot-grade Roblox Studio AI IDE for Linux and Windows \u2014 3-pane workspace, Agent/Plan/Ask modes with unified Luau diffs, embedded Roblox Studio + auto-sync, Companion Plugin, all 13 official MCP tools, Tool Library, Market Taste, and Rojo .zip export.",
+   "language": "Rust",
    "topics": [
     "ai-agent",
+    "desktop-app",
     "game-development",
     "luau",
     "mcp",
     "roblox",
     "rust"
    ],
-   "pushed_at": "2026-11-22T10:25:13Z",
+   "pushed_at": "2026-11-22T18:30:24Z",
    "created_at": "2026-11-18T06:58:50Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",
@@ -2564,16 +2567,18 @@
   },
   {
    "name": "openbell",
-   "description": "A compounding research desk for Kalshi's 15-minute markets, rebuilt in Rust \u2014 collects public venue data around the clock, scores 12 paper strategies against that tape, and reports venue truth. Paper-only: no order-placement path exists.",
+   "description": "Live Kalshi Trade API v2 trading and quant desktop app in Rust \u2014 fail-closed hard risk rails (disarmed by default), emergency kill switch, $500/day capital scale planner, PAV isotonic recalibration, strategy tournament, and auto-collector.",
    "language": "HTML",
    "topics": [
     "backtesting",
+    "desktop-app",
     "kalshi",
     "market-data",
-    "paper-trading",
-    "rust"
+    "quant",
+    "rust",
+    "trading"
    ],
-   "pushed_at": "2026-11-22T08:50:03Z",
+   "pushed_at": "2026-11-22T16:15:25Z",
    "created_at": "2026-11-18T06:59:16Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/openbell",

@@ -457,7 +457,7 @@ def glyph_blocks(c):
     return out, css
 
 
-GLYPHS = {"ergon": glyph_ergon, "dsh-fleet": glyph_fleet, "openbell": glyph_bell, "roblox": glyph_blocks}
+GLYPHS = {"ergon": glyph_ergon, "fleet": glyph_fleet, "openbell": glyph_bell, "roblox": glyph_blocks}
 
 # Two-up grid: an image is 414 wide holding a 408-wide card. Left-column cards sit flush left, right-column
 # cards flush right, so two images side by side (no whitespace between them) give a 12 px gutter
@@ -465,7 +465,7 @@ GLYPHS = {"ergon": glyph_ergon, "dsh-fleet": glyph_fleet, "openbell": glyph_bell
 # native phone column width MW, so nothing is scaled down. BOT px of transparent margin under every card makes
 # the vertical gap between rows about the same 12 px (the line box adds roughly 8 px under an inline image).
 IMG_W, CARD_W = 414, 408
-SIDE_OFFSET = {"ergon": 0, "dsh-fleet": IMG_W - CARD_W, "openbell": 0, "roblox": IMG_W - CARD_W}
+SIDE_OFFSET = {"ergon": 0, "fleet": IMG_W - CARD_W, "openbell": 0, "roblox": IMG_W - CARD_W}
 SUMMARY_MEASURE = 336  # one measure for every desktop summary so ragged edges agree across a row
 
 
