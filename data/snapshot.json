@@ -2319,13 +2319,13 @@
      },
      {
       "date": "2026-11-02",
-      "count": 1,
+      "count": 2,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-11-03",
-      "count": 2,
+      "count": 1,
       "level": "FIRST_QUARTILE",
       "weekday": 2
      },
@@ -2516,7 +2516,7 @@
     "rust",
     "single-binary"
    ],
-   "pushed_at": "2026-11-22T09:19:09Z",
+   "pushed_at": "2026-11-22T10:16:50Z",
    "created_at": "2026-11-18T06:58:22Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon",
@@ -2545,7 +2545,7 @@
   },
   {
    "name": "open-ro",
-   "description": "You describe the game, it builds it \u2014 a proactive creative agent in a plain chat window that builds complete Roblox games with 28 game systems, Card Art Studio, playable preview, and .rbxlx import/export.",
+   "description": "You describe the game, it builds it \u2014 a proactive creative agent with an embedded live 3D Roblox Studio viewport, real-time agent build viewer, 28 game systems, Card Art Studio, playable preview, and .rbxlx import/export.",
    "language": "HTML",
    "topics": [
     "ai-agent",
@@ -2555,7 +2555,7 @@
     "roblox",
     "rust"
    ],
-   "pushed_at": "2026-11-22T09:04:16Z",
+   "pushed_at": "2026-11-22T10:25:13Z",
    "created_at": "2026-11-18T06:58:50Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",

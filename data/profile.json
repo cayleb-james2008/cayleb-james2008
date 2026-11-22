@@ -51,13 +51,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "You describe the game, it builds it",
-            "summary": "Roblox Studio workbench: 28 game systems, playable Anime Card Battles Apex, Card Art Studio, Luau Prover, .rbxlx import/export.",
+            "summary": "Roblox Studio workbench: realtime 3D Studio Viewport & Replay Build, Live MCP Feed, playable Anime Card Battles Apex, 28 systems.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v0.6.0 · Public"
+            "status": "v0.7.0 · Public"
         },
         {
             "key": "openbell",
@@ -84,7 +84,7 @@
             "license": null
         },
         "open-ro": {
-            "blurb": "Roblox game builder — 28 systems, playable Anime Card Battles Apex, Card Art Studio, Luau Prover, .rbxlx (v0.6.0).",
+            "blurb": "Roblox game builder — realtime 3D Studio Viewport, Agent Drone Replay, Live MCP Feed, 28 systems, Anime Card Battles (v0.7.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -99,7 +99,7 @@
             "license": "MIT"
         },
         "cayleb-james2008.github.io": {
-            "blurb": "Interactive résumé, product pages, multi-file 10-tool /lab/ audit workbench, Cmd+K, and live v0.6.0 web apps.",
+            "blurb": "Interactive résumé, product pages, multi-file 10-tool /lab/ audit workbench, Cmd+K, and live v0.6/v0.7 web apps.",
             "stack": "React · TypeScript",
             "license": null
         }
@@ -123,20 +123,20 @@
         ],
         [
             "OpenRO",
-            "Roblox studio workbench · v0.6.0"
+            "3D Roblox studio workbench · v0.7.0"
         ],
         [
             "OpenBell",
             "Kalshi paper-only quant desk · v0.6.0"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell v0.6.0 ship as single-binary Rust desktop and web apps on one shared House Frontend design system.",
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell ship as single-binary Rust desktop and web apps on one shared House Frontend design system.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four v0.6.0 single-binary Rust desktop and web applications make up my current releases: Ergon (personal employee agent desk hardened across a 96/96 3-company live LLM campaign), Fleet (parallel coding-agent mission control with autonomous Auto-Heal, Playbooks, Board Telemetry, and DAG scheduling), OpenRO (Roblox Studio game builder with 28 game systems, Card Art Studio, playable Anime Card Battles: Rebirth — Apex Edition, and bidirectional .rbxlx XML), and OpenBell (paper-only Kalshi 15-minute quant desk with PAV isotonic recalibration and a $500/day paper capital scaling planner — places no orders; no order-placement code path exists).",
-    "repos_note": "Active public repositories — v0.6.0 single-binary Rust desktop & web apps, Sophos, and the interactive résumé site.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust desktop and web applications make up my current releases: Ergon v0.6.0 (personal employee agent desk hardened across a 96/96 3-company live LLM campaign), Fleet v0.6.0 (parallel coding-agent mission control with autonomous Auto-Heal, Playbooks, Board Telemetry, and DAG scheduling), OpenRO v0.7.0 (Roblox Studio game builder with an embedded realtime 3D Studio Viewport, Agent Builder Drone & Replay Build, Live Studio MCP Feed, 28 game systems, Card Art Studio, and playable Anime Card Battles Apex), and OpenBell v0.6.0 (paper-only Kalshi 15-minute quant desk with PAV isotonic recalibration and a $500/day paper capital scaling planner — places no orders; no order-placement code path exists).",
+    "repos_note": "Active public repositories — single-binary Rust desktop & web apps (v0.6.0–v0.7.0), Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",
