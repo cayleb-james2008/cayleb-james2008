@@ -2319,13 +2319,13 @@
      },
      {
       "date": "2026-11-02",
-      "count": 2,
+      "count": 1,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-11-03",
-      "count": 1,
+      "count": 2,
       "level": "FIRST_QUARTILE",
       "weekday": 2
      },
