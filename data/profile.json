@@ -27,69 +27,69 @@
             "key": "ergon",
             "title": "Ergon",
             "kicker": "An AI agent for every employee",
-            "summary": "Personal employee agent desk: 12 built-in workflows, SSE streaming, 5k-receipt search, routines, SHA-256 receipts, Today approvals.",
+            "summary": "Personal employee agent desk: 12 built-in workflows, SSE streaming, 5k-receipt search, SHA-256 receipts, 96/96 3-company live E2E.",
             "tags": [
                 "Rust",
                 "React",
                 "House UI"
             ],
-            "status": "v0.5.0 · Public"
+            "status": "v0.6.0 · Public"
         },
         {
             "key": "dsh-fleet",
             "title": "Fleet",
             "kicker": "Your agents, under one screen",
-            "summary": "Parallel coding-agent board: DAG dependencies, multi-step checks, file guardrails, split diffs, 50k transcripts, live SSE.",
+            "summary": "Parallel coding-agent board: autonomous Auto-Heal, Playbooks, Board Telemetry, DAG deps, guardrails, split diffs, 3-repo live E2E.",
             "tags": [
                 "Rust",
                 "Git",
                 "House UI"
             ],
-            "status": "v0.5.0 · Public"
+            "status": "v0.6.0 · Public"
         },
         {
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "You describe the game, it builds it",
-            "summary": "Roblox Studio workbench: 22 game systems, Static Luau Prover, 60fps stage, bidirectional .rbxlx import/export, snapshots.",
+            "summary": "Roblox Studio workbench: 28 game systems, playable Anime Card Battles Apex, Card Art Studio, Luau Prover, .rbxlx import/export.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v0.5.1 · Public"
+            "status": "v0.6.0 · Public"
         },
         {
             "key": "openbell",
             "title": "OpenBell",
             "kicker": "Kalshi paper-only quant desk",
-            "summary": "Live 15m Kalshi tape, 12 paper strategies, Calibration/Monte Carlo/Walk-Forward Quant Lab. Places no orders; no order path exists.",
+            "summary": "Live 15m Kalshi tape, PAV isotonic recalibration, $500/day paper scaling engine, 5-gate scorecard. Places no orders; no order path exists.",
             "tags": [
                 "Rust",
                 "Quant",
                 "Paper-only"
             ],
-            "status": "v0.5.0 · Paper-only"
+            "status": "v0.6.0 · Paper-only"
         }
     ],
     "repos": {
         "ergon": {
-            "blurb": "Personal AI agent desk — 12 built-in workflows, live SSE, indexed 5k-receipt search, routines, SHA-256 receipts (v0.5.0).",
+            "blurb": "Personal AI agent desk — 12 workflows, SSE, 5k-receipt search, SHA-256 receipts, 96/96 3-company E2E (v0.6.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
         "dsh-fleet": {
-            "blurb": "Parallel coding-agent mission control — DAG dependencies, multi-step checks, file guardrails, split diffs, SSE (v0.5.0).",
+            "blurb": "Parallel coding-agent board — Auto-Heal loop, Playbooks, Board Telemetry, DAG deps, guardrails, split diffs (v0.6.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
         "open-ro": {
-            "blurb": "AI game builder workbench for Roblox — 22 game systems, Static Luau Prover, 60fps stage, .rbxlx import/export (v0.5.1).",
+            "blurb": "Roblox game builder — 28 systems, playable Anime Card Battles Apex, Card Art Studio, Luau Prover, .rbxlx (v0.6.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
         "openbell": {
-            "blurb": "Paper-only Kalshi 15m quant desk — live tape, 12 strategies, sandbox backtester, Quant Lab; places no orders (v0.5.0).",
+            "blurb": "Paper-only Kalshi 15m quant desk — PAV calibration, $500/day paper scaling planner, 5-gate scorecard; places no orders (v0.6.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
@@ -99,7 +99,7 @@
             "license": "MIT"
         },
         "cayleb-james2008.github.io": {
-            "blurb": "Interactive résumé, product pages, multi-file 10-tool /lab/ audit workbench, Cmd+K, and live v0.5.0 web apps.",
+            "blurb": "Interactive résumé, product pages, multi-file 10-tool /lab/ audit workbench, Cmd+K, and live v0.6.0 web apps.",
             "stack": "React · TypeScript",
             "license": null
         }
@@ -115,28 +115,28 @@
     "now": [
         [
             "Ergon",
-            "Employee agent desk · v0.5.0"
+            "Employee agent desk · v0.6.0"
         ],
         [
             "Fleet",
-            "Parallel coding-agent board · v0.5.0"
+            "Parallel coding-agent board · v0.6.0"
         ],
         [
             "OpenRO",
-            "Roblox studio workbench · v0.5.1"
+            "Roblox studio workbench · v0.6.0"
         ],
         [
             "OpenBell",
-            "Kalshi paper-only quant desk · v0.5.0"
+            "Kalshi paper-only quant desk · v0.6.0"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell ship as single-binary Rust desktop and web apps on one shared House Frontend design system.",
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell v0.6.0 ship as single-binary Rust desktop and web apps on one shared House Frontend design system.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust desktop and web applications make up my current releases: Ergon (personal employee agent desk with 12 built-in workflows, live SSE streaming, indexed 5,000-receipt search, routines, and SHA-256 receipts), Fleet (parallel coding-agent mission control with DAG scheduling, multi-step check pipelines, and split diffs), OpenRO (Roblox Studio game builder with 22 game systems, Static Luau Prover, 60fps playable stage, and bidirectional .rbxlx XML), and OpenBell (paper-only Kalshi 15-minute live tape collector, 12-strategy sandbox, and Quant Lab — places no orders; no order-placement code path exists).",
-    "repos_note": "Active public repositories — v0.5.x single-binary Rust desktop & web apps, Sophos, and the interactive résumé site.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four v0.6.0 single-binary Rust desktop and web applications make up my current releases: Ergon (personal employee agent desk hardened across a 96/96 3-company live LLM campaign), Fleet (parallel coding-agent mission control with autonomous Auto-Heal, Playbooks, Board Telemetry, and DAG scheduling), OpenRO (Roblox Studio game builder with 28 game systems, Card Art Studio, playable Anime Card Battles: Rebirth — Apex Edition, and bidirectional .rbxlx XML), and OpenBell (paper-only Kalshi 15-minute quant desk with PAV isotonic recalibration and a $500/day paper capital scaling planner — places no orders; no order-placement code path exists).",
+    "repos_note": "Active public repositories — v0.6.0 single-binary Rust desktop & web apps, Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",

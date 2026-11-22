@@ -2319,13 +2319,13 @@
      },
      {
       "date": "2026-11-02",
-      "count": 1,
+      "count": 2,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-11-03",
-      "count": 2,
+      "count": 1,
       "level": "FIRST_QUARTILE",
       "weekday": 2
      },
@@ -2472,7 +2472,7 @@
   {
    "name": "cayleb-james2008.github.io",
    "description": "The one r\u00e9sum\u00e9 link: the interactive edition of Cayleb Alvarez-James's r\u00e9sum\u00e9, with working demos.",
-   "language": "TypeScript",
+   "language": "JavaScript",
    "topics": [
     "house-frontend",
     "portfolio",
@@ -2498,7 +2498,7 @@
     "orchestration",
     "rust"
    ],
-   "pushed_at": "2026-11-22T06:52:56Z",
+   "pushed_at": "2026-11-22T08:57:52Z",
    "created_at": "2026-11-18T06:58:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/dsh-fleet",
@@ -2516,7 +2516,7 @@
     "rust",
     "single-binary"
    ],
-   "pushed_at": "2026-11-22T07:28:49Z",
+   "pushed_at": "2026-11-22T09:01:35Z",
    "created_at": "2026-11-18T06:58:22Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon",
@@ -2545,7 +2545,7 @@
   },
   {
    "name": "open-ro",
-   "description": "You describe the game, it builds it \u2014 a proactive creative agent in a plain chat window that builds complete Roblox games with 22 game systems, playable preview, and .rbxlx import/export.",
+   "description": "You describe the game, it builds it \u2014 a proactive creative agent in a plain chat window that builds complete Roblox games with 28 game systems, Card Art Studio, playable preview, and .rbxlx import/export.",
    "language": "HTML",
    "topics": [
     "ai-agent",
@@ -2555,7 +2555,7 @@
     "roblox",
     "rust"
    ],
-   "pushed_at": "2026-11-22T06:42:17Z",
+   "pushed_at": "2026-11-22T09:04:16Z",
    "created_at": "2026-11-18T06:58:50Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",
@@ -2573,7 +2573,7 @@
     "paper-trading",
     "rust"
    ],
-   "pushed_at": "2026-11-22T07:06:04Z",
+   "pushed_at": "2026-11-22T08:50:03Z",
    "created_at": "2026-11-18T06:59:16Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/openbell",
