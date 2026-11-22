@@ -2319,13 +2319,13 @@
      },
      {
       "date": "2026-11-02",
-      "count": 1,
+      "count": 2,
       "level": "FIRST_QUARTILE",
       "weekday": 1
      },
      {
       "date": "2026-11-03",
-      "count": 2,
+      "count": 1,
       "level": "FIRST_QUARTILE",
       "weekday": 2
      },
@@ -2496,10 +2496,9 @@
     "git-worktree",
     "multi-agent",
     "orchestration",
-    "rune",
     "rust"
    ],
-   "pushed_at": "2026-11-22T04:52:30Z",
+   "pushed_at": "2026-11-22T06:52:56Z",
    "created_at": "2026-11-18T06:58:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/dsh-fleet",
@@ -2508,17 +2507,16 @@
   },
   {
    "name": "ergon",
-   "description": "An AI agent for every employee \u2014 personal to each person, learns how they work, and finishes their digital work autonomously, end to end. One Rust binary: web shell, agent loop, tools, per-person memory, Rune skills.",
+   "description": "An AI agent for every employee \u2014 personal to each person, learns how they work, and finishes digital work autonomously end to end. Single Rust binary with web shell, tools, memory, and 12 built-in workflows.",
    "language": "HTML",
    "topics": [
     "ai-agents",
     "autonomous-agents",
     "personal-agent",
-    "rune",
     "rust",
     "single-binary"
    ],
-   "pushed_at": "2026-11-22T05:14:09Z",
+   "pushed_at": "2026-11-22T07:02:07Z",
    "created_at": "2026-11-18T06:58:22Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon",
@@ -2547,7 +2545,7 @@
   },
   {
    "name": "open-ro",
-   "description": "You describe the game, it builds it \u2014 a proactive creative agent in a plain chat window, full access by default, that can one-shot a game. Rust + Rune restart, built fresh apart from the original app.",
+   "description": "You describe the game, it builds it \u2014 a proactive creative agent in a plain chat window that builds complete Roblox games with 22 game systems, playable preview, and .rbxlx import/export.",
    "language": "HTML",
    "topics": [
     "ai-agent",
@@ -2555,10 +2553,9 @@
     "luau",
     "mcp",
     "roblox",
-    "rune",
     "rust"
    ],
-   "pushed_at": "2026-11-22T04:45:44Z",
+   "pushed_at": "2026-11-22T06:42:17Z",
    "created_at": "2026-11-18T06:58:50Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",
@@ -2567,17 +2564,16 @@
   },
   {
    "name": "openbell",
-   "description": "A compounding desk for Kalshi's 15-minute markets, rebuilt in Rust \u2014 collects the venue's public data around the clock, scores a library of Rune strategies on paper against that tape, and reports venue truth. It places no orders; no order-placement code path exists.",
+   "description": "A compounding research desk for Kalshi's 15-minute markets, rebuilt in Rust \u2014 collects public venue data around the clock, scores 12 paper strategies against that tape, and reports venue truth. Paper-only: no order-placement path exists.",
    "language": "HTML",
    "topics": [
     "backtesting",
     "kalshi",
     "market-data",
     "paper-trading",
-    "rune",
     "rust"
    ],
-   "pushed_at": "2026-11-22T04:42:06Z",
+   "pushed_at": "2026-11-22T07:02:23Z",
    "created_at": "2026-11-18T06:59:16Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/openbell",

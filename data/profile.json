@@ -8,7 +8,6 @@
         "Dynamic swarms",
         "Omni Loop",
         "Rust",
-        "Rune",
         "TypeScript",
         "Python",
         "Luau",
@@ -28,70 +27,70 @@
             "key": "ergon",
             "title": "Ergon",
             "kicker": "An AI agent for every employee",
-            "summary": "Personal employee agent desk: live local/BYOK models, real file upload/preview, Today approvals, Work Graph. Rust + Rune.",
+            "summary": "Personal employee agent desk: 12 built-in workflows, SSE streaming, 5k-receipt search, routines, SHA-256 receipts, Today approvals.",
             "tags": [
                 "Rust",
-                "Rune",
+                "React",
                 "House UI"
             ],
-            "status": "v0.4.0 · Public"
+            "status": "v0.5.0 · Public"
         },
         {
             "key": "dsh-fleet",
             "title": "Fleet",
             "kicker": "Your agents, under one screen",
-            "summary": "Parallel coding-agent board: opencode, Claude Code, Codex in real git worktrees. Verified done only when your check passes.",
+            "summary": "Parallel coding-agent board: DAG dependencies, multi-step checks, file guardrails, split diffs, 50k transcripts, live SSE.",
             "tags": [
                 "Rust",
-                "Rune",
+                "Git",
                 "House UI"
             ],
-            "status": "v0.4.0 · Public"
+            "status": "v0.5.0 · Public"
         },
         {
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "You describe the game, it builds it",
-            "summary": "Roblox Studio workbench: live local/BYOK models, Luau generation, MCP bridge, local Place engine + .rbxlx export, Undo.",
+            "summary": "Roblox Studio workbench: 22 game systems, Static Luau Prover, 60fps stage, bidirectional .rbxlx import/export, snapshots.",
             "tags": [
                 "Rust",
-                "Rune",
+                "Luau",
                 "Roblox"
             ],
-            "status": "v0.4.0 · Public"
+            "status": "v0.5.1 · Public"
         },
         {
             "key": "openbell",
             "title": "OpenBell",
             "kicker": "Kalshi paper-only quant desk",
-            "summary": "Live 24/7 Kalshi 15-minute tape collector and Rune 4-slot paper workbench. Places no orders; no order path exists.",
+            "summary": "Live 15m Kalshi tape, 12 paper strategies, Calibration/Monte Carlo/Walk-Forward Quant Lab. Places no orders; no order path exists.",
             "tags": [
                 "Rust",
-                "Rune",
+                "Quant",
                 "Paper-only"
             ],
-            "status": "v0.4.0 · Paper-only"
+            "status": "v0.5.0 · Paper-only"
         }
     ],
     "repos": {
         "ergon": {
-            "blurb": "Personal AI agent desk — live local/BYOK models, real file CRUD, Today approvals, Rune skills, House Frontend (v0.4.0).",
-            "stack": "Rust · Rune · React",
+            "blurb": "Personal AI agent desk — 12 built-in workflows, live SSE, indexed 5k-receipt search, routines, SHA-256 receipts (v0.5.0).",
+            "stack": "Rust · TypeScript",
             "license": null
         },
         "dsh-fleet": {
-            "blurb": "Parallel coding-agent mission control — real CLI agents in git worktrees, Rune policy, verified check receipts (v0.4.0).",
-            "stack": "Rust · Rune · React",
+            "blurb": "Parallel coding-agent mission control — DAG dependencies, multi-step checks, file guardrails, split diffs, SSE (v0.5.0).",
+            "stack": "Rust · TypeScript",
             "license": null
         },
         "open-ro": {
-            "blurb": "AI game builder workbench for Roblox — live models, Rune Luau skills, MCP bridge, local .rbxlx Place export (v0.4.0).",
-            "stack": "Rust · Rune · React",
+            "blurb": "AI game builder workbench for Roblox — 22 game systems, Static Luau Prover, 60fps stage, .rbxlx import/export (v0.5.1).",
+            "stack": "Rust · Luau · React",
             "license": null
         },
         "openbell": {
-            "blurb": "Paper-only Kalshi 15-minute quant desk — live public collector, 4-slot Rune strategy workbench; places no orders (v0.4.0).",
-            "stack": "Rust · Rune · React",
+            "blurb": "Paper-only Kalshi 15m quant desk — live tape, 12 strategies, sandbox backtester, Quant Lab; places no orders (v0.5.0).",
+            "stack": "Rust · TypeScript",
             "license": null
         },
         "sophos": {
@@ -100,7 +99,7 @@
             "license": "MIT"
         },
         "cayleb-james2008.github.io": {
-            "blurb": "Interactive résumé, product pages, live 10-tool document review /lab/, and real in-browser v0.4.0 web apps.",
+            "blurb": "Interactive résumé, product pages, multi-file 10-tool /lab/ audit workbench, Cmd+K, and live v0.5.0 web apps.",
             "stack": "React · TypeScript",
             "license": null
         }
@@ -116,28 +115,28 @@
     "now": [
         [
             "Ergon",
-            "Employee agent desk · v0.4.0"
+            "Employee agent desk · v0.5.0"
         ],
         [
             "Fleet",
-            "Parallel coding-agent board · v0.4.0"
+            "Parallel coding-agent board · v0.5.0"
         ],
         [
             "OpenRO",
-            "Roblox studio workbench · v0.4.0"
+            "Roblox studio workbench · v0.5.1"
         ],
         [
             "OpenBell",
-            "Kalshi paper-only quant desk · v0.4.0"
+            "Kalshi paper-only quant desk · v0.5.0"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell v0.4.0 ship as single-binary Rust + Rune builds on the shared House Frontend design system.",
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell ship as single-binary Rust desktop and web apps on one shared House Frontend design system.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust + Rune + House Frontend systems make up my current v0.4.0 releases: Ergon (personal employee agent desk with live model connectivity and real file workspaces), Fleet (parallel coding-agent mission control), OpenRO (Roblox Studio game builder with real .rbxlx export), and OpenBell (paper-only Kalshi 15-minute live tape collector and Rune strategy workbench — places no orders; no order-placement code path exists).",
-    "repos_note": "Active public repositories — v0.4.0 Rust + Rune + House Frontend builds, Sophos, and the interactive résumé site.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four single-binary Rust desktop and web applications make up my current releases: Ergon (personal employee agent desk with 12 built-in workflows, live SSE streaming, indexed 5,000-receipt search, routines, and SHA-256 receipts), Fleet (parallel coding-agent mission control with DAG scheduling, multi-step check pipelines, and split diffs), OpenRO (Roblox Studio game builder with 22 game systems, Static Luau Prover, 60fps playable stage, and bidirectional .rbxlx XML), and OpenBell (paper-only Kalshi 15-minute live tape collector, 12-strategy sandbox, and Quant Lab — places no orders; no order-placement code path exists).",
+    "repos_note": "Active public repositories — v0.5.x single-binary Rust desktop & web apps, Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",
@@ -158,7 +157,6 @@
             "label": "Languages",
             "items": [
                 "Rust",
-                "Rune",
                 "TypeScript",
                 "Python",
                 "Luau"
