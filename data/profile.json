@@ -24,30 +24,6 @@
     ],
     "work": [
         {
-            "key": "ergon",
-            "title": "Ergon",
-            "kicker": "An AI agent for every employee",
-            "summary": "Employee agent desk: cadence scheduler, .history/ diff restore, SHA-256 audit bundles, 3-company switcher, 12 workflows.",
-            "tags": [
-                "Rust",
-                "React",
-                "Desktop"
-            ],
-            "status": "v0.7.0 · Public"
-        },
-        {
-            "key": "fleet",
-            "title": "Fleet",
-            "kicker": "Your agents, under one screen",
-            "summary": "Parallel coding-agent board: multi-wave DAG graph, PR preview, worktree inspector, daily budget caps, Auto-Heal, Windows.",
-            "tags": [
-                "Rust",
-                "Git",
-                "Desktop"
-            ],
-            "status": "v0.8.0 · Public"
-        },
-        {
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "RoPilot 3-pane Roblox Studio IDE",
@@ -70,11 +46,40 @@
                 "Kalshi v2"
             ],
             "status": "v0.8.0 · Live Rails"
+        },
+        {
+            "key": "fleet",
+            "title": "Fleet",
+            "kicker": "Your agents, under one screen",
+            "summary": "Parallel coding-agent board: multi-wave DAG graph, PR preview, worktree inspector, daily budget caps, Auto-Heal, Windows.",
+            "tags": [
+                "Rust",
+                "Git",
+                "Desktop"
+            ],
+            "status": "v0.8.0 · Public"
+        },
+        {
+            "key": "ergon",
+            "title": "Ergon",
+            "kicker": "An AI agent for every employee",
+            "summary": "Employee agent desk: cadence scheduler, .history/ diff restore, SHA-256 audit bundles, 3-company switcher, 12 workflows.",
+            "tags": [
+                "Rust",
+                "React",
+                "Desktop"
+            ],
+            "status": "v0.7.0 · Public"
         }
     ],
     "repos": {
-        "ergon": {
-            "blurb": "Personal AI agent desk — cadence scheduler, .history/ diff restore, SHA-256 audit bundles, 12 workflows (v0.7.0).",
+        "open-ro": {
+            "blurb": "RoPilot 3-pane Roblox Studio AI IDE — Agent/Plan/Ask unified Luau diffs, embedded Studio, Plugin, 13 MCP tools (v0.10.0).",
+            "stack": "Rust · Luau · React",
+            "license": null
+        },
+        "openbell": {
+            "blurb": "Kalshi Trade API v2 quant & trading desk — fail-closed hard risk rails, kill switch, tournament, scale planner (v0.8.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
@@ -83,13 +88,8 @@
             "stack": "Rust · TypeScript",
             "license": null
         },
-        "open-ro": {
-            "blurb": "RoPilot 3-pane Roblox Studio AI IDE — Agent/Plan/Ask unified Luau diffs, embedded Studio, Plugin, 13 MCP tools (v0.10.0).",
-            "stack": "Rust · Luau · React",
-            "license": null
-        },
-        "openbell": {
-            "blurb": "Kalshi Trade API v2 quant & trading desk — fail-closed hard risk rails, kill switch, tournament, scale planner (v0.8.0).",
+        "ergon": {
+            "blurb": "Personal AI agent desk — cadence scheduler, .history/ diff restore, SHA-256 audit bundles, 12 workflows (v0.7.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
@@ -105,22 +105,14 @@
         }
     },
     "repo_order": [
-        "ergon",
-        "fleet",
         "open-ro",
         "openbell",
+        "fleet",
+        "ergon",
         "sophos",
         "cayleb-james2008.github.io"
     ],
     "now": [
-        [
-            "Ergon",
-            "Employee agent desk · v0.7.0"
-        ],
-        [
-            "Fleet",
-            "Parallel coding-agent board · v0.8.0"
-        ],
         [
             "OpenRO",
             "RoPilot Studio IDE · v0.10.0"
@@ -128,14 +120,22 @@
         [
             "OpenBell",
             "Kalshi v2 quant & rails · v0.8.0"
+        ],
+        [
+            "Fleet",
+            "Parallel coding-agent board · v0.8.0"
+        ],
+        [
+            "Ergon",
+            "Employee agent desk · v0.7.0"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). Ergon, Fleet, OpenRO and OpenBell ship as cross-platform single-binary Rust desktop and web apps (Linux, macOS, Windows) on one shared House Frontend design system.",
+    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). OpenRO, OpenBell, Fleet and Ergon ship as cross-platform single-binary Rust desktop and web apps (Linux, macOS, Windows) on one shared House Frontend design system.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. Four cross-platform single-binary Rust desktop and web applications (Linux, macOS, and Windows .exe with chromeless desktop launch) make up my current releases: Ergon v0.7.0 (personal employee agent desk with background cadence scheduler, .history/ file version diff & restore, tamper-evident Field-Book audit bundles, 3-company switcher, and 12 workflows), Fleet v0.8.0 (parallel coding-agent mission control with interactive multi-wave Board / DAG Graph toggle, confirmation-gated PR Preview, Worktree Inspector, Daily Dispatch Budget guardrails, and Auto-Heal), OpenRO v0.10.0 (RoPilot-grade 3-pane Roblox Studio AI IDE with Agent/Plan/Ask modes and reviewable unified Luau diffs, directly embedded live Roblox Studio + auto-synced Explorer, OpenRoCompanion.lua Studio plugin, all 13 official MCP tools, 8-pack Tool Library, Market Taste Craft Radar, Blender/WAV tools, and Rojo .zip export), and OpenBell v0.8.0 (live-connected Kalshi Trade API v2 trading and quant desk behind fail-closed Hard Risk Rails disarmed on every boot, Emergency Kill Switch, Out-of-Sample Strategy Tournament, PAV Isotonic Calibration, and $500/Day Capital Scaling Engine).",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. My flagship single-binary Rust desktop and web applications (Linux, macOS, and Windows .exe with chromeless desktop launch) are OpenRO v0.10.0 (RoPilot-grade 3-pane Roblox Studio AI IDE with Agent/Plan/Ask unified Luau diffs, directly embedded live Roblox Studio + auto-synced Explorer, OpenRoCompanion.lua Studio plugin, all 13 official MCP tools, 8-pack Tool Library, Market Taste Craft Radar, Blender/WAV tools, and Rojo .zip export), OpenBell v0.8.0 (live-connected Kalshi Trade API v2 trading and quant desk behind fail-closed Hard Risk Rails disarmed on every boot, Emergency Kill Switch, Out-of-Sample Strategy Tournament, PAV Isotonic Calibration, and $500/Day Capital Scaling Engine), and Fleet v0.8.0 (parallel coding-agent mission control with interactive multi-wave Board / DAG Graph toggle, confirmation-gated PR Preview, Worktree Inspector, Daily Dispatch Budget guardrails, and Auto-Heal), alongside Ergon v0.7.0 (personal employee agent desk with background cadence scheduler, .history/ file version diff & restore, tamper-evident Field-Book audit bundles, 3-company switcher, and 12 workflows).",
     "repos_note": "Active public repositories — cross-platform single-binary Rust desktop & web apps (v0.7.0–v0.10.0), Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",

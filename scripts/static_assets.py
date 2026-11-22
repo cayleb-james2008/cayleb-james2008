@@ -465,7 +465,7 @@ GLYPHS = {"ergon": glyph_ergon, "fleet": glyph_fleet, "openbell": glyph_bell, "r
 # native phone column width MW, so nothing is scaled down. BOT px of transparent margin under every card makes
 # the vertical gap between rows about the same 12 px (the line box adds roughly 8 px under an inline image).
 IMG_W, CARD_W = 414, 408
-SIDE_OFFSET = {"ergon": 0, "fleet": IMG_W - CARD_W, "openbell": 0, "roblox": IMG_W - CARD_W}
+SIDE_OFFSET = {"roblox": 0, "openbell": IMG_W - CARD_W, "fleet": 0, "ergon": IMG_W - CARD_W}
 SUMMARY_MEASURE = 336  # one measure for every desktop summary so ragged edges agree across a row
 
 
