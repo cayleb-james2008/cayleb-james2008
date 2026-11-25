@@ -2498,7 +2498,7 @@
     "resume",
     "typescript"
    ],
-   "pushed_at": "2026-11-25T19:44:02Z",
+   "pushed_at": "2026-11-25T20:01:25Z",
    "created_at": "2026-11-09T21:53:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/cayleb-james2008.github.io",
@@ -2517,7 +2517,7 @@
     "rust",
     "single-binary"
    ],
-   "pushed_at": "2026-11-25T19:43:47Z",
+   "pushed_at": "2026-11-25T20:00:42Z",
    "created_at": "2026-11-18T06:58:22Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon",
@@ -2536,7 +2536,7 @@
     "orchestration",
     "rust"
    ],
-   "pushed_at": "2026-11-25T19:37:11Z",
+   "pushed_at": "2026-11-25T19:53:55Z",
    "created_at": "2026-11-18T06:58:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/fleet",
@@ -2586,7 +2586,7 @@
   {
    "name": "openbell",
    "description": "Live Kalshi Trade API v2 trading and quant desktop app in Rust \u2014 fail-closed hard risk rails (disarmed by default), emergency kill switch, $500/day capital scale planner, PAV isotonic recalibration, strategy tournament, and auto-collector.",
-   "language": "HTML",
+   "language": "Rust",
    "topics": [
     "backtesting",
     "desktop-app",
