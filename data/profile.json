@@ -27,13 +27,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "Studio Copilot 3-pane IDE",
-            "summary": "Agent/Plan/Ask unified Luau diffs, Monetization & Retention pack, embedded Studio + sync, 13 MCP tools, Rojo .zip.",
+            "summary": "7-gate Ship & Monetization Autopilot, Agent/Plan/Ask Luau diffs, 12 FPS isolated capture, 13 MCP tools, 4,487 req/s.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.1.0 · Public"
+            "status": "v1.2.0 · Public"
         },
         {
             "key": "openbell",
@@ -51,30 +51,30 @@
             "key": "fleet",
             "title": "Fleet",
             "kicker": "Codex/Linear agent workbench",
-            "summary": "Parallel coding-agent board: Goal-to-DAG planner, DAG graph, PR preview, worktree inspector, budget caps, Auto-Heal.",
+            "summary": "Goal-to-DAG planner, 1-click Batch Merge preflight, enriched Auto-Heal, keyboard triage, 8.27 MB, 6,256 req/s.",
             "tags": [
                 "Rust",
                 "Git",
                 "Desktop"
             ],
-            "status": "v0.9.0 · Public"
+            "status": "v0.10.0 · Public"
         },
         {
             "key": "ergon",
             "title": "Ergon",
             "kicker": "Claude-Desktop employee desk",
-            "summary": "Unified responsive SPA (-47.8%), inline approval/diff cards, cadence scheduler, .history/ restore, audit bundles.",
+            "summary": "Workflow auto-detect, side-by-side .history/ diff preview, gzip/ETag (6,427 req/s, 7.6ms p95), audit bundles.",
             "tags": [
                 "Rust",
                 "React",
                 "Desktop"
             ],
-            "status": "v0.10.0 · Public"
+            "status": "v0.11.0 · Public"
         }
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Studio Copilot 3-pane Roblox Studio AI IDE — Agent/Plan/Ask Luau diffs, Monetization pack, embedded Studio (v1.1.0).",
+            "blurb": "Studio Copilot 3-pane Roblox Studio AI IDE — 7-gate Ship Autopilot, Agent/Plan/Ask Luau diffs, 4,487 req/s (v1.2.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -84,12 +84,12 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Codex/Linear parallel agent workbench — Goal-to-DAG planner, PR preview, worktree inspector, Auto-Heal (v0.9.0).",
+            "blurb": "Codex/Linear parallel agent workbench — Goal-to-DAG, Batch Merge preflight, enriched Auto-Heal, 6,256 req/s (v0.10.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
         "ergon": {
-            "blurb": "Claude-Desktop employee desk — unified SPA (-47.8%), inline approval/diff cards, cadence, audit bundles (v0.10.0).",
+            "blurb": "Claude-Desktop employee desk — workflow auto-detect, side-by-side diff, 6,427 req/s, audit bundles (v0.11.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
@@ -99,7 +99,7 @@
             "license": "MIT"
         },
         "cayleb-james2008.github.io": {
-            "blurb": "Interactive résumé, product pages, OpenMotion walkthroughs, 10-tool /lab/ workbench, and live v0.9–v1.1 web apps.",
+            "blurb": "Interactive résumé, product pages, OpenMotion walkthroughs, 10-tool /lab/ workbench, and live v0.9–v1.2 web apps.",
             "stack": "React · TypeScript",
             "license": null
         }
@@ -115,7 +115,7 @@
     "now": [
         [
             "OpenRO",
-            "Studio Copilot IDE · v1.1.0"
+            "Studio Copilot IDE · v1.2.0"
         ],
         [
             "OpenBell",
@@ -123,11 +123,11 @@
         ],
         [
             "Fleet",
-            "Goal-to-DAG workbench · v0.9.0"
+            "Goal-to-DAG workbench · v0.10.0"
         ],
         [
             "Ergon",
-            "Employee agent desk · v0.10.0"
+            "Employee agent desk · v0.11.0"
         ]
     ],
     "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). OpenRO, OpenBell, Fleet and Ergon ship as cross-platform single-binary Rust desktop and web apps (Linux, macOS, Windows) on one shared House Frontend design system.",
@@ -135,8 +135,8 @@
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. My flagship single-binary Rust desktop and web applications (Linux, macOS, and Windows .exe with chromeless desktop launch) are OpenRO v1.1.0 (Studio Copilot 3-pane Roblox Studio AI IDE with Agent/Plan/Ask unified Luau diffs, Monetization & Retention Luau pack with ProcessReceipt idempotency, directly embedded live Roblox Studio + auto-synced Explorer, OpenRoCompanion.lua Studio plugin, all 13 official MCP tools, Market Taste Craft Radar, Blender/WAV tools, and Rojo .zip export), OpenBell v0.9.0 (Institutional Quant Terminal for Kalshi Trade API v2 with 1-click Full Quant Edge Audit 5-stage Go/No-Go funnel, causal lookahead-canary tests, fail-closed Hard Risk Rails disarmed on every boot, Emergency Kill Switch, Out-of-Sample Strategy Tournament, PAV Isotonic Calibration, and $500/Day Capital Scaling Engine), and Fleet v0.9.0 (Codex/Linear parallel coding-agent workbench with Goal-to-DAG planner, -24.1% bundle, interactive multi-wave Board / DAG Graph toggle, confirmation-gated PR Preview, Worktree Inspector, Daily Dispatch Budget guardrails, and Auto-Heal), alongside Ergon v0.10.0 (Claude-Desktop employee agent desk with unified responsive SPA -47.8% vs v0.9.0, inline approval/diff cards, background cadence scheduler, .history/ file version diff & restore, tamper-evident Field-Book audit bundles, 3-company switcher, and 12 workflows).",
-    "repos_note": "Active public repositories — cross-platform single-binary Rust desktop & web apps (v0.9.0–v1.1.0), Sophos, and the interactive résumé site.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. My flagship single-binary Rust desktop and web applications (Linux, macOS, and Windows .exe with chromeless desktop launch) are OpenRO v1.2.0 (Studio Copilot 3-pane Roblox Studio AI IDE with 7-gate Ship & Monetization Readiness Autopilot, Agent/Plan/Ask unified Luau diffs, 12 FPS isolated Studio capture, OpenRoCompanion.lua Studio plugin, all 13 official MCP tools, Market Taste Craft Radar, and Rojo .zip export at 4,487 req/s), OpenBell v0.9.0 (Institutional Quant Terminal for Kalshi Trade API v2 with 1-click Full Quant Edge Audit 5-stage Go/No-Go funnel, causal lookahead-canary tests, fail-closed Hard Risk Rails disarmed on every boot, Emergency Kill Switch, Out-of-Sample Strategy Tournament, PAV Isotonic Calibration, and $500/Day Capital Scaling Engine), and Fleet v0.10.0 (Codex/Linear parallel coding-agent workbench with Goal-to-DAG planner, 1-click Batch Merge with git merge-tree preflight, enriched Auto-Heal, instant keyboard triage, PR Preview, Worktree Inspector, and Daily Dispatch Budget guardrails at 6,256 req/s), alongside Ergon v0.11.0 (Claude-Desktop employee agent desk with context-aware 1-click workflow auto-detection, side-by-side .history/ diff preview & restore, gzip/ETag serving at 6,427 req/s, inline approval cards, cadence scheduler, tamper-evident Field-Book audit bundles, 3-company switcher, and 12 workflows).",
+    "repos_note": "Active public repositories — cross-platform single-binary Rust desktop & web apps (v0.9.0–v1.2.0), Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",
