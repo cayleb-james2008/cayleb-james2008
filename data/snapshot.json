@@ -2498,7 +2498,7 @@
     "resume",
     "typescript"
    ],
-   "pushed_at": "2026-11-25T18:29:35Z",
+   "pushed_at": "2026-11-25T19:44:02Z",
    "created_at": "2026-11-09T21:53:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/cayleb-james2008.github.io",
@@ -2508,7 +2508,7 @@
   {
    "name": "ergon",
    "description": "Personal employee AI agent desktop app for Linux, macOS, and Windows \u2014 12 built-in workflows, background cadence scheduler, file history and diff, SHA-256 audit bundles, human approval gates, and isolated multi-workspace support.",
-   "language": "HTML",
+   "language": "Rust",
    "topics": [
     "ai-agents",
     "autonomous-agents",
@@ -2517,7 +2517,7 @@
     "rust",
     "single-binary"
    ],
-   "pushed_at": "2026-11-25T18:23:52Z",
+   "pushed_at": "2026-11-25T19:43:47Z",
    "created_at": "2026-11-18T06:58:22Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon",
@@ -2527,7 +2527,7 @@
   {
    "name": "fleet",
    "description": "Parallel coding-agent mission control across Linux, macOS, and Windows \u2014 isolated git worktrees, multi-wave DAG graphs, autonomous auto-heal, PR preview, worktree inspector, and daily budget guardrails.",
-   "language": "HTML",
+   "language": "Rust",
    "topics": [
     "coding-agents",
     "desktop-app",
@@ -2536,7 +2536,7 @@
     "orchestration",
     "rust"
    ],
-   "pushed_at": "2026-11-25T18:17:57Z",
+   "pushed_at": "2026-11-25T19:37:11Z",
    "created_at": "2026-11-18T06:58:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/fleet",
@@ -2576,7 +2576,7 @@
     "roblox",
     "rust"
    ],
-   "pushed_at": "2026-11-25T18:01:01Z",
+   "pushed_at": "2026-11-25T19:30:45Z",
    "created_at": "2026-11-18T06:58:50Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",
@@ -2596,7 +2596,7 @@
     "rust",
     "trading"
    ],
-   "pushed_at": "2026-11-25T18:12:30Z",
+   "pushed_at": "2026-11-25T19:43:37Z",
    "created_at": "2026-11-18T06:59:16Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/openbell",
