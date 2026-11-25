@@ -2498,7 +2498,7 @@
     "resume",
     "typescript"
    ],
-   "pushed_at": "2026-11-25T20:01:25Z",
+   "pushed_at": "2026-11-25T20:46:56Z",
    "created_at": "2026-11-09T21:53:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/cayleb-james2008.github.io",
@@ -2507,17 +2507,22 @@
   },
   {
    "name": "ergon",
-   "description": "Personal employee AI agent desktop app for Linux, macOS, and Windows \u2014 12 built-in workflows, background cadence scheduler, file history and diff, SHA-256 audit bundles, human approval gates, and isolated multi-workspace support.",
+   "description": "Personal employee AI agent desktop & web app in one 11.7 MB Rust binary \u2014 12 built-in workflows, playbook promotion, [file:L##] citation verification, .history/ diff restore, SHA-256 audit bundles, cadence scheduler, and 6k+ req/s.",
    "language": "Rust",
    "topics": [
     "ai-agents",
+    "audit-trail",
     "autonomous-agents",
     "desktop-app",
+    "local-first",
     "personal-agent",
+    "react",
     "rust",
-    "single-binary"
+    "single-binary",
+    "typescript",
+    "workflows"
    ],
-   "pushed_at": "2026-11-25T20:00:42Z",
+   "pushed_at": "2026-11-25T20:45:43Z",
    "created_at": "2026-11-18T06:58:22Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon",
@@ -2526,17 +2531,21 @@
   },
   {
    "name": "fleet",
-   "description": "Parallel coding-agent mission control across Linux, macOS, and Windows \u2014 isolated git worktrees, multi-wave DAG graphs, autonomous auto-heal, PR preview, worktree inspector, and daily budget guardrails.",
-   "language": "Rust",
+   "description": "Antigravity-native Swarm Sidebar Plugin \u2014 keyboard-first triage, live SSE board feed, git worktree probes, and minimal footprint for multi-agent swarms",
+   "language": "TypeScript",
    "topics": [
+    "antigravity",
+    "antigravity-plugin",
     "coding-agents",
-    "desktop-app",
     "git-worktree",
     "multi-agent",
+    "nodejs",
     "orchestration",
-    "rust"
+    "sidecar",
+    "swarm",
+    "typescript"
    ],
-   "pushed_at": "2026-11-25T19:53:55Z",
+   "pushed_at": "2026-11-25T20:29:17Z",
    "created_at": "2026-11-18T06:58:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/fleet",
@@ -2565,7 +2574,7 @@
   },
   {
    "name": "open-ro",
-   "description": "RoPilot-grade Roblox Studio AI IDE for Linux and Windows \u2014 3-pane workspace, Agent/Plan/Ask modes with unified Luau diffs, embedded Roblox Studio + auto-sync, Companion Plugin, all 13 official MCP tools, Tool Library, Market Taste, and Rojo .zip export.",
+   "description": "Studio Copilot 3-pane Roblox Studio AI IDE in one 14.7 MB Rust binary \u2014 Agent/Plan/Ask unified Luau diffs, Pre-Publish Revenue & Playtest Gate, monetization & comeback retention presets, 13 MCP tools, Companion plugin, and Rojo .zip export.",
    "language": "Rust",
    "topics": [
     "ai-agent",
@@ -2573,10 +2582,15 @@
     "game-development",
     "luau",
     "mcp",
+    "react",
     "roblox",
-    "rust"
+    "roblox-studio",
+    "rojo",
+    "rust",
+    "single-binary",
+    "typescript"
    ],
-   "pushed_at": "2026-11-25T19:30:45Z",
+   "pushed_at": "2026-11-25T20:06:54Z",
    "created_at": "2026-11-18T06:58:50Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",
@@ -2585,18 +2599,23 @@
   },
   {
    "name": "openbell",
-   "description": "Live Kalshi Trade API v2 trading and quant desktop app in Rust \u2014 fail-closed hard risk rails (disarmed by default), emergency kill switch, $500/day capital scale planner, PAV isotonic recalibration, strategy tournament, and auto-collector.",
+   "description": "Kalshi Trade API v2 institutional quant & execution terminal in one 8.1 MB Rust binary \u2014 fail-closed hard risk rails (disarmed on boot), kill switch, causal edge screener, 1-click basket preflight, PAV calibration, and $500/day scale planner.",
    "language": "Rust",
    "topics": [
+    "algorithmic-trading",
     "backtesting",
     "desktop-app",
     "kalshi",
     "market-data",
+    "prediction-markets",
     "quant",
+    "risk-management",
     "rust",
-    "trading"
+    "single-binary",
+    "trading",
+    "typescript"
    ],
-   "pushed_at": "2026-11-25T19:43:37Z",
+   "pushed_at": "2026-11-25T20:27:05Z",
    "created_at": "2026-11-18T06:59:16Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/openbell",
