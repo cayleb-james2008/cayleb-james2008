@@ -27,13 +27,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "Studio Copilot 3-pane IDE",
-            "summary": "14.66 MB fat-LTO, 26.95ms boot (-76.3%), 19.57 MB RSS, Monetization Tier Presets & 48h Comeback Curve, 7,566 req/s.",
+            "summary": "57.6 KB gz shell (-68.4%), 16.38 MB RSS (-85.8%), Deterministic Playtest Suite + Re-Run, 7,501 req/s (2.48ms p95).",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.7.0 · Public"
+            "status": "v1.8.0 · Public"
         },
         {
             "key": "openbell",
@@ -51,13 +51,13 @@
             "key": "fleet",
             "title": "Fleet",
             "kicker": "Antigravity swarm sidebar plugin",
-            "summary": "Keyboard triage (j/k/o/p), Worktree file links, SSE + Pin #seq, 406 KB bundle, 109.5 MB RSS (-10.8%), 1,324 req/s.",
+            "summary": "Duration pills + inline nudge bar, Windowed Board, 377.7 KB bundle, 59.5ms boot (-29.7%), 2,326 req/s (+75.6%).",
             "tags": [
                 "Antigravity",
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.4.0 · Plugin"
+            "status": "v1.5.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -74,7 +74,7 @@
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Studio Copilot 3-pane Roblox Studio AI IDE — 14.66 MB LTO, 26.95ms boot, Monetization Tier Presets, 7,566 req/s (v1.7.0).",
+            "blurb": "Studio Copilot 3-pane Roblox Studio AI IDE — 57.6 KB gz shell, 16.38 MB RSS, Playtest Suite, 7,501 req/s (v1.8.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity Swarm Sidebar Plugin — Keyboard triage, Worktree file links, SSE, 109.5 MB RSS (-10.8%), 1,324 req/s (v1.4.0).",
+            "blurb": "Antigravity Swarm Sidebar Plugin — Duration pills, inline nudge bar, 377.7 KB bundle, 2,326 req/s (v1.5.0).",
             "stack": "Node · React",
             "license": null
         },
@@ -99,7 +99,7 @@
             "license": "MIT"
         },
         "cayleb-james2008.github.io": {
-            "blurb": "Interactive résumé, product pages, OpenMotion walkthroughs, 10-tool /lab/ workbench, and live v0.9–v1.7 web apps.",
+            "blurb": "Interactive résumé, product pages, OpenMotion walkthroughs, 10-tool /lab/ workbench, and live v0.9–v1.8 web apps.",
             "stack": "React · TypeScript",
             "license": null
         }
@@ -115,7 +115,7 @@
     "now": [
         [
             "OpenRO",
-            "Studio Copilot IDE · v1.7.0"
+            "Studio Copilot IDE · v1.8.0"
         ],
         [
             "OpenBell",
@@ -123,7 +123,7 @@
         ],
         [
             "Fleet",
-            "Antigravity Swarm Plugin · v1.4.0"
+            "Antigravity Swarm Plugin · v1.5.0"
         ],
         [
             "Ergon",
@@ -135,8 +135,8 @@
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. My flagship applications built on one shared House Frontend design system are OpenRO v1.7.0 (single-binary Rust Studio Copilot 3-pane Roblox Studio AI IDE with 14.66 MB fat-LTO binary, 26.95ms cold boot -76.3%, 19.57 MB RSS, Monetization Tier Presets & 48h Comeback Retention Curve Designer, Unified Pre-Publish Gate + Auto-Fix cards, 17 pre-gzipped UI chunks, OpenRoCompanion.lua Studio plugin, all 13 official MCP tools, and Rojo .zip export at 7,566 req/s), OpenBell v0.9.0 (Institutional Quant Terminal for Kalshi Trade API v2 with 1-click Full Quant Edge Audit 5-stage Go/No-Go funnel, causal lookahead-canary tests, fail-closed Hard Risk Rails disarmed on every boot, Emergency Kill Switch, Out-of-Sample Strategy Tournament, PAV Isotonic Calibration, and $500/Day Capital Scaling Engine), and Fleet v1.4.0 (Antigravity-native Swarm Sidebar Plugin with keyboard-first triage j/k/o/p/1-5, Worktree changed-file links via git status -z + Open file in Aux Pane, live /api/swarm/stream SSE push + Pin #seq, Context Pressure bars, and zero-dep Element.animate diet giving 406.4 KB raw / 120 KB gz, 109.5 MB RSS -10.8%, 1,324 req/s 16w pinned, 17.2ms p95, and 22/22 fuzz; legacy standalone Rust v0.12.0 preserved in git), alongside Ergon v0.17.0 (single-binary Rust Claude-Desktop employee desk with 11.76 MB fat-LTO binary, 26.19 MB RSS -49.9% vs v0.11.0, 1-Click Run/Receipt Comparison & Delta Client Pack .md, Unified Fuzzy Cmd+K jump, clickable [file:L##] Source Inspector, Promote to Playbook, Pre-Flight Check, and 5,420 req/s 16w pinned at 3.94ms p95).",
-    "repos_note": "Active public repositories — cross-platform Rust desktop & web apps (v0.17.0, v1.7.0, v0.9.0), Antigravity Fleet plugin (v1.4.0), Sophos, and the interactive résumé site.",
+    "intro": "AI agent systems engineer and technical founder. I have spent the past year on agentic systems and harness engineering, starting while I was finishing high school, where I was also wrestling team captain for two years. For most of that stretch I worked 13 to 14 hours a day on it, around school, my job and wrestling. I work across several harnesses instead of just one: OpenCode and DeepSeek Harness, Claude Desktop and Claude Code, Gemini Antigravity, and ChatGPT Codex. My flagship applications built on one shared House Frontend design system are OpenRO v1.8.0 (single-binary Rust Studio Copilot 3-pane Roblox Studio AI IDE with 57.6 KB gzip initial shell -68.4%, 16.38 MB RSS -85.8% vs v1.2.0, Deterministic Playtest Assertion Suite + 1-Click Re-Run, Monetization Tier Presets & 48h Comeback Retention Curve Designer, Unified Pre-Publish Gate, OpenRoCompanion.lua Studio plugin, all 13 official MCP tools, and Rojo .zip export at 7,501 req/s 16w pinned with 2.48ms p95), OpenBell v0.9.0 (Institutional Quant Terminal for Kalshi Trade API v2 with 1-click Full Quant Edge Audit 5-stage Go/No-Go funnel, causal lookahead-canary tests, fail-closed Hard Risk Rails disarmed on every boot, Emergency Kill Switch, Out-of-Sample Strategy Tournament, PAV Isotonic Calibration, and $500/Day Capital Scaling Engine), and Fleet v1.5.0 (Antigravity-native Swarm Sidebar Plugin with worker duration pills & inline Quick-Action nudge bar, Windowed Board of 80 posts, keyboard triage j/k/o/p/1-5, Worktree changed-file links, live /api/swarm/stream SSE push, and FleetToaster CSS diet giving 377.7 KB raw / 112.5 KB gz, 59.5ms boot -29.7%, 2,326 req/s 16w pinned +75.6%, 9.45ms p95, and 22/22 fuzz; legacy standalone Rust v0.12.0 preserved in git), alongside Ergon v0.17.0 (single-binary Rust Claude-Desktop employee desk with 11.76 MB fat-LTO binary, 26.19 MB RSS -49.9% vs v0.11.0, 1-Click Run/Receipt Comparison & Delta Client Pack .md, Unified Fuzzy Cmd+K jump, clickable [file:L##] Source Inspector, Promote to Playbook, Pre-Flight Check, and 5,420 req/s 16w pinned at 3.94ms p95).",
+    "repos_note": "Active public repositories — cross-platform Rust desktop & web apps (v0.17.0, v1.8.0, v0.9.0), Antigravity Fleet plugin (v1.5.0), Sophos, and the interactive résumé site.",
     "sections": [
         "What I'm building",
         "Public repositories",
