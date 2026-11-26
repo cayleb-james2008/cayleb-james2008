@@ -48,7 +48,7 @@ Ergon is a single-binary Rust desktop and web desk for running local employee wo
 
 <p align="center"><sub>One tower per day; heights use a square-root scale so busy days do not hide the rest. Generated daily by scripts in this repo.</sub></p>
 
-<div align="center"><details><summary>Figures in text</summary><sub><!--numbers:start-->2,736 contributions in the last 12 months (2025-11-23 to 2026-11-26): 2,454 commits, 271 pull requests, 71 active days. Busiest day 452, on 2026-11-18. Current streak 10 days; longest streak 17 days (2026-06-18 to 2026-07-04).<!--numbers:end--></sub></details></div>
+<div align="center"><details><summary>Figures in text</summary><sub><!--numbers:start-->2,743 contributions in the last 12 months (2025-11-23 to 2026-11-26): 2,461 commits, 271 pull requests, 72 active days. Busiest day 452, on 2026-11-18. Current streak 11 days; longest streak 17 days (2026-06-18 to 2026-07-04).<!--numbers:end--></sub></details></div>
 
 <h3><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-4-m-dark.svg"><source media="(max-width: 600px)" srcset="assets/section-4-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg"><img src="assets/section-4-light.svg" alt="Stack"></picture></h3>
 
