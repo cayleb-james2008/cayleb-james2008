@@ -51,13 +51,13 @@
             "key": "fleet",
             "title": "Fleet",
             "kicker": "Antigravity swarm sidebar",
-            "summary": "Antigravity sidebar plugin for agent swarms. Checks branch safe-land readiness, Cmd+K jump index, and token burn.",
+            "summary": "Antigravity sidebar plugin for agent swarms. Adds handoff digest export, SSE resync, safe-land, and token burn.",
             "tags": [
                 "Antigravity",
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.16.0 · Plugin"
+            "status": "v1.17.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with safe-land checks, Cmd+K index, worker recovery, and diffs (v1.16.0).",
+            "blurb": "Antigravity sidebar plugin for agent swarms with handoff digest export, SSE resync, safe-land, and Cmd+K index (v1.17.0).",
             "stack": "Node · React",
             "license": null
         },
