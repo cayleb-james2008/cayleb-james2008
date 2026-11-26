@@ -3,7 +3,7 @@
  "name": "Cayleb Alvarez-James",
  "created_at": "2022-05-30T23:58:10Z",
  "calendar": {
-  "total": 1653,
+  "total": 1654,
   "weeks": [
    {
     "first": "2025-11-23",
@@ -2472,8 +2472,8 @@
      },
      {
       "date": "2026-11-25",
-      "count": 0,
-      "level": "NONE",
+      "count": 1,
+      "level": "FIRST_QUARTILE",
       "weekday": 3
      },
      {
@@ -2487,7 +2487,7 @@
   ]
  },
  "totals": {
-  "commits": 1371,
+  "commits": 1372,
   "pull_requests": 271,
   "issues": 0,
   "reviews": 0
@@ -2513,7 +2513,7 @@
   },
   {
    "name": "ergon",
-   "description": "Personal employee AI agent desktop & web app in one 11.7 MB Rust binary \u2014 12 built-in workflows, playbook promotion, [file:L##] citation verification, .history/ diff restore, SHA-256 audit bundles, cadence scheduler, and 6k+ req/s.",
+   "description": "Single-binary Rust desktop and web desk for local employee agents with sandboxed files, playbook promotion, and scheduled runs.",
    "language": "Rust",
    "topics": [
     "ai-agents",
@@ -2528,7 +2528,7 @@
     "typescript",
     "workflows"
    ],
-   "pushed_at": "2026-11-26T00:42:48Z",
+   "pushed_at": "2026-11-26T00:48:25Z",
    "created_at": "2026-11-18T06:58:22Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/ergon",
@@ -2537,7 +2537,7 @@
   },
   {
    "name": "fleet",
-   "description": "Antigravity-native Swarm Sidebar Plugin \u2014 keyboard-first triage, live SSE board feed, git worktree probes, and minimal footprint for multi-agent swarms",
+   "description": "Antigravity sidebar plugin for multi-agent swarms with live board telemetry, gate tracking, and git worktree diffs.",
    "language": "TypeScript",
    "topics": [
     "antigravity",
@@ -2551,7 +2551,7 @@
     "swarm",
     "typescript"
    ],
-   "pushed_at": "2026-11-26T00:31:30Z",
+   "pushed_at": "2026-11-26T00:44:56Z",
    "created_at": "2026-11-18T06:58:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/fleet",
@@ -2580,7 +2580,7 @@
   },
   {
    "name": "open-ro",
-   "description": "Studio Copilot 3-pane Roblox Studio AI IDE in one 14.7 MB Rust binary \u2014 Agent/Plan/Ask unified Luau diffs, Pre-Publish Revenue & Playtest Gate, monetization & comeback retention presets, 13 MCP tools, Companion plugin, and Rojo .zip export.",
+   "description": "Single-binary Rust AI IDE for Roblox Studio with unified Luau diffs, snapshot rollback, live Studio sync, and Rojo export.",
    "language": "Rust",
    "topics": [
     "ai-agent",
@@ -2605,7 +2605,7 @@
   },
   {
    "name": "openbell",
-   "description": "Kalshi Trade API v2 institutional quant & execution terminal in one 8.1 MB Rust binary \u2014 fail-closed hard risk rails (disarmed on boot), kill switch, causal edge screener, 1-click basket preflight, PAV calibration, and $500/day scale planner.",
+   "description": "Single-binary Rust trading research and Kalshi v2 terminal with fail-closed risk limits, kill switch, and causal backtesting.",
    "language": "Rust",
    "topics": [
     "algorithmic-trading",
