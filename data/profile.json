@@ -93,11 +93,6 @@
             "stack": "Rust · TypeScript",
             "license": null
         },
-        "sophos": {
-            "blurb": "Desktop coding-agent app with persistent transcripts across restarts. Passed 1,224 UI tests and hosted CI.",
-            "stack": "TypeScript · Tauri",
-            "license": "MIT"
-        },
         "cayleb-james2008.github.io": {
             "blurb": "Interactive resume, project notes, recorded walkthroughs, ten-tool /lab/ workbench, and browser previews.",
             "stack": "React · TypeScript",
@@ -109,7 +104,6 @@
         "openbell",
         "fleet",
         "ergon",
-        "sophos",
         "cayleb-james2008.github.io"
     ],
     "now": [
@@ -136,7 +130,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.26.0), OpenBell (v0.9.0), Fleet (v1.27.0), Ergon (v0.36.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.26.0), OpenBell (v0.9.0), Fleet (v1.27.0), Ergon (v0.36.0), and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
