@@ -27,13 +27,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "Roblox Studio AI IDE",
-            "summary": "Three-pane Rust IDE for Roblox Studio. Simulates 60-min economy curves, audits receipts, and exports Rojo.",
+            "summary": "Unified Rust IDE for Roblox Studio. Edits Rojo workspaces and 3D scenes directly on disk and exports .rbxlx.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.18.0 · Public"
+            "status": "v1.19.0 · Public"
         },
         {
             "key": "openbell",
@@ -74,7 +74,7 @@
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Three-pane Rust AI IDE for Roblox Studio with 60-min economy progression sims, monetization audits, and Rojo export (v1.18.0).",
+            "blurb": "Unified Rust AI IDE for Roblox Studio with direct Rojo disk saves, declarative 3D scenes, and .rbxlx export (v1.19.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -115,7 +115,7 @@
     "now": [
         [
             "OpenRO",
-            "Roblox Studio IDE · v1.18.0"
+            "Roblox Studio IDE · v1.19.0"
         ],
         [
             "OpenBell",
@@ -136,7 +136,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.18.0), OpenBell (v0.9.0), Fleet (v1.20.0), Ergon (v0.29.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.19.0), OpenBell (v0.9.0), Fleet (v1.20.0), Ergon (v0.29.0), Sophos, and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
