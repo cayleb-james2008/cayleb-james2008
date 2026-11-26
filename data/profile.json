@@ -51,13 +51,13 @@
             "key": "fleet",
             "title": "Fleet",
             "kicker": "Antigravity swarm sidebar",
-            "summary": "Antigravity sidebar plugin for agent swarms. Tracks release gates, token burn, board search, and git worktree diffs.",
+            "summary": "Antigravity sidebar plugin for agent swarms. Recovers stalled workers, tracks gates and burn, and peeks worktree diffs.",
             "tags": [
                 "Antigravity",
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.14.0 · Plugin"
+            "status": "v1.15.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with wave velocity, next-gate actions, token tracking, and worktree diffs (v1.14.0).",
+            "blurb": "Antigravity sidebar plugin for agent swarms with worker recovery, filtered jumps, wave velocity, and diffs (v1.15.0).",
             "stack": "Node · React",
             "license": null
         },
@@ -123,7 +123,7 @@
         ],
         [
             "Fleet",
-            "Swarm plugin · v1.14.0"
+            "Swarm plugin · v1.15.0"
         ],
         [
             "Ergon",
@@ -136,7 +136,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.15.0), OpenBell (v0.9.0), Fleet (v1.14.0), Ergon (v0.25.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.15.0), OpenBell (v0.9.0), Fleet (v1.15.0), Ergon (v0.25.0), Sophos, and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
