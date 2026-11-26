@@ -27,13 +27,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "Roblox Studio AI IDE",
-            "summary": "Unified Rust IDE for Roblox Studio with headless Lune Luau runtime sandboxing, Rojo disk saves, 3D scenes, and .rbxlx export.",
+            "summary": "Unified Rust IDE for Roblox Studio with visual ScreenGui designer, safe-area simulator, headless Lune Luau sandbox, and Rojo saves.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.20.0 · Public"
+            "status": "v1.21.0 · Public"
         },
         {
             "key": "openbell",
@@ -74,7 +74,7 @@
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Unified Rust AI IDE for Roblox Studio with headless Lune Luau sandbox, Rojo disk saves, 3D scenes, and .rbxlx export (v1.20.0).",
+            "blurb": "Unified Rust AI IDE for Roblox Studio with visual ScreenGui designer, headless Lune Luau sandbox, Rojo saves, and .rbxlx export (v1.21.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -115,7 +115,7 @@
     "now": [
         [
             "OpenRO",
-            "Roblox Studio IDE · v1.20.0"
+            "Roblox Studio IDE · v1.21.0"
         ],
         [
             "OpenBell",
