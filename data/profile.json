@@ -27,13 +27,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "Roblox Studio AI IDE",
-            "summary": "Unified Rust IDE for Roblox Studio with visual ScreenGui designer, safe-area simulator, headless Lune Luau sandbox, and Rojo saves.",
+            "summary": "Unified Rust IDE for Roblox Studio with hardened workspace containment, ScreenGui designer, safe-area simulator, and Lune Luau sandbox.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.21.0 · Public"
+            "status": "v1.22.0 · Public"
         },
         {
             "key": "openbell",
@@ -74,7 +74,7 @@
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Unified Rust AI IDE for Roblox Studio with visual ScreenGui designer, headless Lune Luau sandbox, Rojo saves, and .rbxlx export (v1.21.0).",
+            "blurb": "Unified Rust AI IDE for Roblox Studio with hardened workspace containment, ScreenGui designer, Lune Luau sandbox, Rojo saves, and .rbxlx export (v1.22.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -115,7 +115,7 @@
     "now": [
         [
             "OpenRO",
-            "Roblox Studio IDE · v1.21.0"
+            "Roblox Studio IDE · v1.22.0"
         ],
         [
             "OpenBell",
@@ -136,7 +136,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.19.0), OpenBell (v0.9.0), Fleet (v1.23.0), Ergon (v0.32.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.22.0), OpenBell (v0.9.0), Fleet (v1.23.0), Ergon (v0.32.0), Sophos, and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
