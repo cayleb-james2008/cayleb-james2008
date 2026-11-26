@@ -57,7 +57,7 @@
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.19.0 · Plugin"
+            "status": "v1.20.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with zero-client idle sleep, full archive export, and peeks (v1.19.0).",
+            "blurb": "Antigravity sidebar plugin for agent swarms with native plan normalization and live CAS plan editing (v1.20.0).",
             "stack": "Node · React",
             "license": null
         },
@@ -123,7 +123,7 @@
         ],
         [
             "Fleet",
-            "Swarm plugin · v1.19.0"
+            "Swarm plugin · v1.20.0"
         ],
         [
             "Ergon",
@@ -136,7 +136,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.18.0), OpenBell (v0.9.0), Fleet (v1.19.0), Ergon (v0.28.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.18.0), OpenBell (v0.9.0), Fleet (v1.20.0), Ergon (v0.28.0), Sophos, and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
