@@ -51,13 +51,13 @@
             "key": "fleet",
             "title": "Fleet",
             "kicker": "Antigravity swarm sidebar",
-            "summary": "Antigravity sidebar plugin for agent swarms. Adds sub-200ms delta streaming, 3-way 409 plan merge recovery, and CWE-59 guards.",
+            "summary": "Antigravity sidebar plugin for agent swarms. Adds bounded forensic transcript inspection, secret scrubbing, and sub-200ms delta streaming.",
             "tags": [
                 "Antigravity",
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.24.0 · Plugin"
+            "status": "v1.25.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with sub-200ms board delta streaming, 3-way 409 plan merge recovery, and CWE-59 git probes (v1.24.0).",
+            "blurb": "Antigravity sidebar plugin for agent swarms with bounded forensic transcript inspection, secret scrubbing, sub-200ms delta streaming, and 3-way 409 plan merge recovery (v1.25.0).",
             "stack": "Node · React",
             "license": null
         },
@@ -123,7 +123,7 @@
         ],
         [
             "Fleet",
-            "Swarm plugin · v1.24.0"
+            "Swarm plugin · v1.25.0"
         ],
         [
             "Ergon",
@@ -136,7 +136,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.23.0), OpenBell (v0.9.0), Fleet (v1.24.0), Ergon (v0.33.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.23.0), OpenBell (v0.9.0), Fleet (v1.25.0), Ergon (v0.33.0), Sophos, and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
