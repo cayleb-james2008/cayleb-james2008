@@ -63,13 +63,13 @@
             "key": "ergon",
             "title": "Ergon",
             "kicker": "Local employee desk",
-            "summary": "Single-binary Rust desk for employee agents. Runs resumable pipelines with checkpoints, starter playbooks, and handoff ZIPs.",
+            "summary": "Single-binary Rust desk for employee agents. Adds inline Studio editing, fixed-point table queries, native PDF, and pipelines.",
             "tags": [
                 "Rust",
                 "React",
                 "Desktop"
             ],
-            "status": "v0.29.0 · Public"
+            "status": "v0.30.0 · Public"
         }
     ],
     "repos": {
@@ -89,7 +89,7 @@
             "license": null
         },
         "ergon": {
-            "blurb": "Single-binary Rust desk for employee agents with resumable steps_v2 pipelines, human checkpoints, and handoff ZIPs (v0.29.0).",
+            "blurb": "Single-binary Rust desk for employee agents with inline Studio editing, table queries, native PDF/XLSX, and pipelines (v0.30.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
