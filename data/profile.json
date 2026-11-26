@@ -33,7 +33,7 @@
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.14.0 · Public"
+            "status": "v1.15.0 · Public"
         },
         {
             "key": "openbell",
@@ -57,7 +57,7 @@
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.13.0 · Plugin"
+            "status": "v1.14.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -74,7 +74,7 @@
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Three-pane Rust AI IDE for Roblox Studio with Luau diffs, hook checks, live sync, and Rojo export (v1.14.0).",
+            "blurb": "Three-pane Rust AI IDE for Roblox Studio with Luau diffs, sync-conflict resolution, hook checks, and Rojo export (v1.15.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with next-gate actions, token tracking, and worktree diffs (v1.13.0).",
+            "blurb": "Antigravity sidebar plugin for agent swarms with wave velocity, next-gate actions, token tracking, and worktree diffs (v1.14.0).",
             "stack": "Node · React",
             "license": null
         },
@@ -115,7 +115,7 @@
     "now": [
         [
             "OpenRO",
-            "Roblox Studio IDE · v1.14.0"
+            "Roblox Studio IDE · v1.15.0"
         ],
         [
             "OpenBell",
@@ -123,7 +123,7 @@
         ],
         [
             "Fleet",
-            "Swarm plugin · v1.13.0"
+            "Swarm plugin · v1.14.0"
         ],
         [
             "Ergon",
@@ -136,7 +136,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.14.0), OpenBell (v0.9.0), Fleet (v1.13.0), Ergon (v0.24.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.15.0), OpenBell (v0.9.0), Fleet (v1.14.0), Ergon (v0.24.0), Sophos, and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
