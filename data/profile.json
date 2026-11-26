@@ -27,13 +27,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "Roblox Studio AI IDE",
-            "summary": "Unified Rust IDE for Roblox Studio. Edits Rojo workspaces and 3D scenes directly on disk and exports .rbxlx.",
+            "summary": "Unified Rust IDE for Roblox Studio with headless Lune Luau runtime sandboxing, Rojo disk saves, 3D scenes, and .rbxlx export.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.19.0 · Public"
+            "status": "v1.20.0 · Public"
         },
         {
             "key": "openbell",
@@ -74,7 +74,7 @@
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Unified Rust AI IDE for Roblox Studio with direct Rojo disk saves, declarative 3D scenes, and .rbxlx export (v1.19.0).",
+            "blurb": "Unified Rust AI IDE for Roblox Studio with headless Lune Luau sandbox, Rojo disk saves, 3D scenes, and .rbxlx export (v1.20.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -115,7 +115,7 @@
     "now": [
         [
             "OpenRO",
-            "Roblox Studio IDE · v1.19.0"
+            "Roblox Studio IDE · v1.20.0"
         ],
         [
             "OpenBell",
@@ -123,11 +123,11 @@
         ],
         [
             "Fleet",
-            "Swarm plugin · v1.20.0"
+            "Swarm plugin · v1.21.0"
         ],
         [
             "Ergon",
-            "Employee desk · v0.29.0"
+            "Employee desk · v0.30.0"
         ]
     ],
     "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). OpenRO, OpenBell, and Ergon ship as cross-platform single-binary Rust desktop and web apps, and Fleet runs inside Antigravity as a sidebar plugin.",
