@@ -63,13 +63,13 @@
             "key": "ergon",
             "title": "Ergon",
             "kicker": "Local employee desk",
-            "summary": "Single-binary Rust desk for employee agents. Adds full-vault chunked hybrid search, line-jump preview, and exact-decimal multi-file table rollups.",
+            "summary": "Single-binary Rust desk for employee agents. Adds parallel DAG pipelines, for_each fan-out, deliver steps, and token streaming.",
             "tags": [
                 "Rust",
                 "React",
                 "Desktop"
             ],
-            "status": "v0.34.0 · Public"
+            "status": "v0.35.0 · Public"
         }
     ],
     "repos": {
@@ -89,7 +89,7 @@
             "license": null
         },
         "ergon": {
-            "blurb": "Single-binary Rust desk for employee agents with full-vault chunked hybrid search, exact-decimal multi-file rollups, client engagements, token and cost metering, and budget gates (v0.34.0).",
+            "blurb": "Single-binary Rust desk for employee agents with parallel DAG pipelines, for_each batch fan-out, deliver connector steps, context compaction, full-vault hybrid search, and retainer metering (v0.35.0).",
             "stack": "Rust · TypeScript",
             "license": null
         },
@@ -127,7 +127,7 @@
         ],
         [
             "Ergon",
-            "Employee desk · v0.34.0"
+            "Employee desk · v0.35.0"
         ]
     ],
     "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). OpenRO, OpenBell, and Ergon ship as cross-platform single-binary Rust desktop and web apps, and Fleet runs inside Antigravity as a sidebar plugin.",
@@ -136,7 +136,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.25.0), OpenBell (v0.9.0), Fleet (v1.26.0), Ergon (v0.34.0), Sophos, and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.25.0), OpenBell (v0.9.0), Fleet (v1.26.0), Ergon (v0.35.0), Sophos, and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
