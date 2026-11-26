@@ -51,13 +51,13 @@
             "key": "fleet",
             "title": "Fleet",
             "kicker": "Antigravity swarm sidebar",
-            "summary": "Antigravity sidebar plugin for agent swarms. Adds zero-client idle sleep, swarm archive export, and peeks.",
+            "summary": "Antigravity sidebar plugin for agent swarms. Adds worktree collision detection, merge/rebase actions, idle sleep, and peeks.",
             "tags": [
                 "Antigravity",
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.20.0 · Plugin"
+            "status": "v1.21.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with native plan normalization and live CAS plan editing (v1.20.0).",
+            "blurb": "Antigravity sidebar plugin for agent swarms with worktree collision detection, branch diffs, and merge/rebase actions (v1.21.0).",
             "stack": "Node · React",
             "license": null
         },
