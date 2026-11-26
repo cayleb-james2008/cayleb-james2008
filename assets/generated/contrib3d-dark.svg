@@ -380,6 +380,7 @@
 <use href="#zt" x="777.38" y="186.5"/>
 <g transform="translate(770.54 200.23)" style="--h:14.27px;--d:2.05s"><g transform="matrix(10.98 1.37 0 1 0 0)"><rect class="r b2" y="-14.27" width="1" height="14.27"/></g><g transform="matrix(5.48 -10.98 0 1 10.98 1.37)"><rect class="r c2" y="-14.27" width="1" height="14.27"/></g><use class="T a2" href="#tp" y="-14.27"/></g>
 <use href="#zt" x="763.69" y="213.96"/>
+<use href="#zt" x="756.84" y="227.68"/>
 <text class="m" transform="translate(51.81 196.02) rotate(7.11)">Dec</text>
 <text class="m" transform="translate(106.72 202.87) rotate(7.11)">Jan ’26</text>
 <text class="m" transform="translate(161.63 209.72) rotate(7.11)">Feb</text>
