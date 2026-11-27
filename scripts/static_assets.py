@@ -541,6 +541,8 @@ def work_card(item, tn, mobile=False, side=None):
 
 # --------------------------------------------------------------------------- main
 def main():
+    import copy_guard  # COPY-RULES.md: refuse to render graphics from rewritten copy
+    copy_guard.check()
     out = []
     for tn in ("dark", "light"):
         out.append(write("header", tn, header(tn)))

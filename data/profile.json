@@ -1,21 +1,14 @@
 {
     "name": "Cayleb Alvarez-James",
     "handle": "cayleb-james2008",
-    "open_to": "AI Agent Systems Engineer. Autonomous Agents, Agent Harnesses & Self-Improving Infrastructure",
+    "open_to": "I turn repetitive work into something that runs itself.",
     "stack": [
-        "Multi-harness ops",
-        "Role learning (Ergon)",
-        "Dynamic swarms",
-        "Omni Loop",
-        "Rust",
-        "TypeScript",
         "Python",
+        "TypeScript",
+        "JavaScript",
+        "Rust",
         "Luau",
-        "Weight-space editing (research)",
-        "LDA specialists",
-        "Backtesting",
-        "Experiment design",
-        "House Frontend",
+        "HTML/CSS",
         "React",
         "Tauri",
         "SQLite",
@@ -24,151 +17,57 @@
     ],
     "work": [
         {
-            "key": "roblox",
-            "title": "OpenRO",
-            "kicker": "Roblox Studio AI IDE",
-            "summary": "Unified Rust IDE for Roblox Studio with hardened 3-way Studio sync, LiveOps telemetry, Luau checks, and 3D viewport.",
-            "tags": [
-                "Rust",
-                "Luau",
-                "Roblox"
-            ],
-            "status": "v1.30.0 \u00b7 Public"
-        },
-        {
-            "key": "openbell",
-            "title": "OpenBell",
-            "kicker": "Kalshi v2 research desk",
-            "summary": "Rust research and execution desk for Kalshi. Runs five-stage edge checks with fail-closed order limits disarmed on boot.",
-            "tags": [
-                "Rust",
-                "Quant",
-                "Kalshi v2"
-            ],
-            "status": "v0.9.0 \u00b7 Live Rails"
-        },
-        {
-            "key": "fleet",
-            "title": "Fleet",
-            "kicker": "Antigravity swarm sidebar",
-            "summary": "Antigravity sidebar plugin for agent swarms. Hardens JSON recovery, git probes, RPC timeouts, retries, and conflict landing.",
-            "tags": [
-                "Antigravity",
-                "Sidecar",
-                "Node ESM"
-            ],
-            "status": "v1.31.0 \u00b7 Plugin"
-        },
-        {
             "key": "ergon",
             "title": "Ergon",
-            "kicker": "Local employee desk",
-            "summary": "Single-binary Rust desk for employee agents. Hardens client vaults, SSRF guards, DAG slot claims, and 390px modals.",
+            "kicker": "Employee agents",
+            "summary": "Learns each employee's workflow and tools, then turns them into tools every agent on Ergon can use.",
             "tags": [
                 "Rust",
-                "React",
-                "Desktop"
+                "TypeScript"
             ],
-            "status": "v0.40.0 \u00b7 Public"
+            "status": "Public"
         }
     ],
     "repos": {
-        "open-ro": {
-            "blurb": "Unified Rust AI IDE for Roblox Studio with hardened 3-way Studio sync, prefab import, LiveOps telemetry, Luau typecheck, symbol outline, Lune sandbox, WebGL2 viewport, and ScreenGui designer (v1.30.0).",
-            "stack": "Rust \u00b7 Luau \u00b7 React",
-            "license": null
-        },
-        "openbell": {
-            "blurb": "Rust Kalshi v2 research and execution terminal with causal edge checks and fail-closed risk limits (v0.9.0).",
-            "stack": "Rust \u00b7 TypeScript",
-            "license": null
-        },
-        "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with atomic JSON recovery, bounded git worktree probes, RPC timeout and retry controls, conflict hunk inspection, portfolio drawer, and checkpoints (v1.31.0).",
-            "stack": "Node \u00b7 React",
-            "license": null
-        },
         "ergon": {
-            "blurb": "Single-binary Rust desk for employee agents with hardened client isolation, formula escaping, SSRF and MCP guards, atomic DAG slot claims, SSE reconciliation, concurrent run isolation, parallel checkpoints, and cron scheduling (v0.40.0).",
+            "blurb": "Learns each employee's workflow and tools, then turns them into tools every agent on Ergon can use.",
             "stack": "Rust \u00b7 TypeScript",
-            "license": null
-        },
-        "cayleb-james2008.github.io": {
-            "blurb": "Interactive resume, project notes, recorded walkthroughs, ten-tool /lab/ workbench, and browser previews.",
-            "stack": "React \u00b7 TypeScript",
             "license": null
         }
     },
-    "repo_order": [
-        "open-ro",
-        "openbell",
-        "fleet",
-        "ergon",
-        "cayleb-james2008.github.io"
-    ],
+    "repo_order": [],
     "now": [
         [
-            "OpenRO",
-            "Roblox Studio IDE \u00b7 v1.30.0"
-        ],
-        [
-            "OpenBell",
-            "Kalshi v2 desk \u00b7 v0.9.0"
-        ],
-        [
-            "Fleet",
-            "Swarm plugin \u00b7 v1.31.0"
-        ],
-        [
             "Ergon",
-            "Employee desk \u00b7 v0.40.0"
+            "look here first"
         ]
     ],
-    "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). OpenRO, OpenBell, and Ergon ship as cross-platform single-binary Rust desktop and web apps, and Fleet runs inside Antigravity as a sidebar plugin.",
     "links": {
         "youtube": "https://www.youtube.com/@cayleb-james",
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
-    "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.30.0), OpenBell (v0.9.0), Fleet (v1.31.0), Ergon (v0.40.0), and the interactive resume site.",
+    "intro": "I turn repetitive work into something that runs itself.",
     "sections": [
-        "What I'm building",
-        "Public repositories",
+        "About",
+        "Projects",
         "In numbers",
         "Stack"
     ],
     "stack_groups": [
         {
-            "label": "AI & agents",
-            "items": [
-                "Multi-harness ops",
-                "Role learning (Ergon)",
-                "Dynamic swarms",
-                "Omni Loop"
-            ]
-        },
-        {
             "label": "Languages",
             "items": [
-                "Rust",
-                "TypeScript",
                 "Python",
-                "Luau"
+                "TypeScript",
+                "JavaScript",
+                "Rust",
+                "Luau",
+                "HTML/CSS"
             ]
         },
         {
-            "label": "Models & data",
+            "label": "Tools",
             "items": [
-                "Weight-space editing (research)",
-                "LDA specialists",
-                "Backtesting",
-                "Experiment design"
-            ]
-        },
-        {
-            "label": "Apps & UI",
-            "items": [
-                "House Frontend",
                 "React",
                 "Tauri",
                 "SQLite",

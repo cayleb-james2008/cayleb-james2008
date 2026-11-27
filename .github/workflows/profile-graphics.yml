@@ -30,6 +30,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Copy guard (COPY-RULES.md, owner-approved copy)
+        run: python3 scripts/copy_guard.py
+
       - name: Static assets (header, divider, stack, work cards)
         run: python3 scripts/static_assets.py
 

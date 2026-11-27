@@ -2501,7 +2501,7 @@
  "repos": [
   {
    "name": "cayleb-james2008.github.io",
-   "description": "The one r\u00e9sum\u00e9 link: the interactive edition of Cayleb Alvarez-James's r\u00e9sum\u00e9, with working demos.",
+   "description": null,
    "language": "JavaScript",
    "topics": [
     "house-frontend",
@@ -2519,7 +2519,7 @@
   },
   {
    "name": "ergon",
-   "description": "Single-binary Rust desktop and web desk for local employee agents with sandboxed files, playbook promotion, and scheduled runs.",
+   "description": null,
    "language": "Rust",
    "topics": [
     "ai-agents",
@@ -2543,7 +2543,7 @@
   },
   {
    "name": "fleet",
-   "description": "Antigravity sidebar plugin for multi-agent swarms with live board telemetry, gate tracking, and git worktree diffs.",
+   "description": null,
    "language": "JavaScript",
    "topics": [
     "antigravity",
@@ -2566,7 +2566,7 @@
   },
   {
    "name": "open-ro",
-   "description": "Single-binary Rust AI IDE for Roblox Studio with unified Luau diffs, snapshot rollback, live Studio sync, and Rojo export.",
+   "description": null,
    "language": "Rust",
    "topics": [
     "ai-agent",
@@ -2591,7 +2591,7 @@
   },
   {
    "name": "openbell",
-   "description": "Single-binary Rust trading research and Kalshi v2 terminal with fail-closed risk limits, kill switch, and causal backtesting.",
+   "description": null,
    "language": "Rust",
    "topics": [
     "algorithmic-trading",
