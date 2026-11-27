@@ -4,14 +4,14 @@
     "open_to": "AI Agent Systems Engineer. Autonomous Agents, Agent Harnesses & Self-Improving Infrastructure",
     "stack": [
         "Multi-harness ops",
-        "Role learning",
+        "Role learning (Ergon)",
         "Dynamic swarms",
         "Omni Loop",
         "Rust",
         "TypeScript",
         "Python",
         "Luau",
-        "Weight-space",
+        "Weight-space editing (research)",
         "LDA specialists",
         "Backtesting",
         "Experiment design",
@@ -142,7 +142,7 @@
             "label": "AI & agents",
             "items": [
                 "Multi-harness ops",
-                "Role learning",
+                "Role learning (Ergon)",
                 "Dynamic swarms",
                 "Omni Loop"
             ]
@@ -159,7 +159,7 @@
         {
             "label": "Models & data",
             "items": [
-                "Weight-space",
+                "Weight-space editing (research)",
                 "LDA specialists",
                 "Backtesting",
                 "Experiment design"
