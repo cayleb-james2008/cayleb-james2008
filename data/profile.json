@@ -33,7 +33,7 @@
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.30.0 · Public"
+            "status": "v1.30.0 \u00b7 Public"
         },
         {
             "key": "openbell",
@@ -45,7 +45,7 @@
                 "Quant",
                 "Kalshi v2"
             ],
-            "status": "v0.9.0 · Live Rails"
+            "status": "v0.9.0 \u00b7 Live Rails"
         },
         {
             "key": "fleet",
@@ -57,45 +57,45 @@
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.31.0 · Plugin"
+            "status": "v1.31.0 \u00b7 Plugin"
         },
         {
             "key": "ergon",
             "title": "Ergon",
             "kicker": "Local employee desk",
-            "summary": "Single-binary Rust desk for employee agents. Adds concurrent run isolation, parallel DAG checkpoints, retries, and cron.",
+            "summary": "Single-binary Rust desk for employee agents. Hardens client vaults, SSRF guards, DAG slot claims, and 390px modals.",
             "tags": [
                 "Rust",
                 "React",
                 "Desktop"
             ],
-            "status": "v0.39.0 · Public"
+            "status": "v0.40.0 \u00b7 Public"
         }
     ],
     "repos": {
         "open-ro": {
             "blurb": "Unified Rust AI IDE for Roblox Studio with hardened 3-way Studio sync, prefab import, LiveOps telemetry, Luau typecheck, symbol outline, Lune sandbox, WebGL2 viewport, and ScreenGui designer (v1.30.0).",
-            "stack": "Rust · Luau · React",
+            "stack": "Rust \u00b7 Luau \u00b7 React",
             "license": null
         },
         "openbell": {
             "blurb": "Rust Kalshi v2 research and execution terminal with causal edge checks and fail-closed risk limits (v0.9.0).",
-            "stack": "Rust · TypeScript",
+            "stack": "Rust \u00b7 TypeScript",
             "license": null
         },
         "fleet": {
             "blurb": "Antigravity sidebar plugin for agent swarms with atomic JSON recovery, bounded git worktree probes, RPC timeout and retry controls, conflict hunk inspection, portfolio drawer, and checkpoints (v1.31.0).",
-            "stack": "Node · React",
+            "stack": "Node \u00b7 React",
             "license": null
         },
         "ergon": {
-            "blurb": "Single-binary Rust desk for employee agents with concurrent run isolation, parallel DAG branch checkpoints, step retries and subpipelines, 5-field cron with timezone, SMTPS/IMAP, MCP connectors, and client vaults (v0.39.0).",
-            "stack": "Rust · TypeScript",
+            "blurb": "Single-binary Rust desk for employee agents with hardened client isolation, formula escaping, SSRF and MCP guards, atomic DAG slot claims, SSE reconciliation, concurrent run isolation, parallel checkpoints, and cron scheduling (v0.40.0).",
+            "stack": "Rust \u00b7 TypeScript",
             "license": null
         },
         "cayleb-james2008.github.io": {
             "blurb": "Interactive resume, project notes, recorded walkthroughs, ten-tool /lab/ workbench, and browser previews.",
-            "stack": "React · TypeScript",
+            "stack": "React \u00b7 TypeScript",
             "license": null
         }
     },
@@ -109,19 +109,19 @@
     "now": [
         [
             "OpenRO",
-            "Roblox Studio IDE · v1.30.0"
+            "Roblox Studio IDE \u00b7 v1.30.0"
         ],
         [
             "OpenBell",
-            "Kalshi v2 desk · v0.9.0"
+            "Kalshi v2 desk \u00b7 v0.9.0"
         ],
         [
             "Fleet",
-            "Swarm plugin · v1.31.0"
+            "Swarm plugin \u00b7 v1.31.0"
         ],
         [
             "Ergon",
-            "Employee desk · v0.39.0"
+            "Employee desk \u00b7 v0.40.0"
         ]
     ],
     "credits": "Sophos builds on Prime Intellect's open-source Prime Agent (PrimeIntellect-ai/prime-agent, MIT). OpenRO, OpenBell, and Ergon ship as cross-platform single-binary Rust desktop and web apps, and Fleet runs inside Antigravity as a sidebar plugin.",
@@ -130,7 +130,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.30.0), OpenBell (v0.9.0), Fleet (v1.31.0), Ergon (v0.39.0), and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.30.0), OpenBell (v0.9.0), Fleet (v1.31.0), Ergon (v0.40.0), and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
