@@ -27,13 +27,13 @@
             "key": "roblox",
             "title": "OpenRO",
             "kicker": "Roblox Studio AI IDE",
-            "summary": "Unified Rust IDE for Roblox Studio with 3-way Studio sync, prefab .rbxm/.rbxmx/.rbxlx model import, Luau sandbox, and WebGL2 3D viewport.",
+            "summary": "Unified Rust IDE for Roblox Studio with LiveOps telemetry sync, 3-way Studio sync, Luau sandbox, and 3D viewport.",
             "tags": [
                 "Rust",
                 "Luau",
                 "Roblox"
             ],
-            "status": "v1.27.0 · Public"
+            "status": "v1.28.0 · Public"
         },
         {
             "key": "openbell",
@@ -74,7 +74,7 @@
     ],
     "repos": {
         "open-ro": {
-            "blurb": "Unified Rust AI IDE for Roblox Studio with bidirectional 3-way Studio sync, prefab .rbxm/.rbxmx/.rbxlx model import, headless Lune sandbox, WebGL2 3D viewport, and ScreenGui designer (v1.27.0).",
+            "blurb": "Unified Rust AI IDE for Roblox Studio with production LiveOps telemetry codegen and Open Cloud sync, bidirectional 3-way Studio sync, prefab .rbxm/.rbxmx/.rbxlx model import, headless Lune sandbox, WebGL2 3D viewport, and ScreenGui designer (v1.28.0).",
             "stack": "Rust · Luau · React",
             "license": null
         },
@@ -109,7 +109,7 @@
     "now": [
         [
             "OpenRO",
-            "Roblox Studio IDE · v1.27.0"
+            "Roblox Studio IDE · v1.28.0"
         ],
         [
             "OpenBell",
@@ -130,7 +130,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.27.0), OpenBell (v0.9.0), Fleet (v1.29.0), Ergon (v0.37.0), and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.28.0), OpenBell (v0.9.0), Fleet (v1.29.0), Ergon (v0.37.0), and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
