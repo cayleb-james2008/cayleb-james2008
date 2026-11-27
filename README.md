@@ -51,7 +51,7 @@ My résumé site: [cayleb-james2008.github.io](https://cayleb-james2008.github.i
 
 <p align="center"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/generated/contrib3d-m-dark.svg"><source media="(max-width: 600px)" srcset="assets/generated/contrib3d-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/generated/contrib3d-dark.svg"><img src="assets/generated/contrib3d-light.svg" alt="A 3D isometric bar chart of my GitHub contributions over the last 12 months, one tower per day, with heights on a square-root scale so a few very busy days do not flatten the rest."></picture></p>
 
-<p align="center"><sub><!--numbers:start-->1,808 contributions in the last 12 months (2025-11-23 to 2026-11-27): 1,753 commits, 49 pull requests, 20 active days. Busiest day 367, on 2026-11-18. Current streak 12 days; longest streak 12 days (2026-11-16 to 2026-11-27).<!--numbers:end--></sub></p>
+<p align="center"><sub><!--numbers:start-->1,813 contributions in the last 12 months (2025-11-23 to 2026-11-27): 1,755 commits, 52 pull requests, 20 active days. Busiest day 367, on 2026-11-18. Current streak 12 days; longest streak 12 days (2026-11-16 to 2026-11-27).<!--numbers:end--></sub></p>
 
 <h3><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-4-m-dark.svg"><source media="(max-width: 600px)" srcset="assets/section-4-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg"><img src="assets/section-4-light.svg" alt="Stack"></picture></h3>
 
