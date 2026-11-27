@@ -3,7 +3,7 @@
  "name": "Cayleb Alvarez-James",
  "created_at": "2022-05-30T23:58:10Z",
  "calendar": {
-  "total": 1808,
+  "total": 1813,
   "weeks": [
    {
     "first": "2025-11-23",
@@ -2484,7 +2484,7 @@
      },
      {
       "date": "2026-11-27",
-      "count": 49,
+      "count": 54,
       "level": "FIRST_QUARTILE",
       "weekday": 5
      }
@@ -2493,15 +2493,15 @@
   ]
  },
  "totals": {
-  "commits": 1753,
-  "pull_requests": 49,
+  "commits": 1755,
+  "pull_requests": 52,
   "issues": 0,
   "reviews": 0
  },
  "repos": [
   {
    "name": "cayleb-james2008.github.io",
-   "description": "The one r\u00e9sum\u00e9 link: the interactive edition of Cayleb Alvarez-James's r\u00e9sum\u00e9, with working demos.",
+   "description": null,
    "language": "JavaScript",
    "topics": [
     "house-frontend",
@@ -2510,7 +2510,7 @@
     "resume",
     "typescript"
    ],
-   "pushed_at": "2026-11-27T12:52:57Z",
+   "pushed_at": "2026-11-27T13:03:15Z",
    "created_at": "2026-11-09T21:53:06Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/cayleb-james2008.github.io",
@@ -2519,7 +2519,7 @@
   },
   {
    "name": "ergon",
-   "description": "Single-binary Rust desktop and web desk for local employee agents with sandboxed files, playbook promotion, and scheduled runs.",
+   "description": null,
    "language": "Rust",
    "topics": [
     "ai-agents",
@@ -2543,7 +2543,7 @@
   },
   {
    "name": "fleet",
-   "description": "Antigravity sidebar plugin for multi-agent swarms with live board telemetry, gate tracking, and git worktree diffs.",
+   "description": null,
    "language": "JavaScript",
    "topics": [
     "antigravity",
@@ -2566,7 +2566,7 @@
   },
   {
    "name": "open-ro",
-   "description": "Single-binary Rust AI IDE for Roblox Studio with unified Luau diffs, snapshot rollback, live Studio sync, and Rojo export.",
+   "description": null,
    "language": "Rust",
    "topics": [
     "ai-agent",
@@ -2582,7 +2582,7 @@
     "single-binary",
     "typescript"
    ],
-   "pushed_at": "2026-11-27T12:23:11Z",
+   "pushed_at": "2026-11-27T13:01:47Z",
    "created_at": "2026-11-18T06:58:50Z",
    "license": null,
    "url": "https://github.com/cayleb-james2008/open-ro",
@@ -2591,7 +2591,7 @@
   },
   {
    "name": "openbell",
-   "description": "Single-binary Rust trading research and Kalshi v2 terminal with fail-closed risk limits, kill switch, and causal backtesting.",
+   "description": null,
    "language": "Rust",
    "topics": [
     "algorithmic-trading",

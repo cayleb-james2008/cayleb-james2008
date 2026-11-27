@@ -641,6 +641,9 @@ def main(argv=None):
         except FetchError as e:
             print(f"live_assets: fetch failed: {e}", file=sys.stderr)
             return 2
+        # COPY-RULES.md: repo cards use the owner-approved blurbs in profile.json, so the GitHub descriptions are not kept.
+        for r in snap["repos"]:
+            r["description"] = None
         a.snapshot.write_text(dump_snapshot(snap), encoding="utf-8")
         print(f"snapshot: {a.snapshot} ({snap['calendar']['total']} contributions, {len(snap['repos'])} repos)")
     snap = json.loads(a.snapshot.read_text(encoding="utf-8"))
