@@ -51,13 +51,13 @@
             "key": "fleet",
             "title": "Fleet",
             "kicker": "Antigravity swarm sidebar",
-            "summary": "Antigravity sidebar plugin for agent swarms. Adds closed-loop operator command ledger, async RPC dispatch, and Switch Model working guard.",
+            "summary": "Antigravity sidebar plugin for agent swarms. Adds multi-swarm portfolio drawer, persistent triage ack/snooze, server pins, and checkpoints.",
             "tags": [
                 "Antigravity",
                 "Sidecar",
                 "Node ESM"
             ],
-            "status": "v1.28.0 · Plugin"
+            "status": "v1.29.0 · Plugin"
         },
         {
             "key": "ergon",
@@ -84,7 +84,7 @@
             "license": null
         },
         "fleet": {
-            "blurb": "Antigravity sidebar plugin for agent swarms with closed-loop operator command tracking, non-blocking async RPC dispatch, working-worker model switch guards, and hardened Cycle 3 delta streaming (v1.28.0).",
+            "blurb": "Antigravity sidebar plugin for agent swarms with multi-swarm portfolio drawer, persistent triage ack/snooze, server-synced pins, swarm checkpoints, and closed-loop operator command tracking (v1.29.0).",
             "stack": "Node · React",
             "license": null
         },
@@ -117,7 +117,7 @@
         ],
         [
             "Fleet",
-            "Swarm plugin · v1.28.0"
+            "Swarm plugin · v1.29.0"
         ],
         [
             "Ergon",
@@ -130,7 +130,7 @@
         "instagram": "https://www.instagram.com/cayleb.james/"
     },
     "intro": "I am 18 and live in Connecticut. I spent the past year building local agent software around school, work, and two years as my high school wrestling captain, often putting in 13 to 14 hours a day. Today I work full time and keep shipping OpenRO, Fleet, and Ergon alongside my existing OpenBell v0.9.0 terminal.",
-    "repos_note": "Public repositories for OpenRO (v1.27.0), OpenBell (v0.9.0), Fleet (v1.28.0), Ergon (v0.37.0), and the interactive resume site.",
+    "repos_note": "Public repositories for OpenRO (v1.27.0), OpenBell (v0.9.0), Fleet (v1.29.0), Ergon (v0.37.0), and the interactive resume site.",
     "sections": [
         "What I'm building",
         "Public repositories",
